@@ -1,0 +1,1381 @@
+case:concept:name,concept:name,time:timestamp,org:resource,booking_period,desk,product,currency,counterparty_tier,notional_usd
+BK-0001,Trade Captured,2026-01-05T08:00:00Z,trader_02,baseline,FX,FX Forward,EUR,Tier 1,42238000.0
+BK-0001,Validate Economics,2026-01-05T08:11:00Z,ops_analyst_03,baseline,FX,FX Forward,EUR,Tier 1,42238000.0
+BK-0001,Enrich Counterparty,2026-01-05T08:25:00Z,static_data_01,baseline,FX,FX Forward,EUR,Tier 1,42238000.0
+BK-0001,Compliance Check,2026-01-05T08:39:00Z,compliance_02,baseline,FX,FX Forward,EUR,Tier 1,42238000.0
+BK-0001,Credit Check,2026-01-05T08:52:00Z,credit_02,baseline,FX,FX Forward,EUR,Tier 1,42238000.0
+BK-0001,Confirm Booking,2026-01-05T09:15:00Z,confirmations_01,baseline,FX,FX Forward,EUR,Tier 1,42238000.0
+BK-0001,Post to Ledger,2026-01-05T09:24:00Z,ledger_bot_01,baseline,FX,FX Forward,EUR,Tier 1,42238000.0
+BK-0001,Booking Complete,2026-01-05T09:27:00Z,workflow_bot_01,baseline,FX,FX Forward,EUR,Tier 1,42238000.0
+BK-0002,Trade Captured,2026-01-05T10:00:00Z,trader_01,baseline,Rates,Interest Rate Swap,JPY,Tier 1,11872000.0
+BK-0002,Validate Economics,2026-01-05T10:16:00Z,ops_analyst_02,baseline,Rates,Interest Rate Swap,JPY,Tier 1,11872000.0
+BK-0002,Enrich Counterparty,2026-01-05T10:24:00Z,static_data_01,baseline,Rates,Interest Rate Swap,JPY,Tier 1,11872000.0
+BK-0002,Compliance Check,2026-01-05T10:36:00Z,compliance_02,baseline,Rates,Interest Rate Swap,JPY,Tier 1,11872000.0
+BK-0002,Credit Check,2026-01-05T10:53:00Z,credit_02,baseline,Rates,Interest Rate Swap,JPY,Tier 1,11872000.0
+BK-0002,Confirm Booking,2026-01-05T11:16:00Z,confirmations_02,baseline,Rates,Interest Rate Swap,JPY,Tier 1,11872000.0
+BK-0002,Post to Ledger,2026-01-05T11:25:00Z,ledger_bot_01,baseline,Rates,Interest Rate Swap,JPY,Tier 1,11872000.0
+BK-0002,Booking Complete,2026-01-05T11:28:00Z,workflow_bot_01,baseline,Rates,Interest Rate Swap,JPY,Tier 1,11872000.0
+BK-0003,Trade Captured,2026-01-05T12:00:00Z,trader_03,baseline,FX,FX Forward,EUR,Tier 1,36367000.0
+BK-0003,Validate Economics,2026-01-05T12:13:00Z,ops_analyst_03,baseline,FX,FX Forward,EUR,Tier 1,36367000.0
+BK-0003,Amend Booking,2026-01-05T12:25:00Z,ops_analyst_02,baseline,FX,FX Forward,EUR,Tier 1,36367000.0
+BK-0003,Validate Economics,2026-01-05T12:36:00Z,ops_analyst_02,baseline,FX,FX Forward,EUR,Tier 1,36367000.0
+BK-0003,Enrich Counterparty,2026-01-05T12:44:00Z,static_data_01,baseline,FX,FX Forward,EUR,Tier 1,36367000.0
+BK-0003,Compliance Check,2026-01-05T12:58:00Z,compliance_01,baseline,FX,FX Forward,EUR,Tier 1,36367000.0
+BK-0003,Credit Check,2026-01-05T13:09:00Z,credit_01,baseline,FX,FX Forward,EUR,Tier 1,36367000.0
+BK-0003,Confirm Booking,2026-01-05T13:35:00Z,confirmations_02,baseline,FX,FX Forward,EUR,Tier 1,36367000.0
+BK-0003,Post to Ledger,2026-01-05T13:42:00Z,ledger_bot_01,baseline,FX,FX Forward,EUR,Tier 1,36367000.0
+BK-0003,Booking Complete,2026-01-05T13:45:00Z,workflow_bot_01,baseline,FX,FX Forward,EUR,Tier 1,36367000.0
+BK-0004,Trade Captured,2026-01-05T14:00:00Z,trader_02,baseline,Rates,Interest Rate Swap,EUR,Tier 1,16826000.0
+BK-0004,Validate Economics,2026-01-05T14:15:00Z,ops_analyst_01,baseline,Rates,Interest Rate Swap,EUR,Tier 1,16826000.0
+BK-0004,Enrich Counterparty,2026-01-05T14:22:00Z,static_data_01,baseline,Rates,Interest Rate Swap,EUR,Tier 1,16826000.0
+BK-0004,Compliance Check,2026-01-05T14:33:00Z,compliance_02,baseline,Rates,Interest Rate Swap,EUR,Tier 1,16826000.0
+BK-0004,Credit Check,2026-01-05T14:49:00Z,credit_01,baseline,Rates,Interest Rate Swap,EUR,Tier 1,16826000.0
+BK-0004,Confirm Booking,2026-01-05T15:10:00Z,confirmations_01,baseline,Rates,Interest Rate Swap,EUR,Tier 1,16826000.0
+BK-0004,Post to Ledger,2026-01-05T15:17:00Z,ledger_bot_01,baseline,Rates,Interest Rate Swap,EUR,Tier 1,16826000.0
+BK-0004,Booking Complete,2026-01-05T15:20:00Z,workflow_bot_01,baseline,Rates,Interest Rate Swap,EUR,Tier 1,16826000.0
+BK-0005,Trade Captured,2026-01-06T08:00:00Z,trader_02,baseline,Rates,Interest Rate Swap,USD,Tier 2,13304000.0
+BK-0005,Validate Economics,2026-01-06T08:11:00Z,ops_analyst_03,baseline,Rates,Interest Rate Swap,USD,Tier 2,13304000.0
+BK-0005,Amend Booking,2026-01-06T08:32:00Z,ops_analyst_03,baseline,Rates,Interest Rate Swap,USD,Tier 2,13304000.0
+BK-0005,Validate Economics,2026-01-06T08:43:00Z,ops_analyst_03,baseline,Rates,Interest Rate Swap,USD,Tier 2,13304000.0
+BK-0005,Enrich Counterparty,2026-01-06T08:54:00Z,static_data_02,baseline,Rates,Interest Rate Swap,USD,Tier 2,13304000.0
+BK-0005,Compliance Check,2026-01-06T09:11:00Z,compliance_01,baseline,Rates,Interest Rate Swap,USD,Tier 2,13304000.0
+BK-0005,Credit Check,2026-01-06T09:25:00Z,credit_01,baseline,Rates,Interest Rate Swap,USD,Tier 2,13304000.0
+BK-0005,Confirm Booking,2026-01-06T09:43:00Z,confirmations_02,baseline,Rates,Interest Rate Swap,USD,Tier 2,13304000.0
+BK-0005,Post to Ledger,2026-01-06T09:48:00Z,ledger_bot_01,baseline,Rates,Interest Rate Swap,USD,Tier 2,13304000.0
+BK-0005,Booking Complete,2026-01-06T09:50:00Z,workflow_bot_01,baseline,Rates,Interest Rate Swap,USD,Tier 2,13304000.0
+BK-0006,Trade Captured,2026-01-06T10:00:00Z,trader_02,baseline,FX,FX Forward,JPY,Tier 3,11083000.0
+BK-0006,Validate Economics,2026-01-06T10:17:00Z,ops_analyst_01,baseline,FX,FX Forward,JPY,Tier 3,11083000.0
+BK-0006,Enrich Counterparty,2026-01-06T10:29:00Z,static_data_02,baseline,FX,FX Forward,JPY,Tier 3,11083000.0
+BK-0006,Compliance Check,2026-01-06T10:41:00Z,compliance_02,baseline,FX,FX Forward,JPY,Tier 3,11083000.0
+BK-0006,Credit Check,2026-01-06T10:52:00Z,credit_01,baseline,FX,FX Forward,JPY,Tier 3,11083000.0
+BK-0006,Confirm Booking,2026-01-06T11:10:00Z,confirmations_01,baseline,FX,FX Forward,JPY,Tier 3,11083000.0
+BK-0006,Post to Ledger,2026-01-06T11:15:00Z,ledger_bot_01,baseline,FX,FX Forward,JPY,Tier 3,11083000.0
+BK-0006,Booking Complete,2026-01-06T11:18:00Z,workflow_bot_01,baseline,FX,FX Forward,JPY,Tier 3,11083000.0
+BK-0007,Trade Captured,2026-01-06T12:00:00Z,trader_02,baseline,Rates,Interest Rate Swap,USD,Tier 3,23071000.0
+BK-0007,Validate Economics,2026-01-06T12:13:00Z,ops_analyst_01,baseline,Rates,Interest Rate Swap,USD,Tier 3,23071000.0
+BK-0007,Enrich Counterparty,2026-01-06T12:29:00Z,static_data_02,baseline,Rates,Interest Rate Swap,USD,Tier 3,23071000.0
+BK-0007,Compliance Check,2026-01-06T12:43:00Z,compliance_02,baseline,Rates,Interest Rate Swap,USD,Tier 3,23071000.0
+BK-0007,Credit Check,2026-01-06T12:58:00Z,credit_01,baseline,Rates,Interest Rate Swap,USD,Tier 3,23071000.0
+BK-0007,Confirm Booking,2026-01-06T13:19:00Z,confirmations_01,baseline,Rates,Interest Rate Swap,USD,Tier 3,23071000.0
+BK-0007,Post to Ledger,2026-01-06T13:29:00Z,ledger_bot_01,baseline,Rates,Interest Rate Swap,USD,Tier 3,23071000.0
+BK-0007,Booking Complete,2026-01-06T13:32:00Z,workflow_bot_01,baseline,Rates,Interest Rate Swap,USD,Tier 3,23071000.0
+BK-0008,Trade Captured,2026-01-06T14:00:00Z,trader_02,baseline,FX,FX Forward,EUR,Tier 1,10909000.0
+BK-0008,Validate Economics,2026-01-06T14:08:00Z,ops_analyst_02,baseline,FX,FX Forward,EUR,Tier 1,10909000.0
+BK-0008,Enrich Counterparty,2026-01-06T14:17:00Z,static_data_02,baseline,FX,FX Forward,EUR,Tier 1,10909000.0
+BK-0008,Compliance Check,2026-01-06T14:27:00Z,compliance_01,baseline,FX,FX Forward,EUR,Tier 1,10909000.0
+BK-0008,Credit Check,2026-01-06T14:42:00Z,credit_01,baseline,FX,FX Forward,EUR,Tier 1,10909000.0
+BK-0008,Confirm Booking,2026-01-06T15:07:00Z,confirmations_01,baseline,FX,FX Forward,EUR,Tier 1,10909000.0
+BK-0008,Post to Ledger,2026-01-06T15:25:00Z,ledger_bot_01,baseline,FX,FX Forward,EUR,Tier 1,10909000.0
+BK-0008,Booking Complete,2026-01-06T15:28:00Z,workflow_bot_01,baseline,FX,FX Forward,EUR,Tier 1,10909000.0
+BK-0009,Trade Captured,2026-01-07T08:00:00Z,trader_02,baseline,Rates,Interest Rate Swap,USD,Tier 1,11879000.0
+BK-0009,Validate Economics,2026-01-07T08:10:00Z,ops_analyst_01,baseline,Rates,Interest Rate Swap,USD,Tier 1,11879000.0
+BK-0009,Enrich Counterparty,2026-01-07T08:23:00Z,static_data_01,baseline,Rates,Interest Rate Swap,USD,Tier 1,11879000.0
+BK-0009,Compliance Check,2026-01-07T08:39:00Z,compliance_02,baseline,Rates,Interest Rate Swap,USD,Tier 1,11879000.0
+BK-0009,Credit Check,2026-01-07T08:49:00Z,credit_01,baseline,Rates,Interest Rate Swap,USD,Tier 1,11879000.0
+BK-0009,Confirm Booking,2026-01-07T09:02:00Z,confirmations_02,baseline,Rates,Interest Rate Swap,USD,Tier 1,11879000.0
+BK-0009,Post to Ledger,2026-01-07T09:10:00Z,ledger_bot_01,baseline,Rates,Interest Rate Swap,USD,Tier 1,11879000.0
+BK-0009,Booking Complete,2026-01-07T09:15:00Z,workflow_bot_01,baseline,Rates,Interest Rate Swap,USD,Tier 1,11879000.0
+BK-0010,Trade Captured,2026-01-07T10:00:00Z,trader_03,baseline,Rates,Interest Rate Swap,USD,Tier 3,8987000.0
+BK-0010,Validate Economics,2026-01-07T10:10:00Z,ops_analyst_02,baseline,Rates,Interest Rate Swap,USD,Tier 3,8987000.0
+BK-0010,Amend Booking,2026-01-07T10:24:00Z,ops_analyst_02,baseline,Rates,Interest Rate Swap,USD,Tier 3,8987000.0
+BK-0010,Validate Economics,2026-01-07T10:39:00Z,ops_analyst_03,baseline,Rates,Interest Rate Swap,USD,Tier 3,8987000.0
+BK-0010,Enrich Counterparty,2026-01-07T10:52:00Z,static_data_01,baseline,Rates,Interest Rate Swap,USD,Tier 3,8987000.0
+BK-0010,Compliance Check,2026-01-07T11:09:00Z,compliance_02,baseline,Rates,Interest Rate Swap,USD,Tier 3,8987000.0
+BK-0010,Credit Check,2026-01-07T11:23:00Z,credit_02,baseline,Rates,Interest Rate Swap,USD,Tier 3,8987000.0
+BK-0010,Confirm Booking,2026-01-07T11:40:00Z,confirmations_01,baseline,Rates,Interest Rate Swap,USD,Tier 3,8987000.0
+BK-0010,Post to Ledger,2026-01-07T11:47:00Z,ledger_bot_01,baseline,Rates,Interest Rate Swap,USD,Tier 3,8987000.0
+BK-0010,Booking Complete,2026-01-07T11:49:00Z,workflow_bot_01,baseline,Rates,Interest Rate Swap,USD,Tier 3,8987000.0
+BK-0011,Trade Captured,2026-01-07T12:00:00Z,trader_01,baseline,Equities,Equity Option,GBP,Tier 2,24643000.0
+BK-0011,Validate Economics,2026-01-07T12:13:00Z,ops_analyst_02,baseline,Equities,Equity Option,GBP,Tier 2,24643000.0
+BK-0011,Enrich Counterparty,2026-01-07T12:24:00Z,static_data_01,baseline,Equities,Equity Option,GBP,Tier 2,24643000.0
+BK-0011,Compliance Check,2026-01-07T12:37:00Z,compliance_01,baseline,Equities,Equity Option,GBP,Tier 2,24643000.0
+BK-0011,Credit Check,2026-01-07T12:53:00Z,credit_01,baseline,Equities,Equity Option,GBP,Tier 2,24643000.0
+BK-0011,Confirm Booking,2026-01-07T13:24:00Z,confirmations_01,baseline,Equities,Equity Option,GBP,Tier 2,24643000.0
+BK-0011,Post to Ledger,2026-01-07T13:30:00Z,ledger_bot_01,baseline,Equities,Equity Option,GBP,Tier 2,24643000.0
+BK-0011,Booking Complete,2026-01-07T13:32:00Z,workflow_bot_01,baseline,Equities,Equity Option,GBP,Tier 2,24643000.0
+BK-0012,Trade Captured,2026-01-07T14:00:00Z,trader_01,baseline,FX,FX Forward,GBP,Tier 1,16397000.0
+BK-0012,Validate Economics,2026-01-07T14:09:00Z,ops_analyst_01,baseline,FX,FX Forward,GBP,Tier 1,16397000.0
+BK-0012,Enrich Counterparty,2026-01-07T14:21:00Z,static_data_01,baseline,FX,FX Forward,GBP,Tier 1,16397000.0
+BK-0012,Compliance Check,2026-01-07T14:34:00Z,compliance_01,baseline,FX,FX Forward,GBP,Tier 1,16397000.0
+BK-0012,Credit Check,2026-01-07T14:47:00Z,credit_02,baseline,FX,FX Forward,GBP,Tier 1,16397000.0
+BK-0012,Confirm Booking,2026-01-07T15:09:00Z,confirmations_01,baseline,FX,FX Forward,GBP,Tier 1,16397000.0
+BK-0012,Post to Ledger,2026-01-07T15:17:00Z,ledger_bot_01,baseline,FX,FX Forward,GBP,Tier 1,16397000.0
+BK-0012,Booking Complete,2026-01-07T15:21:00Z,workflow_bot_01,baseline,FX,FX Forward,GBP,Tier 1,16397000.0
+BK-0013,Trade Captured,2026-01-08T08:00:00Z,trader_01,baseline,FX,FX Forward,EUR,Tier 2,8762000.0
+BK-0013,Validate Economics,2026-01-08T08:11:00Z,ops_analyst_01,baseline,FX,FX Forward,EUR,Tier 2,8762000.0
+BK-0013,Enrich Counterparty,2026-01-08T08:18:00Z,static_data_02,baseline,FX,FX Forward,EUR,Tier 2,8762000.0
+BK-0013,Compliance Check,2026-01-08T08:33:00Z,compliance_01,baseline,FX,FX Forward,EUR,Tier 2,8762000.0
+BK-0013,Credit Check,2026-01-08T08:49:00Z,credit_01,baseline,FX,FX Forward,EUR,Tier 2,8762000.0
+BK-0013,Confirm Booking,2026-01-08T09:06:00Z,confirmations_02,baseline,FX,FX Forward,EUR,Tier 2,8762000.0
+BK-0013,Post to Ledger,2026-01-08T09:17:00Z,ledger_bot_01,baseline,FX,FX Forward,EUR,Tier 2,8762000.0
+BK-0013,Booking Complete,2026-01-08T09:20:00Z,workflow_bot_01,baseline,FX,FX Forward,EUR,Tier 2,8762000.0
+BK-0014,Trade Captured,2026-01-08T10:00:00Z,trader_01,baseline,Equities,Equity Option,USD,Tier 3,18478000.0
+BK-0014,Validate Economics,2026-01-08T10:13:00Z,ops_analyst_03,baseline,Equities,Equity Option,USD,Tier 3,18478000.0
+BK-0014,Enrich Counterparty,2026-01-08T10:23:00Z,static_data_01,baseline,Equities,Equity Option,USD,Tier 3,18478000.0
+BK-0014,Compliance Check,2026-01-08T10:39:00Z,compliance_01,baseline,Equities,Equity Option,USD,Tier 3,18478000.0
+BK-0014,Credit Check,2026-01-08T11:03:00Z,credit_02,baseline,Equities,Equity Option,USD,Tier 3,18478000.0
+BK-0014,Confirm Booking,2026-01-08T11:19:00Z,confirmations_02,baseline,Equities,Equity Option,USD,Tier 3,18478000.0
+BK-0014,Post to Ledger,2026-01-08T11:24:00Z,ledger_bot_01,baseline,Equities,Equity Option,USD,Tier 3,18478000.0
+BK-0014,Booking Complete,2026-01-08T11:27:00Z,workflow_bot_01,baseline,Equities,Equity Option,USD,Tier 3,18478000.0
+BK-0015,Trade Captured,2026-01-08T12:00:00Z,trader_03,baseline,FX,FX Forward,USD,Tier 2,13382000.0
+BK-0015,Validate Economics,2026-01-08T12:11:00Z,ops_analyst_03,baseline,FX,FX Forward,USD,Tier 2,13382000.0
+BK-0015,Enrich Counterparty,2026-01-08T12:20:00Z,static_data_02,baseline,FX,FX Forward,USD,Tier 2,13382000.0
+BK-0015,Compliance Check,2026-01-08T12:32:00Z,compliance_01,baseline,FX,FX Forward,USD,Tier 2,13382000.0
+BK-0015,Credit Check,2026-01-08T12:41:00Z,credit_02,baseline,FX,FX Forward,USD,Tier 2,13382000.0
+BK-0015,Confirm Booking,2026-01-08T12:54:00Z,confirmations_02,baseline,FX,FX Forward,USD,Tier 2,13382000.0
+BK-0015,Post to Ledger,2026-01-08T13:00:00Z,ledger_bot_01,baseline,FX,FX Forward,USD,Tier 2,13382000.0
+BK-0015,Booking Complete,2026-01-08T13:02:00Z,workflow_bot_01,baseline,FX,FX Forward,USD,Tier 2,13382000.0
+BK-0016,Trade Captured,2026-01-08T14:00:00Z,trader_01,baseline,Equities,Equity Option,USD,Tier 1,16582000.0
+BK-0016,Validate Economics,2026-01-08T14:19:00Z,ops_analyst_01,baseline,Equities,Equity Option,USD,Tier 1,16582000.0
+BK-0016,Enrich Counterparty,2026-01-08T14:28:00Z,static_data_01,baseline,Equities,Equity Option,USD,Tier 1,16582000.0
+BK-0016,Compliance Check,2026-01-08T14:47:00Z,compliance_02,baseline,Equities,Equity Option,USD,Tier 1,16582000.0
+BK-0016,Credit Check,2026-01-08T15:00:00Z,credit_01,baseline,Equities,Equity Option,USD,Tier 1,16582000.0
+BK-0016,Confirm Booking,2026-01-08T15:19:00Z,confirmations_01,baseline,Equities,Equity Option,USD,Tier 1,16582000.0
+BK-0016,Post to Ledger,2026-01-08T15:26:00Z,ledger_bot_01,baseline,Equities,Equity Option,USD,Tier 1,16582000.0
+BK-0016,Booking Complete,2026-01-08T15:29:00Z,workflow_bot_01,baseline,Equities,Equity Option,USD,Tier 1,16582000.0
+BK-0017,Trade Captured,2026-01-09T08:00:00Z,trader_01,baseline,FX,FX Forward,USD,Tier 2,46713000.0
+BK-0017,Validate Economics,2026-01-09T08:13:00Z,ops_analyst_03,baseline,FX,FX Forward,USD,Tier 2,46713000.0
+BK-0017,Enrich Counterparty,2026-01-09T08:23:00Z,static_data_02,baseline,FX,FX Forward,USD,Tier 2,46713000.0
+BK-0017,Compliance Check,2026-01-09T08:35:00Z,compliance_02,baseline,FX,FX Forward,USD,Tier 2,46713000.0
+BK-0017,Credit Check,2026-01-09T08:49:00Z,credit_01,baseline,FX,FX Forward,USD,Tier 2,46713000.0
+BK-0017,Confirm Booking,2026-01-09T09:25:00Z,confirmations_02,baseline,FX,FX Forward,USD,Tier 2,46713000.0
+BK-0017,Post to Ledger,2026-01-09T09:34:00Z,ledger_bot_01,baseline,FX,FX Forward,USD,Tier 2,46713000.0
+BK-0017,Booking Complete,2026-01-09T09:36:00Z,workflow_bot_01,baseline,FX,FX Forward,USD,Tier 2,46713000.0
+BK-0018,Trade Captured,2026-01-09T10:00:00Z,trader_02,baseline,FX,FX Forward,EUR,Tier 1,53402000.0
+BK-0018,Validate Economics,2026-01-09T10:14:00Z,ops_analyst_03,baseline,FX,FX Forward,EUR,Tier 1,53402000.0
+BK-0018,Amend Booking,2026-01-09T10:37:00Z,ops_analyst_01,baseline,FX,FX Forward,EUR,Tier 1,53402000.0
+BK-0018,Validate Economics,2026-01-09T10:51:00Z,ops_analyst_01,baseline,FX,FX Forward,EUR,Tier 1,53402000.0
+BK-0018,Enrich Counterparty,2026-01-09T11:00:00Z,static_data_02,baseline,FX,FX Forward,EUR,Tier 1,53402000.0
+BK-0018,Compliance Check,2026-01-09T11:16:00Z,compliance_02,baseline,FX,FX Forward,EUR,Tier 1,53402000.0
+BK-0018,Credit Check,2026-01-09T11:29:00Z,credit_02,baseline,FX,FX Forward,EUR,Tier 1,53402000.0
+BK-0018,Supervisor Approval,2026-01-09T12:03:00Z,supervisor_02,baseline,FX,FX Forward,EUR,Tier 1,53402000.0
+BK-0018,Confirm Booking,2026-01-09T12:24:00Z,confirmations_02,baseline,FX,FX Forward,EUR,Tier 1,53402000.0
+BK-0018,Post to Ledger,2026-01-09T12:36:00Z,ledger_bot_01,baseline,FX,FX Forward,EUR,Tier 1,53402000.0
+BK-0018,Booking Complete,2026-01-09T12:37:00Z,workflow_bot_01,baseline,FX,FX Forward,EUR,Tier 1,53402000.0
+BK-0019,Trade Captured,2026-01-09T12:00:00Z,trader_01,baseline,FX,FX Forward,EUR,Tier 1,16536000.0
+BK-0019,Validate Economics,2026-01-09T12:19:00Z,ops_analyst_02,baseline,FX,FX Forward,EUR,Tier 1,16536000.0
+BK-0019,Enrich Counterparty,2026-01-09T12:26:00Z,static_data_02,baseline,FX,FX Forward,EUR,Tier 1,16536000.0
+BK-0019,Compliance Check,2026-01-09T12:40:00Z,compliance_01,baseline,FX,FX Forward,EUR,Tier 1,16536000.0
+BK-0019,Credit Check,2026-01-09T12:54:00Z,credit_01,baseline,FX,FX Forward,EUR,Tier 1,16536000.0
+BK-0019,Confirm Booking,2026-01-09T13:12:00Z,confirmations_02,baseline,FX,FX Forward,EUR,Tier 1,16536000.0
+BK-0019,Post to Ledger,2026-01-09T13:24:00Z,ledger_bot_01,baseline,FX,FX Forward,EUR,Tier 1,16536000.0
+BK-0019,Booking Complete,2026-01-09T13:28:00Z,workflow_bot_01,baseline,FX,FX Forward,EUR,Tier 1,16536000.0
+BK-0020,Trade Captured,2026-01-09T14:00:00Z,trader_01,baseline,Rates,Interest Rate Swap,USD,Tier 1,80837000.0
+BK-0020,Validate Economics,2026-01-09T14:11:00Z,ops_analyst_03,baseline,Rates,Interest Rate Swap,USD,Tier 1,80837000.0
+BK-0020,Enrich Counterparty,2026-01-09T14:21:00Z,static_data_01,baseline,Rates,Interest Rate Swap,USD,Tier 1,80837000.0
+BK-0020,Compliance Check,2026-01-09T14:41:00Z,compliance_01,baseline,Rates,Interest Rate Swap,USD,Tier 1,80837000.0
+BK-0020,Credit Check,2026-01-09T14:51:00Z,credit_02,baseline,Rates,Interest Rate Swap,USD,Tier 1,80837000.0
+BK-0020,Supervisor Approval,2026-01-09T15:24:00Z,supervisor_02,baseline,Rates,Interest Rate Swap,USD,Tier 1,80837000.0
+BK-0020,Confirm Booking,2026-01-09T15:52:00Z,confirmations_02,baseline,Rates,Interest Rate Swap,USD,Tier 1,80837000.0
+BK-0020,Post to Ledger,2026-01-09T16:05:00Z,ledger_bot_01,baseline,Rates,Interest Rate Swap,USD,Tier 1,80837000.0
+BK-0020,Booking Complete,2026-01-09T16:09:00Z,workflow_bot_01,baseline,Rates,Interest Rate Swap,USD,Tier 1,80837000.0
+BK-0021,Trade Captured,2026-01-12T08:00:00Z,trader_01,baseline,Equities,Equity Option,USD,Tier 3,14817000.0
+BK-0021,Validate Economics,2026-01-12T08:14:00Z,ops_analyst_03,baseline,Equities,Equity Option,USD,Tier 3,14817000.0
+BK-0021,Enrich Counterparty,2026-01-12T08:22:00Z,static_data_02,baseline,Equities,Equity Option,USD,Tier 3,14817000.0
+BK-0021,Compliance Check,2026-01-12T08:37:00Z,compliance_02,baseline,Equities,Equity Option,USD,Tier 3,14817000.0
+BK-0021,Credit Check,2026-01-12T08:49:00Z,credit_02,baseline,Equities,Equity Option,USD,Tier 3,14817000.0
+BK-0021,Confirm Booking,2026-01-12T09:11:00Z,confirmations_01,baseline,Equities,Equity Option,USD,Tier 3,14817000.0
+BK-0021,Post to Ledger,2026-01-12T09:20:00Z,ledger_bot_01,baseline,Equities,Equity Option,USD,Tier 3,14817000.0
+BK-0021,Booking Complete,2026-01-12T09:22:00Z,workflow_bot_01,baseline,Equities,Equity Option,USD,Tier 3,14817000.0
+BK-0022,Trade Captured,2026-01-12T10:00:00Z,trader_02,baseline,Rates,Interest Rate Swap,GBP,Tier 2,73453000.0
+BK-0022,Validate Economics,2026-01-12T10:10:00Z,ops_analyst_03,baseline,Rates,Interest Rate Swap,GBP,Tier 2,73453000.0
+BK-0022,Enrich Counterparty,2026-01-12T10:16:00Z,static_data_01,baseline,Rates,Interest Rate Swap,GBP,Tier 2,73453000.0
+BK-0022,Compliance Check,2026-01-12T10:39:00Z,compliance_01,baseline,Rates,Interest Rate Swap,GBP,Tier 2,73453000.0
+BK-0022,Credit Check,2026-01-12T10:57:00Z,credit_02,baseline,Rates,Interest Rate Swap,GBP,Tier 2,73453000.0
+BK-0022,Supervisor Approval,2026-01-12T11:27:00Z,supervisor_01,baseline,Rates,Interest Rate Swap,GBP,Tier 2,73453000.0
+BK-0022,Confirm Booking,2026-01-12T11:54:00Z,confirmations_02,baseline,Rates,Interest Rate Swap,GBP,Tier 2,73453000.0
+BK-0022,Post to Ledger,2026-01-12T12:03:00Z,ledger_bot_01,baseline,Rates,Interest Rate Swap,GBP,Tier 2,73453000.0
+BK-0022,Booking Complete,2026-01-12T12:06:00Z,workflow_bot_01,baseline,Rates,Interest Rate Swap,GBP,Tier 2,73453000.0
+BK-0023,Trade Captured,2026-01-12T12:00:00Z,trader_01,baseline,FX,FX Forward,USD,Tier 1,19494000.0
+BK-0023,Validate Economics,2026-01-12T12:09:00Z,ops_analyst_03,baseline,FX,FX Forward,USD,Tier 1,19494000.0
+BK-0023,Enrich Counterparty,2026-01-12T12:19:00Z,static_data_01,baseline,FX,FX Forward,USD,Tier 1,19494000.0
+BK-0023,Compliance Check,2026-01-12T12:31:00Z,compliance_02,baseline,FX,FX Forward,USD,Tier 1,19494000.0
+BK-0023,Credit Check,2026-01-12T12:42:00Z,credit_01,baseline,FX,FX Forward,USD,Tier 1,19494000.0
+BK-0023,Confirm Booking,2026-01-12T13:07:00Z,confirmations_02,baseline,FX,FX Forward,USD,Tier 1,19494000.0
+BK-0023,Post to Ledger,2026-01-12T13:15:00Z,ledger_bot_01,baseline,FX,FX Forward,USD,Tier 1,19494000.0
+BK-0023,Booking Complete,2026-01-12T13:19:00Z,workflow_bot_01,baseline,FX,FX Forward,USD,Tier 1,19494000.0
+BK-0024,Trade Captured,2026-01-12T14:00:00Z,trader_01,baseline,Rates,Interest Rate Swap,JPY,Tier 1,125240000.0
+BK-0024,Validate Economics,2026-01-12T14:19:00Z,ops_analyst_01,baseline,Rates,Interest Rate Swap,JPY,Tier 1,125240000.0
+BK-0024,Enrich Counterparty,2026-01-12T14:28:00Z,static_data_02,baseline,Rates,Interest Rate Swap,JPY,Tier 1,125240000.0
+BK-0024,Compliance Check,2026-01-12T14:50:00Z,compliance_01,baseline,Rates,Interest Rate Swap,JPY,Tier 1,125240000.0
+BK-0024,Credit Check,2026-01-12T14:59:00Z,credit_01,baseline,Rates,Interest Rate Swap,JPY,Tier 1,125240000.0
+BK-0024,Supervisor Approval,2026-01-12T15:21:00Z,supervisor_01,baseline,Rates,Interest Rate Swap,JPY,Tier 1,125240000.0
+BK-0024,Confirm Booking,2026-01-12T15:37:00Z,confirmations_01,baseline,Rates,Interest Rate Swap,JPY,Tier 1,125240000.0
+BK-0024,Post to Ledger,2026-01-12T15:46:00Z,ledger_bot_01,baseline,Rates,Interest Rate Swap,JPY,Tier 1,125240000.0
+BK-0024,Booking Complete,2026-01-12T15:49:00Z,workflow_bot_01,baseline,Rates,Interest Rate Swap,JPY,Tier 1,125240000.0
+BK-0025,Trade Captured,2026-01-12T08:00:00Z,trader_01,baseline,FX,FX Forward,JPY,Tier 3,15343000.0
+BK-0025,Validate Economics,2026-01-12T08:15:00Z,ops_analyst_02,baseline,FX,FX Forward,JPY,Tier 3,15343000.0
+BK-0025,Enrich Counterparty,2026-01-12T08:23:00Z,static_data_02,baseline,FX,FX Forward,JPY,Tier 3,15343000.0
+BK-0025,Compliance Check,2026-01-12T08:39:00Z,compliance_02,baseline,FX,FX Forward,JPY,Tier 3,15343000.0
+BK-0025,Credit Check,2026-01-12T08:54:00Z,credit_01,baseline,FX,FX Forward,JPY,Tier 3,15343000.0
+BK-0025,Confirm Booking,2026-01-12T09:17:00Z,confirmations_01,baseline,FX,FX Forward,JPY,Tier 3,15343000.0
+BK-0025,Post to Ledger,2026-01-12T09:25:00Z,ledger_bot_01,baseline,FX,FX Forward,JPY,Tier 3,15343000.0
+BK-0025,Booking Complete,2026-01-12T09:28:00Z,workflow_bot_01,baseline,FX,FX Forward,JPY,Tier 3,15343000.0
+BK-0026,Trade Captured,2026-01-12T10:00:00Z,trader_01,baseline,FX,FX Forward,JPY,Tier 2,17906000.0
+BK-0026,Validate Economics,2026-01-12T10:15:00Z,ops_analyst_03,baseline,FX,FX Forward,JPY,Tier 2,17906000.0
+BK-0026,Amend Booking,2026-01-12T10:28:00Z,ops_analyst_02,baseline,FX,FX Forward,JPY,Tier 2,17906000.0
+BK-0026,Validate Economics,2026-01-12T10:36:00Z,ops_analyst_01,baseline,FX,FX Forward,JPY,Tier 2,17906000.0
+BK-0026,Enrich Counterparty,2026-01-12T10:44:00Z,static_data_02,baseline,FX,FX Forward,JPY,Tier 2,17906000.0
+BK-0026,Compliance Check,2026-01-12T11:03:00Z,compliance_02,baseline,FX,FX Forward,JPY,Tier 2,17906000.0
+BK-0026,Credit Check,2026-01-12T11:18:00Z,credit_02,baseline,FX,FX Forward,JPY,Tier 2,17906000.0
+BK-0026,Confirm Booking,2026-01-12T11:45:00Z,confirmations_02,baseline,FX,FX Forward,JPY,Tier 2,17906000.0
+BK-0026,Post to Ledger,2026-01-12T11:53:00Z,ledger_bot_01,baseline,FX,FX Forward,JPY,Tier 2,17906000.0
+BK-0026,Booking Complete,2026-01-12T11:57:00Z,workflow_bot_01,baseline,FX,FX Forward,JPY,Tier 2,17906000.0
+BK-0027,Trade Captured,2026-01-12T12:00:00Z,trader_03,baseline,Rates,Interest Rate Swap,GBP,Tier 1,7200000.0
+BK-0027,Validate Economics,2026-01-12T12:11:00Z,ops_analyst_01,baseline,Rates,Interest Rate Swap,GBP,Tier 1,7200000.0
+BK-0027,Enrich Counterparty,2026-01-12T12:27:00Z,static_data_02,baseline,Rates,Interest Rate Swap,GBP,Tier 1,7200000.0
+BK-0027,Compliance Check,2026-01-12T12:37:00Z,compliance_02,baseline,Rates,Interest Rate Swap,GBP,Tier 1,7200000.0
+BK-0027,Credit Check,2026-01-12T12:47:00Z,credit_01,baseline,Rates,Interest Rate Swap,GBP,Tier 1,7200000.0
+BK-0027,Confirm Booking,2026-01-12T13:10:00Z,confirmations_01,baseline,Rates,Interest Rate Swap,GBP,Tier 1,7200000.0
+BK-0027,Post to Ledger,2026-01-12T13:15:00Z,ledger_bot_01,baseline,Rates,Interest Rate Swap,GBP,Tier 1,7200000.0
+BK-0027,Booking Complete,2026-01-12T13:19:00Z,workflow_bot_01,baseline,Rates,Interest Rate Swap,GBP,Tier 1,7200000.0
+BK-0028,Trade Captured,2026-01-12T14:00:00Z,trader_03,baseline,FX,FX Forward,USD,Tier 3,13380000.0
+BK-0028,Validate Economics,2026-01-12T14:11:00Z,ops_analyst_03,baseline,FX,FX Forward,USD,Tier 3,13380000.0
+BK-0028,Enrich Counterparty,2026-01-12T14:22:00Z,static_data_02,baseline,FX,FX Forward,USD,Tier 3,13380000.0
+BK-0028,Compliance Check,2026-01-12T14:44:00Z,compliance_02,baseline,FX,FX Forward,USD,Tier 3,13380000.0
+BK-0028,Credit Check,2026-01-12T14:53:00Z,credit_01,baseline,FX,FX Forward,USD,Tier 3,13380000.0
+BK-0028,Confirm Booking,2026-01-12T15:20:00Z,confirmations_01,baseline,FX,FX Forward,USD,Tier 3,13380000.0
+BK-0028,Post to Ledger,2026-01-12T15:31:00Z,ledger_bot_01,baseline,FX,FX Forward,USD,Tier 3,13380000.0
+BK-0028,Booking Complete,2026-01-12T15:34:00Z,workflow_bot_01,baseline,FX,FX Forward,USD,Tier 3,13380000.0
+BK-0029,Trade Captured,2026-01-12T08:00:00Z,trader_02,baseline,Rates,Interest Rate Swap,USD,Tier 1,103775000.0
+BK-0029,Validate Economics,2026-01-12T08:13:00Z,ops_analyst_01,baseline,Rates,Interest Rate Swap,USD,Tier 1,103775000.0
+BK-0029,Amend Booking,2026-01-12T08:27:00Z,ops_analyst_01,baseline,Rates,Interest Rate Swap,USD,Tier 1,103775000.0
+BK-0029,Validate Economics,2026-01-12T08:40:00Z,ops_analyst_02,baseline,Rates,Interest Rate Swap,USD,Tier 1,103775000.0
+BK-0029,Enrich Counterparty,2026-01-12T08:51:00Z,static_data_02,baseline,Rates,Interest Rate Swap,USD,Tier 1,103775000.0
+BK-0029,Compliance Check,2026-01-12T09:03:00Z,compliance_02,baseline,Rates,Interest Rate Swap,USD,Tier 1,103775000.0
+BK-0029,Credit Check,2026-01-12T09:11:00Z,credit_01,baseline,Rates,Interest Rate Swap,USD,Tier 1,103775000.0
+BK-0029,Supervisor Approval,2026-01-12T09:37:00Z,supervisor_02,baseline,Rates,Interest Rate Swap,USD,Tier 1,103775000.0
+BK-0029,Confirm Booking,2026-01-12T09:55:00Z,confirmations_01,baseline,Rates,Interest Rate Swap,USD,Tier 1,103775000.0
+BK-0029,Post to Ledger,2026-01-12T10:09:00Z,ledger_bot_01,baseline,Rates,Interest Rate Swap,USD,Tier 1,103775000.0
+BK-0029,Booking Complete,2026-01-12T10:13:00Z,workflow_bot_01,baseline,Rates,Interest Rate Swap,USD,Tier 1,103775000.0
+BK-0030,Trade Captured,2026-01-12T10:00:00Z,trader_02,baseline,Rates,Interest Rate Swap,EUR,Tier 2,17658000.0
+BK-0030,Validate Economics,2026-01-12T10:11:00Z,ops_analyst_01,baseline,Rates,Interest Rate Swap,EUR,Tier 2,17658000.0
+BK-0030,Enrich Counterparty,2026-01-12T10:24:00Z,static_data_01,baseline,Rates,Interest Rate Swap,EUR,Tier 2,17658000.0
+BK-0030,Compliance Check,2026-01-12T10:39:00Z,compliance_01,baseline,Rates,Interest Rate Swap,EUR,Tier 2,17658000.0
+BK-0030,Credit Check,2026-01-12T11:08:00Z,credit_02,baseline,Rates,Interest Rate Swap,EUR,Tier 2,17658000.0
+BK-0030,Confirm Booking,2026-01-12T11:38:00Z,confirmations_02,baseline,Rates,Interest Rate Swap,EUR,Tier 2,17658000.0
+BK-0030,Post to Ledger,2026-01-12T11:46:00Z,ledger_bot_01,baseline,Rates,Interest Rate Swap,EUR,Tier 2,17658000.0
+BK-0030,Booking Complete,2026-01-12T11:50:00Z,workflow_bot_01,baseline,Rates,Interest Rate Swap,EUR,Tier 2,17658000.0
+BK-0031,Trade Captured,2026-01-12T12:00:00Z,trader_02,baseline,Rates,Interest Rate Swap,EUR,Tier 2,30181000.0
+BK-0031,Validate Economics,2026-01-12T12:14:00Z,ops_analyst_02,baseline,Rates,Interest Rate Swap,EUR,Tier 2,30181000.0
+BK-0031,Enrich Counterparty,2026-01-12T12:26:00Z,static_data_02,baseline,Rates,Interest Rate Swap,EUR,Tier 2,30181000.0
+BK-0031,Compliance Check,2026-01-12T12:43:00Z,compliance_02,baseline,Rates,Interest Rate Swap,EUR,Tier 2,30181000.0
+BK-0031,Credit Check,2026-01-12T12:56:00Z,credit_02,baseline,Rates,Interest Rate Swap,EUR,Tier 2,30181000.0
+BK-0031,Confirm Booking,2026-01-12T13:14:00Z,confirmations_01,baseline,Rates,Interest Rate Swap,EUR,Tier 2,30181000.0
+BK-0031,Post to Ledger,2026-01-12T13:24:00Z,ledger_bot_01,baseline,Rates,Interest Rate Swap,EUR,Tier 2,30181000.0
+BK-0031,Booking Complete,2026-01-12T13:26:00Z,workflow_bot_01,baseline,Rates,Interest Rate Swap,EUR,Tier 2,30181000.0
+BK-0032,Trade Captured,2026-01-12T14:00:00Z,trader_01,baseline,FX,FX Forward,GBP,Tier 3,60788000.0
+BK-0032,Validate Economics,2026-01-12T14:08:00Z,ops_analyst_02,baseline,FX,FX Forward,GBP,Tier 3,60788000.0
+BK-0032,Enrich Counterparty,2026-01-12T14:12:00Z,static_data_02,baseline,FX,FX Forward,GBP,Tier 3,60788000.0
+BK-0032,Compliance Check,2026-01-12T14:42:00Z,compliance_02,baseline,FX,FX Forward,GBP,Tier 3,60788000.0
+BK-0032,Credit Check,2026-01-12T14:58:00Z,credit_01,baseline,FX,FX Forward,GBP,Tier 3,60788000.0
+BK-0032,Supervisor Approval,2026-01-12T15:38:00Z,supervisor_01,baseline,FX,FX Forward,GBP,Tier 3,60788000.0
+BK-0032,Confirm Booking,2026-01-12T15:51:00Z,confirmations_02,baseline,FX,FX Forward,GBP,Tier 3,60788000.0
+BK-0032,Post to Ledger,2026-01-12T15:59:00Z,ledger_bot_01,baseline,FX,FX Forward,GBP,Tier 3,60788000.0
+BK-0032,Booking Complete,2026-01-12T16:02:00Z,workflow_bot_01,baseline,FX,FX Forward,GBP,Tier 3,60788000.0
+BK-0033,Trade Captured,2026-01-13T08:00:00Z,trader_02,baseline,FX,FX Forward,EUR,Tier 1,13042000.0
+BK-0033,Validate Economics,2026-01-13T08:19:00Z,ops_analyst_03,baseline,FX,FX Forward,EUR,Tier 1,13042000.0
+BK-0033,Enrich Counterparty,2026-01-13T08:27:00Z,static_data_02,baseline,FX,FX Forward,EUR,Tier 1,13042000.0
+BK-0033,Compliance Check,2026-01-13T08:49:00Z,compliance_02,baseline,FX,FX Forward,EUR,Tier 1,13042000.0
+BK-0033,Credit Check,2026-01-13T09:10:00Z,credit_01,baseline,FX,FX Forward,EUR,Tier 1,13042000.0
+BK-0033,Confirm Booking,2026-01-13T09:28:00Z,confirmations_01,baseline,FX,FX Forward,EUR,Tier 1,13042000.0
+BK-0033,Post to Ledger,2026-01-13T09:36:00Z,ledger_bot_01,baseline,FX,FX Forward,EUR,Tier 1,13042000.0
+BK-0033,Booking Complete,2026-01-13T09:39:00Z,workflow_bot_01,baseline,FX,FX Forward,EUR,Tier 1,13042000.0
+BK-0034,Trade Captured,2026-01-13T10:00:00Z,trader_01,baseline,Rates,Interest Rate Swap,USD,Tier 1,15612000.0
+BK-0034,Validate Economics,2026-01-13T10:08:00Z,ops_analyst_01,baseline,Rates,Interest Rate Swap,USD,Tier 1,15612000.0
+BK-0034,Amend Booking,2026-01-13T10:23:00Z,ops_analyst_01,baseline,Rates,Interest Rate Swap,USD,Tier 1,15612000.0
+BK-0034,Validate Economics,2026-01-13T10:40:00Z,ops_analyst_03,baseline,Rates,Interest Rate Swap,USD,Tier 1,15612000.0
+BK-0034,Enrich Counterparty,2026-01-13T10:48:00Z,static_data_01,baseline,Rates,Interest Rate Swap,USD,Tier 1,15612000.0
+BK-0034,Compliance Check,2026-01-13T10:57:00Z,compliance_02,baseline,Rates,Interest Rate Swap,USD,Tier 1,15612000.0
+BK-0034,Credit Check,2026-01-13T11:12:00Z,credit_02,baseline,Rates,Interest Rate Swap,USD,Tier 1,15612000.0
+BK-0034,Confirm Booking,2026-01-13T11:31:00Z,confirmations_01,baseline,Rates,Interest Rate Swap,USD,Tier 1,15612000.0
+BK-0034,Post to Ledger,2026-01-13T11:39:00Z,ledger_bot_01,baseline,Rates,Interest Rate Swap,USD,Tier 1,15612000.0
+BK-0034,Booking Complete,2026-01-13T11:42:00Z,workflow_bot_01,baseline,Rates,Interest Rate Swap,USD,Tier 1,15612000.0
+BK-0035,Trade Captured,2026-01-13T12:00:00Z,trader_03,baseline,FX,FX Forward,EUR,Tier 1,29174000.0
+BK-0035,Validate Economics,2026-01-13T12:13:00Z,ops_analyst_03,baseline,FX,FX Forward,EUR,Tier 1,29174000.0
+BK-0035,Enrich Counterparty,2026-01-13T12:23:00Z,static_data_02,baseline,FX,FX Forward,EUR,Tier 1,29174000.0
+BK-0035,Compliance Check,2026-01-13T12:37:00Z,compliance_01,baseline,FX,FX Forward,EUR,Tier 1,29174000.0
+BK-0035,Credit Check,2026-01-13T12:47:00Z,credit_02,baseline,FX,FX Forward,EUR,Tier 1,29174000.0
+BK-0035,Confirm Booking,2026-01-13T13:01:00Z,confirmations_02,baseline,FX,FX Forward,EUR,Tier 1,29174000.0
+BK-0035,Post to Ledger,2026-01-13T13:08:00Z,ledger_bot_01,baseline,FX,FX Forward,EUR,Tier 1,29174000.0
+BK-0035,Booking Complete,2026-01-13T13:10:00Z,workflow_bot_01,baseline,FX,FX Forward,EUR,Tier 1,29174000.0
+BK-0036,Trade Captured,2026-01-13T14:00:00Z,trader_02,baseline,FX,FX Forward,JPY,Tier 2,12309000.0
+BK-0036,Validate Economics,2026-01-13T14:15:00Z,ops_analyst_01,baseline,FX,FX Forward,JPY,Tier 2,12309000.0
+BK-0036,Enrich Counterparty,2026-01-13T14:23:00Z,static_data_01,baseline,FX,FX Forward,JPY,Tier 2,12309000.0
+BK-0036,Compliance Check,2026-01-13T14:40:00Z,compliance_01,baseline,FX,FX Forward,JPY,Tier 2,12309000.0
+BK-0036,Credit Check,2026-01-13T14:49:00Z,credit_01,baseline,FX,FX Forward,JPY,Tier 2,12309000.0
+BK-0036,Confirm Booking,2026-01-13T15:09:00Z,confirmations_01,baseline,FX,FX Forward,JPY,Tier 2,12309000.0
+BK-0036,Post to Ledger,2026-01-13T15:15:00Z,ledger_bot_01,baseline,FX,FX Forward,JPY,Tier 2,12309000.0
+BK-0036,Booking Complete,2026-01-13T15:18:00Z,workflow_bot_01,baseline,FX,FX Forward,JPY,Tier 2,12309000.0
+BK-0037,Trade Captured,2026-01-14T08:00:00Z,trader_01,baseline,Equities,Equity Option,EUR,Tier 1,18085000.0
+BK-0037,Validate Economics,2026-01-14T08:06:00Z,ops_analyst_01,baseline,Equities,Equity Option,EUR,Tier 1,18085000.0
+BK-0037,Enrich Counterparty,2026-01-14T08:15:00Z,static_data_02,baseline,Equities,Equity Option,EUR,Tier 1,18085000.0
+BK-0037,Compliance Check,2026-01-14T08:26:00Z,compliance_01,baseline,Equities,Equity Option,EUR,Tier 1,18085000.0
+BK-0037,Credit Check,2026-01-14T08:50:00Z,credit_01,baseline,Equities,Equity Option,EUR,Tier 1,18085000.0
+BK-0037,Confirm Booking,2026-01-14T09:04:00Z,confirmations_02,baseline,Equities,Equity Option,EUR,Tier 1,18085000.0
+BK-0037,Post to Ledger,2026-01-14T09:13:00Z,ledger_bot_01,baseline,Equities,Equity Option,EUR,Tier 1,18085000.0
+BK-0037,Booking Complete,2026-01-14T09:18:00Z,workflow_bot_01,baseline,Equities,Equity Option,EUR,Tier 1,18085000.0
+BK-0038,Trade Captured,2026-01-14T10:00:00Z,trader_02,baseline,Equities,Equity Option,USD,Tier 2,6332000.0
+BK-0038,Validate Economics,2026-01-14T10:11:00Z,ops_analyst_03,baseline,Equities,Equity Option,USD,Tier 2,6332000.0
+BK-0038,Amend Booking,2026-01-14T10:34:00Z,ops_analyst_02,baseline,Equities,Equity Option,USD,Tier 2,6332000.0
+BK-0038,Validate Economics,2026-01-14T10:47:00Z,ops_analyst_01,baseline,Equities,Equity Option,USD,Tier 2,6332000.0
+BK-0038,Enrich Counterparty,2026-01-14T10:59:00Z,static_data_02,baseline,Equities,Equity Option,USD,Tier 2,6332000.0
+BK-0038,Compliance Check,2026-01-14T11:12:00Z,compliance_02,baseline,Equities,Equity Option,USD,Tier 2,6332000.0
+BK-0038,Credit Check,2026-01-14T11:24:00Z,credit_01,baseline,Equities,Equity Option,USD,Tier 2,6332000.0
+BK-0038,Confirm Booking,2026-01-14T11:41:00Z,confirmations_01,baseline,Equities,Equity Option,USD,Tier 2,6332000.0
+BK-0038,Post to Ledger,2026-01-14T11:51:00Z,ledger_bot_01,baseline,Equities,Equity Option,USD,Tier 2,6332000.0
+BK-0038,Booking Complete,2026-01-14T11:54:00Z,workflow_bot_01,baseline,Equities,Equity Option,USD,Tier 2,6332000.0
+BK-0039,Trade Captured,2026-01-14T12:00:00Z,trader_03,baseline,FX,FX Forward,USD,Tier 1,26074000.0
+BK-0039,Validate Economics,2026-01-14T12:14:00Z,ops_analyst_01,baseline,FX,FX Forward,USD,Tier 1,26074000.0
+BK-0039,Enrich Counterparty,2026-01-14T12:21:00Z,static_data_02,baseline,FX,FX Forward,USD,Tier 1,26074000.0
+BK-0039,Compliance Check,2026-01-14T12:39:00Z,compliance_01,baseline,FX,FX Forward,USD,Tier 1,26074000.0
+BK-0039,Credit Check,2026-01-14T12:51:00Z,credit_01,baseline,FX,FX Forward,USD,Tier 1,26074000.0
+BK-0039,Confirm Booking,2026-01-14T13:21:00Z,confirmations_01,baseline,FX,FX Forward,USD,Tier 1,26074000.0
+BK-0039,Post to Ledger,2026-01-14T13:29:00Z,ledger_bot_01,baseline,FX,FX Forward,USD,Tier 1,26074000.0
+BK-0039,Booking Complete,2026-01-14T13:32:00Z,workflow_bot_01,baseline,FX,FX Forward,USD,Tier 1,26074000.0
+BK-0040,Trade Captured,2026-01-14T14:00:00Z,trader_03,baseline,Rates,Interest Rate Swap,USD,Tier 1,16051000.0
+BK-0040,Validate Economics,2026-01-14T14:09:00Z,ops_analyst_02,baseline,Rates,Interest Rate Swap,USD,Tier 1,16051000.0
+BK-0040,Enrich Counterparty,2026-01-14T14:25:00Z,static_data_02,baseline,Rates,Interest Rate Swap,USD,Tier 1,16051000.0
+BK-0040,Compliance Check,2026-01-14T14:56:00Z,compliance_02,baseline,Rates,Interest Rate Swap,USD,Tier 1,16051000.0
+BK-0040,Credit Check,2026-01-14T15:04:00Z,credit_01,baseline,Rates,Interest Rate Swap,USD,Tier 1,16051000.0
+BK-0040,Confirm Booking,2026-01-14T15:22:00Z,confirmations_01,baseline,Rates,Interest Rate Swap,USD,Tier 1,16051000.0
+BK-0040,Post to Ledger,2026-01-14T15:30:00Z,ledger_bot_01,baseline,Rates,Interest Rate Swap,USD,Tier 1,16051000.0
+BK-0040,Booking Complete,2026-01-14T15:32:00Z,workflow_bot_01,baseline,Rates,Interest Rate Swap,USD,Tier 1,16051000.0
+BK-0041,Trade Captured,2026-01-15T08:00:00Z,trader_01,baseline,FX,FX Forward,USD,Tier 2,36925000.0
+BK-0041,Validate Economics,2026-01-15T08:13:00Z,ops_analyst_03,baseline,FX,FX Forward,USD,Tier 2,36925000.0
+BK-0041,Enrich Counterparty,2026-01-15T08:23:00Z,static_data_01,baseline,FX,FX Forward,USD,Tier 2,36925000.0
+BK-0041,Compliance Check,2026-01-15T08:41:00Z,compliance_01,baseline,FX,FX Forward,USD,Tier 2,36925000.0
+BK-0041,Credit Check,2026-01-15T08:51:00Z,credit_02,baseline,FX,FX Forward,USD,Tier 2,36925000.0
+BK-0041,Confirm Booking,2026-01-15T09:03:00Z,confirmations_01,baseline,FX,FX Forward,USD,Tier 2,36925000.0
+BK-0041,Post to Ledger,2026-01-15T09:10:00Z,ledger_bot_01,baseline,FX,FX Forward,USD,Tier 2,36925000.0
+BK-0041,Booking Complete,2026-01-15T09:15:00Z,workflow_bot_01,baseline,FX,FX Forward,USD,Tier 2,36925000.0
+BK-0042,Trade Captured,2026-01-15T10:00:00Z,trader_02,baseline,FX,FX Forward,USD,Tier 1,33952000.0
+BK-0042,Validate Economics,2026-01-15T10:09:00Z,ops_analyst_03,baseline,FX,FX Forward,USD,Tier 1,33952000.0
+BK-0042,Amend Booking,2026-01-15T10:34:00Z,ops_analyst_02,baseline,FX,FX Forward,USD,Tier 1,33952000.0
+BK-0042,Validate Economics,2026-01-15T10:45:00Z,ops_analyst_03,baseline,FX,FX Forward,USD,Tier 1,33952000.0
+BK-0042,Enrich Counterparty,2026-01-15T10:55:00Z,static_data_02,baseline,FX,FX Forward,USD,Tier 1,33952000.0
+BK-0042,Compliance Check,2026-01-15T11:07:00Z,compliance_02,baseline,FX,FX Forward,USD,Tier 1,33952000.0
+BK-0042,Credit Check,2026-01-15T11:21:00Z,credit_01,baseline,FX,FX Forward,USD,Tier 1,33952000.0
+BK-0042,Confirm Booking,2026-01-15T11:33:00Z,confirmations_02,baseline,FX,FX Forward,USD,Tier 1,33952000.0
+BK-0042,Post to Ledger,2026-01-15T11:42:00Z,ledger_bot_01,baseline,FX,FX Forward,USD,Tier 1,33952000.0
+BK-0042,Booking Complete,2026-01-15T11:45:00Z,workflow_bot_01,baseline,FX,FX Forward,USD,Tier 1,33952000.0
+BK-0043,Trade Captured,2026-01-15T12:00:00Z,trader_01,baseline,Rates,Interest Rate Swap,EUR,Tier 2,12795000.0
+BK-0043,Validate Economics,2026-01-15T12:15:00Z,ops_analyst_01,baseline,Rates,Interest Rate Swap,EUR,Tier 2,12795000.0
+BK-0043,Enrich Counterparty,2026-01-15T12:34:00Z,static_data_01,baseline,Rates,Interest Rate Swap,EUR,Tier 2,12795000.0
+BK-0043,Compliance Check,2026-01-15T12:51:00Z,compliance_01,baseline,Rates,Interest Rate Swap,EUR,Tier 2,12795000.0
+BK-0043,Credit Check,2026-01-15T13:04:00Z,credit_02,baseline,Rates,Interest Rate Swap,EUR,Tier 2,12795000.0
+BK-0043,Confirm Booking,2026-01-15T13:29:00Z,confirmations_02,baseline,Rates,Interest Rate Swap,EUR,Tier 2,12795000.0
+BK-0043,Post to Ledger,2026-01-15T13:40:00Z,ledger_bot_01,baseline,Rates,Interest Rate Swap,EUR,Tier 2,12795000.0
+BK-0043,Booking Complete,2026-01-15T13:43:00Z,workflow_bot_01,baseline,Rates,Interest Rate Swap,EUR,Tier 2,12795000.0
+BK-0044,Trade Captured,2026-01-15T14:00:00Z,trader_02,baseline,Equities,Equity Option,JPY,Tier 2,15259000.0
+BK-0044,Validate Economics,2026-01-15T14:18:00Z,ops_analyst_02,baseline,Equities,Equity Option,JPY,Tier 2,15259000.0
+BK-0044,Enrich Counterparty,2026-01-15T14:27:00Z,static_data_02,baseline,Equities,Equity Option,JPY,Tier 2,15259000.0
+BK-0044,Compliance Check,2026-01-15T14:43:00Z,compliance_02,baseline,Equities,Equity Option,JPY,Tier 2,15259000.0
+BK-0044,Credit Check,2026-01-15T15:01:00Z,credit_01,baseline,Equities,Equity Option,JPY,Tier 2,15259000.0
+BK-0044,Confirm Booking,2026-01-15T15:12:00Z,confirmations_02,baseline,Equities,Equity Option,JPY,Tier 2,15259000.0
+BK-0044,Post to Ledger,2026-01-15T15:18:00Z,ledger_bot_01,baseline,Equities,Equity Option,JPY,Tier 2,15259000.0
+BK-0044,Booking Complete,2026-01-15T15:20:00Z,workflow_bot_01,baseline,Equities,Equity Option,JPY,Tier 2,15259000.0
+BK-0045,Trade Captured,2026-01-16T08:00:00Z,trader_01,baseline,FX,FX Forward,USD,Tier 1,50361000.0
+BK-0045,Validate Economics,2026-01-16T08:09:00Z,ops_analyst_02,baseline,FX,FX Forward,USD,Tier 1,50361000.0
+BK-0045,Amend Booking,2026-01-16T08:33:00Z,ops_analyst_02,baseline,FX,FX Forward,USD,Tier 1,50361000.0
+BK-0045,Validate Economics,2026-01-16T08:42:00Z,ops_analyst_02,baseline,FX,FX Forward,USD,Tier 1,50361000.0
+BK-0045,Enrich Counterparty,2026-01-16T08:54:00Z,static_data_01,baseline,FX,FX Forward,USD,Tier 1,50361000.0
+BK-0045,Compliance Check,2026-01-16T09:08:00Z,compliance_01,baseline,FX,FX Forward,USD,Tier 1,50361000.0
+BK-0045,Credit Check,2026-01-16T09:22:00Z,credit_01,baseline,FX,FX Forward,USD,Tier 1,50361000.0
+BK-0045,Supervisor Approval,2026-01-16T10:05:00Z,supervisor_01,baseline,FX,FX Forward,USD,Tier 1,50361000.0
+BK-0045,Confirm Booking,2026-01-16T10:25:00Z,confirmations_02,baseline,FX,FX Forward,USD,Tier 1,50361000.0
+BK-0045,Post to Ledger,2026-01-16T10:33:00Z,ledger_bot_01,baseline,FX,FX Forward,USD,Tier 1,50361000.0
+BK-0045,Booking Complete,2026-01-16T10:35:00Z,workflow_bot_01,baseline,FX,FX Forward,USD,Tier 1,50361000.0
+BK-0046,Trade Captured,2026-01-16T10:00:00Z,trader_01,baseline,FX,FX Forward,USD,Tier 2,10153000.0
+BK-0046,Validate Economics,2026-01-16T10:06:00Z,ops_analyst_01,baseline,FX,FX Forward,USD,Tier 2,10153000.0
+BK-0046,Enrich Counterparty,2026-01-16T10:13:00Z,static_data_02,baseline,FX,FX Forward,USD,Tier 2,10153000.0
+BK-0046,Compliance Check,2026-01-16T10:36:00Z,compliance_02,baseline,FX,FX Forward,USD,Tier 2,10153000.0
+BK-0046,Credit Check,2026-01-16T10:51:00Z,credit_01,baseline,FX,FX Forward,USD,Tier 2,10153000.0
+BK-0046,Confirm Booking,2026-01-16T11:06:00Z,confirmations_02,baseline,FX,FX Forward,USD,Tier 2,10153000.0
+BK-0046,Post to Ledger,2026-01-16T11:12:00Z,ledger_bot_01,baseline,FX,FX Forward,USD,Tier 2,10153000.0
+BK-0046,Booking Complete,2026-01-16T11:15:00Z,workflow_bot_01,baseline,FX,FX Forward,USD,Tier 2,10153000.0
+BK-0047,Trade Captured,2026-01-16T12:00:00Z,trader_03,baseline,FX,FX Forward,USD,Tier 1,26926000.0
+BK-0047,Validate Economics,2026-01-16T12:15:00Z,ops_analyst_01,baseline,FX,FX Forward,USD,Tier 1,26926000.0
+BK-0047,Amend Booking,2026-01-16T12:26:00Z,ops_analyst_03,baseline,FX,FX Forward,USD,Tier 1,26926000.0
+BK-0047,Validate Economics,2026-01-16T12:42:00Z,ops_analyst_02,baseline,FX,FX Forward,USD,Tier 1,26926000.0
+BK-0047,Enrich Counterparty,2026-01-16T12:56:00Z,static_data_01,baseline,FX,FX Forward,USD,Tier 1,26926000.0
+BK-0047,Compliance Check,2026-01-16T13:05:00Z,compliance_02,baseline,FX,FX Forward,USD,Tier 1,26926000.0
+BK-0047,Credit Check,2026-01-16T13:19:00Z,credit_01,baseline,FX,FX Forward,USD,Tier 1,26926000.0
+BK-0047,Confirm Booking,2026-01-16T13:52:00Z,confirmations_02,baseline,FX,FX Forward,USD,Tier 1,26926000.0
+BK-0047,Post to Ledger,2026-01-16T14:01:00Z,ledger_bot_01,baseline,FX,FX Forward,USD,Tier 1,26926000.0
+BK-0047,Booking Complete,2026-01-16T14:04:00Z,workflow_bot_01,baseline,FX,FX Forward,USD,Tier 1,26926000.0
+BK-0048,Trade Captured,2026-01-16T14:00:00Z,trader_03,baseline,Equities,Equity Option,USD,Tier 3,10208000.0
+BK-0048,Validate Economics,2026-01-16T14:16:00Z,ops_analyst_03,baseline,Equities,Equity Option,USD,Tier 3,10208000.0
+BK-0048,Enrich Counterparty,2026-01-16T14:24:00Z,static_data_01,baseline,Equities,Equity Option,USD,Tier 3,10208000.0
+BK-0048,Compliance Check,2026-01-16T14:42:00Z,compliance_01,baseline,Equities,Equity Option,USD,Tier 3,10208000.0
+BK-0048,Credit Check,2026-01-16T14:58:00Z,credit_01,baseline,Equities,Equity Option,USD,Tier 3,10208000.0
+BK-0048,Confirm Booking,2026-01-16T15:22:00Z,confirmations_01,baseline,Equities,Equity Option,USD,Tier 3,10208000.0
+BK-0048,Post to Ledger,2026-01-16T15:32:00Z,ledger_bot_01,baseline,Equities,Equity Option,USD,Tier 3,10208000.0
+BK-0048,Booking Complete,2026-01-16T15:36:00Z,workflow_bot_01,baseline,Equities,Equity Option,USD,Tier 3,10208000.0
+BK-0049,Trade Captured,2026-01-19T08:00:00Z,trader_03,baseline,FX,FX Forward,USD,Tier 1,14402000.0
+BK-0049,Validate Economics,2026-01-19T08:19:00Z,ops_analyst_03,baseline,FX,FX Forward,USD,Tier 1,14402000.0
+BK-0049,Enrich Counterparty,2026-01-19T08:34:00Z,static_data_01,baseline,FX,FX Forward,USD,Tier 1,14402000.0
+BK-0049,Compliance Check,2026-01-19T08:56:00Z,compliance_02,baseline,FX,FX Forward,USD,Tier 1,14402000.0
+BK-0049,Credit Check,2026-01-19T09:10:00Z,credit_02,baseline,FX,FX Forward,USD,Tier 1,14402000.0
+BK-0049,Confirm Booking,2026-01-19T09:25:00Z,confirmations_01,baseline,FX,FX Forward,USD,Tier 1,14402000.0
+BK-0049,Post to Ledger,2026-01-19T09:34:00Z,ledger_bot_01,baseline,FX,FX Forward,USD,Tier 1,14402000.0
+BK-0049,Booking Complete,2026-01-19T09:37:00Z,workflow_bot_01,baseline,FX,FX Forward,USD,Tier 1,14402000.0
+BK-0050,Trade Captured,2026-01-19T10:00:00Z,trader_02,baseline,Equities,Equity Option,USD,Tier 1,84155000.0
+BK-0050,Validate Economics,2026-01-19T10:13:00Z,ops_analyst_01,baseline,Equities,Equity Option,USD,Tier 1,84155000.0
+BK-0050,Enrich Counterparty,2026-01-19T10:23:00Z,static_data_01,baseline,Equities,Equity Option,USD,Tier 1,84155000.0
+BK-0050,Compliance Check,2026-01-19T10:34:00Z,compliance_02,baseline,Equities,Equity Option,USD,Tier 1,84155000.0
+BK-0050,Credit Check,2026-01-19T10:47:00Z,credit_02,baseline,Equities,Equity Option,USD,Tier 1,84155000.0
+BK-0050,Supervisor Approval,2026-01-19T11:12:00Z,supervisor_01,baseline,Equities,Equity Option,USD,Tier 1,84155000.0
+BK-0050,Confirm Booking,2026-01-19T11:35:00Z,confirmations_01,baseline,Equities,Equity Option,USD,Tier 1,84155000.0
+BK-0050,Post to Ledger,2026-01-19T11:40:00Z,ledger_bot_01,baseline,Equities,Equity Option,USD,Tier 1,84155000.0
+BK-0050,Booking Complete,2026-01-19T11:43:00Z,workflow_bot_01,baseline,Equities,Equity Option,USD,Tier 1,84155000.0
+BK-0051,Trade Captured,2026-01-19T12:00:00Z,trader_02,baseline,Rates,Interest Rate Swap,USD,Tier 3,22504000.0
+BK-0051,Validate Economics,2026-01-19T12:09:00Z,ops_analyst_02,baseline,Rates,Interest Rate Swap,USD,Tier 3,22504000.0
+BK-0051,Enrich Counterparty,2026-01-19T12:20:00Z,static_data_01,baseline,Rates,Interest Rate Swap,USD,Tier 3,22504000.0
+BK-0051,Compliance Check,2026-01-19T12:42:00Z,compliance_02,baseline,Rates,Interest Rate Swap,USD,Tier 3,22504000.0
+BK-0051,Credit Check,2026-01-19T12:55:00Z,credit_02,baseline,Rates,Interest Rate Swap,USD,Tier 3,22504000.0
+BK-0051,Confirm Booking,2026-01-19T13:09:00Z,confirmations_01,baseline,Rates,Interest Rate Swap,USD,Tier 3,22504000.0
+BK-0051,Post to Ledger,2026-01-19T13:18:00Z,ledger_bot_01,baseline,Rates,Interest Rate Swap,USD,Tier 3,22504000.0
+BK-0051,Booking Complete,2026-01-19T13:21:00Z,workflow_bot_01,baseline,Rates,Interest Rate Swap,USD,Tier 3,22504000.0
+BK-0052,Trade Captured,2026-01-19T14:00:00Z,trader_02,baseline,Rates,Interest Rate Swap,EUR,Tier 1,13646000.0
+BK-0052,Validate Economics,2026-01-19T14:11:00Z,ops_analyst_01,baseline,Rates,Interest Rate Swap,EUR,Tier 1,13646000.0
+BK-0052,Enrich Counterparty,2026-01-19T14:22:00Z,static_data_02,baseline,Rates,Interest Rate Swap,EUR,Tier 1,13646000.0
+BK-0052,Compliance Check,2026-01-19T14:33:00Z,compliance_01,baseline,Rates,Interest Rate Swap,EUR,Tier 1,13646000.0
+BK-0052,Credit Check,2026-01-19T14:54:00Z,credit_01,baseline,Rates,Interest Rate Swap,EUR,Tier 1,13646000.0
+BK-0052,Confirm Booking,2026-01-19T15:08:00Z,confirmations_01,baseline,Rates,Interest Rate Swap,EUR,Tier 1,13646000.0
+BK-0052,Post to Ledger,2026-01-19T15:13:00Z,ledger_bot_01,baseline,Rates,Interest Rate Swap,EUR,Tier 1,13646000.0
+BK-0052,Booking Complete,2026-01-19T15:16:00Z,workflow_bot_01,baseline,Rates,Interest Rate Swap,EUR,Tier 1,13646000.0
+BK-0053,Trade Captured,2026-01-19T08:00:00Z,trader_02,baseline,FX,FX Forward,EUR,Tier 2,2944000.0
+BK-0053,Validate Economics,2026-01-19T08:19:00Z,ops_analyst_02,baseline,FX,FX Forward,EUR,Tier 2,2944000.0
+BK-0053,Enrich Counterparty,2026-01-19T08:28:00Z,static_data_01,baseline,FX,FX Forward,EUR,Tier 2,2944000.0
+BK-0053,Compliance Check,2026-01-19T08:40:00Z,compliance_02,baseline,FX,FX Forward,EUR,Tier 2,2944000.0
+BK-0053,Credit Check,2026-01-19T08:53:00Z,credit_02,baseline,FX,FX Forward,EUR,Tier 2,2944000.0
+BK-0053,Confirm Booking,2026-01-19T09:23:00Z,confirmations_01,baseline,FX,FX Forward,EUR,Tier 2,2944000.0
+BK-0053,Post to Ledger,2026-01-19T09:30:00Z,ledger_bot_01,baseline,FX,FX Forward,EUR,Tier 2,2944000.0
+BK-0053,Booking Complete,2026-01-19T09:35:00Z,workflow_bot_01,baseline,FX,FX Forward,EUR,Tier 2,2944000.0
+BK-0054,Trade Captured,2026-01-19T10:00:00Z,trader_03,baseline,FX,FX Forward,EUR,Tier 3,24114000.0
+BK-0054,Validate Economics,2026-01-19T10:29:00Z,ops_analyst_02,baseline,FX,FX Forward,EUR,Tier 3,24114000.0
+BK-0054,Enrich Counterparty,2026-01-19T10:37:00Z,static_data_02,baseline,FX,FX Forward,EUR,Tier 3,24114000.0
+BK-0054,Compliance Check,2026-01-19T10:57:00Z,compliance_02,baseline,FX,FX Forward,EUR,Tier 3,24114000.0
+BK-0054,Credit Check,2026-01-19T11:09:00Z,credit_02,baseline,FX,FX Forward,EUR,Tier 3,24114000.0
+BK-0054,Confirm Booking,2026-01-19T11:35:00Z,confirmations_01,baseline,FX,FX Forward,EUR,Tier 3,24114000.0
+BK-0054,Post to Ledger,2026-01-19T11:44:00Z,ledger_bot_01,baseline,FX,FX Forward,EUR,Tier 3,24114000.0
+BK-0054,Booking Complete,2026-01-19T11:47:00Z,workflow_bot_01,baseline,FX,FX Forward,EUR,Tier 3,24114000.0
+BK-0055,Trade Captured,2026-01-19T12:00:00Z,trader_02,baseline,FX,FX Forward,EUR,Tier 1,36032000.0
+BK-0055,Validate Economics,2026-01-19T12:08:00Z,ops_analyst_02,baseline,FX,FX Forward,EUR,Tier 1,36032000.0
+BK-0055,Enrich Counterparty,2026-01-19T12:18:00Z,static_data_02,baseline,FX,FX Forward,EUR,Tier 1,36032000.0
+BK-0055,Compliance Check,2026-01-19T12:30:00Z,compliance_01,baseline,FX,FX Forward,EUR,Tier 1,36032000.0
+BK-0055,Credit Check,2026-01-19T12:40:00Z,credit_01,baseline,FX,FX Forward,EUR,Tier 1,36032000.0
+BK-0055,Confirm Booking,2026-01-19T12:58:00Z,confirmations_01,baseline,FX,FX Forward,EUR,Tier 1,36032000.0
+BK-0055,Post to Ledger,2026-01-19T13:06:00Z,ledger_bot_01,baseline,FX,FX Forward,EUR,Tier 1,36032000.0
+BK-0055,Booking Complete,2026-01-19T13:09:00Z,workflow_bot_01,baseline,FX,FX Forward,EUR,Tier 1,36032000.0
+BK-0056,Trade Captured,2026-01-19T14:00:00Z,trader_02,baseline,Rates,Interest Rate Swap,JPY,Tier 2,5288000.0
+BK-0056,Validate Economics,2026-01-19T14:12:00Z,ops_analyst_01,baseline,Rates,Interest Rate Swap,JPY,Tier 2,5288000.0
+BK-0056,Amend Booking,2026-01-19T14:29:00Z,ops_analyst_01,baseline,Rates,Interest Rate Swap,JPY,Tier 2,5288000.0
+BK-0056,Validate Economics,2026-01-19T14:41:00Z,ops_analyst_03,baseline,Rates,Interest Rate Swap,JPY,Tier 2,5288000.0
+BK-0056,Enrich Counterparty,2026-01-19T14:54:00Z,static_data_02,baseline,Rates,Interest Rate Swap,JPY,Tier 2,5288000.0
+BK-0056,Compliance Check,2026-01-19T15:05:00Z,compliance_01,baseline,Rates,Interest Rate Swap,JPY,Tier 2,5288000.0
+BK-0056,Credit Check,2026-01-19T15:15:00Z,credit_02,baseline,Rates,Interest Rate Swap,JPY,Tier 2,5288000.0
+BK-0056,Confirm Booking,2026-01-19T15:37:00Z,confirmations_02,baseline,Rates,Interest Rate Swap,JPY,Tier 2,5288000.0
+BK-0056,Post to Ledger,2026-01-19T15:44:00Z,ledger_bot_01,baseline,Rates,Interest Rate Swap,JPY,Tier 2,5288000.0
+BK-0056,Booking Complete,2026-01-19T15:45:00Z,workflow_bot_01,baseline,Rates,Interest Rate Swap,JPY,Tier 2,5288000.0
+BK-0057,Trade Captured,2026-01-19T08:00:00Z,trader_01,baseline,Equities,Equity Option,EUR,Tier 1,16090000.0
+BK-0057,Validate Economics,2026-01-19T08:11:00Z,ops_analyst_01,baseline,Equities,Equity Option,EUR,Tier 1,16090000.0
+BK-0057,Enrich Counterparty,2026-01-19T08:19:00Z,static_data_02,baseline,Equities,Equity Option,EUR,Tier 1,16090000.0
+BK-0057,Compliance Check,2026-01-19T08:31:00Z,compliance_02,baseline,Equities,Equity Option,EUR,Tier 1,16090000.0
+BK-0057,Credit Check,2026-01-19T08:40:00Z,credit_01,baseline,Equities,Equity Option,EUR,Tier 1,16090000.0
+BK-0057,Confirm Booking,2026-01-19T09:02:00Z,confirmations_01,baseline,Equities,Equity Option,EUR,Tier 1,16090000.0
+BK-0057,Post to Ledger,2026-01-19T09:10:00Z,ledger_bot_01,baseline,Equities,Equity Option,EUR,Tier 1,16090000.0
+BK-0057,Booking Complete,2026-01-19T09:15:00Z,workflow_bot_01,baseline,Equities,Equity Option,EUR,Tier 1,16090000.0
+BK-0058,Trade Captured,2026-01-19T10:00:00Z,trader_03,baseline,Equities,Equity Option,USD,Tier 3,8387000.0
+BK-0058,Validate Economics,2026-01-19T10:09:00Z,ops_analyst_02,baseline,Equities,Equity Option,USD,Tier 3,8387000.0
+BK-0058,Enrich Counterparty,2026-01-19T10:20:00Z,static_data_01,baseline,Equities,Equity Option,USD,Tier 3,8387000.0
+BK-0058,Compliance Check,2026-01-19T10:38:00Z,compliance_01,baseline,Equities,Equity Option,USD,Tier 3,8387000.0
+BK-0058,Credit Check,2026-01-19T10:56:00Z,credit_01,baseline,Equities,Equity Option,USD,Tier 3,8387000.0
+BK-0058,Confirm Booking,2026-01-19T11:24:00Z,confirmations_02,baseline,Equities,Equity Option,USD,Tier 3,8387000.0
+BK-0058,Post to Ledger,2026-01-19T11:30:00Z,ledger_bot_01,baseline,Equities,Equity Option,USD,Tier 3,8387000.0
+BK-0058,Booking Complete,2026-01-19T11:33:00Z,workflow_bot_01,baseline,Equities,Equity Option,USD,Tier 3,8387000.0
+BK-0059,Trade Captured,2026-01-19T12:00:00Z,trader_03,baseline,FX,FX Forward,USD,Tier 1,11407000.0
+BK-0059,Validate Economics,2026-01-19T12:10:00Z,ops_analyst_01,baseline,FX,FX Forward,USD,Tier 1,11407000.0
+BK-0059,Enrich Counterparty,2026-01-19T12:27:00Z,static_data_02,baseline,FX,FX Forward,USD,Tier 1,11407000.0
+BK-0059,Compliance Check,2026-01-19T12:41:00Z,compliance_01,baseline,FX,FX Forward,USD,Tier 1,11407000.0
+BK-0059,Credit Check,2026-01-19T12:54:00Z,credit_02,baseline,FX,FX Forward,USD,Tier 1,11407000.0
+BK-0059,Confirm Booking,2026-01-19T13:14:00Z,confirmations_01,baseline,FX,FX Forward,USD,Tier 1,11407000.0
+BK-0059,Post to Ledger,2026-01-19T13:23:00Z,ledger_bot_01,baseline,FX,FX Forward,USD,Tier 1,11407000.0
+BK-0059,Booking Complete,2026-01-19T13:27:00Z,workflow_bot_01,baseline,FX,FX Forward,USD,Tier 1,11407000.0
+BK-0060,Trade Captured,2026-01-19T14:00:00Z,trader_01,baseline,Equities,Equity Option,USD,Tier 2,9220000.0
+BK-0060,Validate Economics,2026-01-19T14:16:00Z,ops_analyst_02,baseline,Equities,Equity Option,USD,Tier 2,9220000.0
+BK-0060,Enrich Counterparty,2026-01-19T14:27:00Z,static_data_01,baseline,Equities,Equity Option,USD,Tier 2,9220000.0
+BK-0060,Compliance Check,2026-01-19T14:46:00Z,compliance_02,baseline,Equities,Equity Option,USD,Tier 2,9220000.0
+BK-0060,Credit Check,2026-01-19T15:06:00Z,credit_02,baseline,Equities,Equity Option,USD,Tier 2,9220000.0
+BK-0060,Confirm Booking,2026-01-19T15:28:00Z,confirmations_02,baseline,Equities,Equity Option,USD,Tier 2,9220000.0
+BK-0060,Post to Ledger,2026-01-19T15:37:00Z,ledger_bot_01,baseline,Equities,Equity Option,USD,Tier 2,9220000.0
+BK-0060,Booking Complete,2026-01-19T15:38:00Z,workflow_bot_01,baseline,Equities,Equity Option,USD,Tier 2,9220000.0
+BK-0061,Trade Captured,2026-01-20T08:00:00Z,trader_02,baseline,Equities,Equity Option,GBP,Tier 1,30671000.0
+BK-0061,Validate Economics,2026-01-20T08:09:00Z,ops_analyst_02,baseline,Equities,Equity Option,GBP,Tier 1,30671000.0
+BK-0061,Enrich Counterparty,2026-01-20T08:24:00Z,static_data_01,baseline,Equities,Equity Option,GBP,Tier 1,30671000.0
+BK-0061,Compliance Check,2026-01-20T08:37:00Z,compliance_02,baseline,Equities,Equity Option,GBP,Tier 1,30671000.0
+BK-0061,Credit Check,2026-01-20T08:51:00Z,credit_02,baseline,Equities,Equity Option,GBP,Tier 1,30671000.0
+BK-0061,Confirm Booking,2026-01-20T09:13:00Z,confirmations_02,baseline,Equities,Equity Option,GBP,Tier 1,30671000.0
+BK-0061,Post to Ledger,2026-01-20T09:21:00Z,ledger_bot_01,baseline,Equities,Equity Option,GBP,Tier 1,30671000.0
+BK-0061,Booking Complete,2026-01-20T09:23:00Z,workflow_bot_01,baseline,Equities,Equity Option,GBP,Tier 1,30671000.0
+BK-0062,Trade Captured,2026-01-20T10:00:00Z,trader_01,baseline,Rates,Interest Rate Swap,USD,Tier 3,18040000.0
+BK-0062,Validate Economics,2026-01-20T10:16:00Z,ops_analyst_03,baseline,Rates,Interest Rate Swap,USD,Tier 3,18040000.0
+BK-0062,Amend Booking,2026-01-20T10:33:00Z,ops_analyst_01,baseline,Rates,Interest Rate Swap,USD,Tier 3,18040000.0
+BK-0062,Validate Economics,2026-01-20T10:45:00Z,ops_analyst_02,baseline,Rates,Interest Rate Swap,USD,Tier 3,18040000.0
+BK-0062,Enrich Counterparty,2026-01-20T10:57:00Z,static_data_01,baseline,Rates,Interest Rate Swap,USD,Tier 3,18040000.0
+BK-0062,Compliance Check,2026-01-20T11:08:00Z,compliance_01,baseline,Rates,Interest Rate Swap,USD,Tier 3,18040000.0
+BK-0062,Credit Check,2026-01-20T11:27:00Z,credit_02,baseline,Rates,Interest Rate Swap,USD,Tier 3,18040000.0
+BK-0062,Confirm Booking,2026-01-20T11:45:00Z,confirmations_02,baseline,Rates,Interest Rate Swap,USD,Tier 3,18040000.0
+BK-0062,Post to Ledger,2026-01-20T11:54:00Z,ledger_bot_01,baseline,Rates,Interest Rate Swap,USD,Tier 3,18040000.0
+BK-0062,Booking Complete,2026-01-20T11:57:00Z,workflow_bot_01,baseline,Rates,Interest Rate Swap,USD,Tier 3,18040000.0
+BK-0063,Trade Captured,2026-01-20T12:00:00Z,trader_02,baseline,FX,FX Forward,USD,Tier 2,28942000.0
+BK-0063,Validate Economics,2026-01-20T12:08:00Z,ops_analyst_01,baseline,FX,FX Forward,USD,Tier 2,28942000.0
+BK-0063,Amend Booking,2026-01-20T12:25:00Z,ops_analyst_03,baseline,FX,FX Forward,USD,Tier 2,28942000.0
+BK-0063,Validate Economics,2026-01-20T12:35:00Z,ops_analyst_01,baseline,FX,FX Forward,USD,Tier 2,28942000.0
+BK-0063,Enrich Counterparty,2026-01-20T12:50:00Z,static_data_01,baseline,FX,FX Forward,USD,Tier 2,28942000.0
+BK-0063,Compliance Check,2026-01-20T13:15:00Z,compliance_02,baseline,FX,FX Forward,USD,Tier 2,28942000.0
+BK-0063,Credit Check,2026-01-20T13:29:00Z,credit_02,baseline,FX,FX Forward,USD,Tier 2,28942000.0
+BK-0063,Confirm Booking,2026-01-20T13:51:00Z,confirmations_01,baseline,FX,FX Forward,USD,Tier 2,28942000.0
+BK-0063,Post to Ledger,2026-01-20T13:59:00Z,ledger_bot_01,baseline,FX,FX Forward,USD,Tier 2,28942000.0
+BK-0063,Booking Complete,2026-01-20T14:02:00Z,workflow_bot_01,baseline,FX,FX Forward,USD,Tier 2,28942000.0
+BK-0064,Trade Captured,2026-01-20T14:00:00Z,trader_03,baseline,FX,FX Forward,EUR,Tier 1,16017000.0
+BK-0064,Validate Economics,2026-01-20T14:12:00Z,ops_analyst_03,baseline,FX,FX Forward,EUR,Tier 1,16017000.0
+BK-0064,Enrich Counterparty,2026-01-20T14:24:00Z,static_data_01,baseline,FX,FX Forward,EUR,Tier 1,16017000.0
+BK-0064,Compliance Check,2026-01-20T14:38:00Z,compliance_02,baseline,FX,FX Forward,EUR,Tier 1,16017000.0
+BK-0064,Credit Check,2026-01-20T14:54:00Z,credit_02,baseline,FX,FX Forward,EUR,Tier 1,16017000.0
+BK-0064,Confirm Booking,2026-01-20T15:08:00Z,confirmations_02,baseline,FX,FX Forward,EUR,Tier 1,16017000.0
+BK-0064,Post to Ledger,2026-01-20T15:15:00Z,ledger_bot_01,baseline,FX,FX Forward,EUR,Tier 1,16017000.0
+BK-0064,Booking Complete,2026-01-20T15:17:00Z,workflow_bot_01,baseline,FX,FX Forward,EUR,Tier 1,16017000.0
+BK-0065,Trade Captured,2026-01-21T08:00:00Z,trader_01,baseline,FX,FX Forward,EUR,Tier 1,17798000.0
+BK-0065,Validate Economics,2026-01-21T08:14:00Z,ops_analyst_01,baseline,FX,FX Forward,EUR,Tier 1,17798000.0
+BK-0065,Amend Booking,2026-01-21T08:34:00Z,ops_analyst_03,baseline,FX,FX Forward,EUR,Tier 1,17798000.0
+BK-0065,Validate Economics,2026-01-21T08:47:00Z,ops_analyst_03,baseline,FX,FX Forward,EUR,Tier 1,17798000.0
+BK-0065,Enrich Counterparty,2026-01-21T08:53:00Z,static_data_02,baseline,FX,FX Forward,EUR,Tier 1,17798000.0
+BK-0065,Compliance Check,2026-01-21T09:07:00Z,compliance_02,baseline,FX,FX Forward,EUR,Tier 1,17798000.0
+BK-0065,Credit Check,2026-01-21T09:21:00Z,credit_02,baseline,FX,FX Forward,EUR,Tier 1,17798000.0
+BK-0065,Confirm Booking,2026-01-21T09:41:00Z,confirmations_01,baseline,FX,FX Forward,EUR,Tier 1,17798000.0
+BK-0065,Post to Ledger,2026-01-21T09:52:00Z,ledger_bot_01,baseline,FX,FX Forward,EUR,Tier 1,17798000.0
+BK-0065,Booking Complete,2026-01-21T09:55:00Z,workflow_bot_01,baseline,FX,FX Forward,EUR,Tier 1,17798000.0
+BK-0066,Trade Captured,2026-01-21T10:00:00Z,trader_01,baseline,Rates,Interest Rate Swap,USD,Tier 1,21833000.0
+BK-0066,Validate Economics,2026-01-21T10:10:00Z,ops_analyst_01,baseline,Rates,Interest Rate Swap,USD,Tier 1,21833000.0
+BK-0066,Enrich Counterparty,2026-01-21T10:22:00Z,static_data_02,baseline,Rates,Interest Rate Swap,USD,Tier 1,21833000.0
+BK-0066,Compliance Check,2026-01-21T10:33:00Z,compliance_02,baseline,Rates,Interest Rate Swap,USD,Tier 1,21833000.0
+BK-0066,Credit Check,2026-01-21T10:50:00Z,credit_02,baseline,Rates,Interest Rate Swap,USD,Tier 1,21833000.0
+BK-0066,Confirm Booking,2026-01-21T11:11:00Z,confirmations_02,baseline,Rates,Interest Rate Swap,USD,Tier 1,21833000.0
+BK-0066,Post to Ledger,2026-01-21T11:17:00Z,ledger_bot_01,baseline,Rates,Interest Rate Swap,USD,Tier 1,21833000.0
+BK-0066,Booking Complete,2026-01-21T11:20:00Z,workflow_bot_01,baseline,Rates,Interest Rate Swap,USD,Tier 1,21833000.0
+BK-0067,Trade Captured,2026-01-21T12:00:00Z,trader_02,baseline,Equities,Equity Option,GBP,Tier 3,8612000.0
+BK-0067,Validate Economics,2026-01-21T12:12:00Z,ops_analyst_01,baseline,Equities,Equity Option,GBP,Tier 3,8612000.0
+BK-0067,Enrich Counterparty,2026-01-21T12:19:00Z,static_data_01,baseline,Equities,Equity Option,GBP,Tier 3,8612000.0
+BK-0067,Compliance Check,2026-01-21T12:42:00Z,compliance_02,baseline,Equities,Equity Option,GBP,Tier 3,8612000.0
+BK-0067,Credit Check,2026-01-21T12:58:00Z,credit_02,baseline,Equities,Equity Option,GBP,Tier 3,8612000.0
+BK-0067,Confirm Booking,2026-01-21T13:19:00Z,confirmations_01,baseline,Equities,Equity Option,GBP,Tier 3,8612000.0
+BK-0067,Post to Ledger,2026-01-21T13:27:00Z,ledger_bot_01,baseline,Equities,Equity Option,GBP,Tier 3,8612000.0
+BK-0067,Booking Complete,2026-01-21T13:32:00Z,workflow_bot_01,baseline,Equities,Equity Option,GBP,Tier 3,8612000.0
+BK-0068,Trade Captured,2026-01-21T14:00:00Z,trader_02,baseline,Equities,Equity Option,GBP,Tier 1,20891000.0
+BK-0068,Validate Economics,2026-01-21T14:14:00Z,ops_analyst_01,baseline,Equities,Equity Option,GBP,Tier 1,20891000.0
+BK-0068,Enrich Counterparty,2026-01-21T14:24:00Z,static_data_02,baseline,Equities,Equity Option,GBP,Tier 1,20891000.0
+BK-0068,Compliance Check,2026-01-21T14:38:00Z,compliance_02,baseline,Equities,Equity Option,GBP,Tier 1,20891000.0
+BK-0068,Credit Check,2026-01-21T14:51:00Z,credit_01,baseline,Equities,Equity Option,GBP,Tier 1,20891000.0
+BK-0068,Confirm Booking,2026-01-21T15:04:00Z,confirmations_01,baseline,Equities,Equity Option,GBP,Tier 1,20891000.0
+BK-0068,Post to Ledger,2026-01-21T15:13:00Z,ledger_bot_01,baseline,Equities,Equity Option,GBP,Tier 1,20891000.0
+BK-0068,Booking Complete,2026-01-21T15:17:00Z,workflow_bot_01,baseline,Equities,Equity Option,GBP,Tier 1,20891000.0
+BK-0069,Trade Captured,2026-01-22T08:00:00Z,trader_01,baseline,Rates,Interest Rate Swap,JPY,Tier 3,26240000.0
+BK-0069,Validate Economics,2026-01-22T08:14:00Z,ops_analyst_01,baseline,Rates,Interest Rate Swap,JPY,Tier 3,26240000.0
+BK-0069,Amend Booking,2026-01-22T08:33:00Z,ops_analyst_01,baseline,Rates,Interest Rate Swap,JPY,Tier 3,26240000.0
+BK-0069,Validate Economics,2026-01-22T08:44:00Z,ops_analyst_02,baseline,Rates,Interest Rate Swap,JPY,Tier 3,26240000.0
+BK-0069,Enrich Counterparty,2026-01-22T08:50:00Z,static_data_01,baseline,Rates,Interest Rate Swap,JPY,Tier 3,26240000.0
+BK-0069,Compliance Check,2026-01-22T09:08:00Z,compliance_01,baseline,Rates,Interest Rate Swap,JPY,Tier 3,26240000.0
+BK-0069,Credit Check,2026-01-22T09:20:00Z,credit_01,baseline,Rates,Interest Rate Swap,JPY,Tier 3,26240000.0
+BK-0069,Confirm Booking,2026-01-22T09:40:00Z,confirmations_01,baseline,Rates,Interest Rate Swap,JPY,Tier 3,26240000.0
+BK-0069,Post to Ledger,2026-01-22T09:48:00Z,ledger_bot_01,baseline,Rates,Interest Rate Swap,JPY,Tier 3,26240000.0
+BK-0069,Booking Complete,2026-01-22T09:50:00Z,workflow_bot_01,baseline,Rates,Interest Rate Swap,JPY,Tier 3,26240000.0
+BK-0070,Trade Captured,2026-01-22T10:00:00Z,trader_03,baseline,Equities,Equity Option,EUR,Tier 1,31671000.0
+BK-0070,Validate Economics,2026-01-22T10:17:00Z,ops_analyst_01,baseline,Equities,Equity Option,EUR,Tier 1,31671000.0
+BK-0070,Enrich Counterparty,2026-01-22T10:29:00Z,static_data_01,baseline,Equities,Equity Option,EUR,Tier 1,31671000.0
+BK-0070,Compliance Check,2026-01-22T10:47:00Z,compliance_01,baseline,Equities,Equity Option,EUR,Tier 1,31671000.0
+BK-0070,Credit Check,2026-01-22T10:57:00Z,credit_02,baseline,Equities,Equity Option,EUR,Tier 1,31671000.0
+BK-0070,Confirm Booking,2026-01-22T11:21:00Z,confirmations_02,baseline,Equities,Equity Option,EUR,Tier 1,31671000.0
+BK-0070,Post to Ledger,2026-01-22T11:27:00Z,ledger_bot_01,baseline,Equities,Equity Option,EUR,Tier 1,31671000.0
+BK-0070,Booking Complete,2026-01-22T11:31:00Z,workflow_bot_01,baseline,Equities,Equity Option,EUR,Tier 1,31671000.0
+BK-0071,Trade Captured,2026-01-22T12:00:00Z,trader_03,baseline,FX,FX Forward,GBP,Tier 2,9210000.0
+BK-0071,Validate Economics,2026-01-22T12:12:00Z,ops_analyst_02,baseline,FX,FX Forward,GBP,Tier 2,9210000.0
+BK-0071,Enrich Counterparty,2026-01-22T12:26:00Z,static_data_02,baseline,FX,FX Forward,GBP,Tier 2,9210000.0
+BK-0071,Compliance Check,2026-01-22T12:40:00Z,compliance_01,baseline,FX,FX Forward,GBP,Tier 2,9210000.0
+BK-0071,Credit Check,2026-01-22T12:51:00Z,credit_02,baseline,FX,FX Forward,GBP,Tier 2,9210000.0
+BK-0071,Confirm Booking,2026-01-22T13:14:00Z,confirmations_01,baseline,FX,FX Forward,GBP,Tier 2,9210000.0
+BK-0071,Post to Ledger,2026-01-22T13:20:00Z,ledger_bot_01,baseline,FX,FX Forward,GBP,Tier 2,9210000.0
+BK-0071,Booking Complete,2026-01-22T13:23:00Z,workflow_bot_01,baseline,FX,FX Forward,GBP,Tier 2,9210000.0
+BK-0072,Trade Captured,2026-01-22T14:00:00Z,trader_01,baseline,FX,FX Forward,EUR,Tier 2,20301000.0
+BK-0072,Validate Economics,2026-01-22T14:07:00Z,ops_analyst_01,baseline,FX,FX Forward,EUR,Tier 2,20301000.0
+BK-0072,Enrich Counterparty,2026-01-22T14:16:00Z,static_data_02,baseline,FX,FX Forward,EUR,Tier 2,20301000.0
+BK-0072,Compliance Check,2026-01-22T14:28:00Z,compliance_01,baseline,FX,FX Forward,EUR,Tier 2,20301000.0
+BK-0072,Credit Check,2026-01-22T14:41:00Z,credit_01,baseline,FX,FX Forward,EUR,Tier 2,20301000.0
+BK-0072,Confirm Booking,2026-01-22T15:10:00Z,confirmations_02,baseline,FX,FX Forward,EUR,Tier 2,20301000.0
+BK-0072,Post to Ledger,2026-01-22T15:18:00Z,ledger_bot_01,baseline,FX,FX Forward,EUR,Tier 2,20301000.0
+BK-0072,Booking Complete,2026-01-22T15:21:00Z,workflow_bot_01,baseline,FX,FX Forward,EUR,Tier 2,20301000.0
+BK-0073,Trade Captured,2026-01-23T08:00:00Z,trader_01,baseline,Rates,Interest Rate Swap,USD,Tier 1,4871000.0
+BK-0073,Validate Economics,2026-01-23T08:12:00Z,ops_analyst_03,baseline,Rates,Interest Rate Swap,USD,Tier 1,4871000.0
+BK-0073,Enrich Counterparty,2026-01-23T08:23:00Z,static_data_01,baseline,Rates,Interest Rate Swap,USD,Tier 1,4871000.0
+BK-0073,Compliance Check,2026-01-23T08:36:00Z,compliance_01,baseline,Rates,Interest Rate Swap,USD,Tier 1,4871000.0
+BK-0073,Credit Check,2026-01-23T08:55:00Z,credit_01,baseline,Rates,Interest Rate Swap,USD,Tier 1,4871000.0
+BK-0073,Confirm Booking,2026-01-23T09:16:00Z,confirmations_02,baseline,Rates,Interest Rate Swap,USD,Tier 1,4871000.0
+BK-0073,Post to Ledger,2026-01-23T09:25:00Z,ledger_bot_01,baseline,Rates,Interest Rate Swap,USD,Tier 1,4871000.0
+BK-0073,Booking Complete,2026-01-23T09:28:00Z,workflow_bot_01,baseline,Rates,Interest Rate Swap,USD,Tier 1,4871000.0
+BK-0074,Trade Captured,2026-01-23T10:00:00Z,trader_03,baseline,FX,FX Forward,USD,Tier 3,65970000.0
+BK-0074,Validate Economics,2026-01-23T10:08:00Z,ops_analyst_02,baseline,FX,FX Forward,USD,Tier 3,65970000.0
+BK-0074,Enrich Counterparty,2026-01-23T10:17:00Z,static_data_01,baseline,FX,FX Forward,USD,Tier 3,65970000.0
+BK-0074,Compliance Check,2026-01-23T10:31:00Z,compliance_01,baseline,FX,FX Forward,USD,Tier 3,65970000.0
+BK-0074,Credit Check,2026-01-23T10:42:00Z,credit_02,baseline,FX,FX Forward,USD,Tier 3,65970000.0
+BK-0074,Supervisor Approval,2026-01-23T11:10:00Z,supervisor_01,baseline,FX,FX Forward,USD,Tier 3,65970000.0
+BK-0074,Confirm Booking,2026-01-23T11:43:00Z,confirmations_02,baseline,FX,FX Forward,USD,Tier 3,65970000.0
+BK-0074,Post to Ledger,2026-01-23T11:50:00Z,ledger_bot_01,baseline,FX,FX Forward,USD,Tier 3,65970000.0
+BK-0074,Booking Complete,2026-01-23T11:53:00Z,workflow_bot_01,baseline,FX,FX Forward,USD,Tier 3,65970000.0
+BK-0075,Trade Captured,2026-01-23T12:00:00Z,trader_01,baseline,Rates,Interest Rate Swap,EUR,Tier 1,10341000.0
+BK-0075,Validate Economics,2026-01-23T12:10:00Z,ops_analyst_03,baseline,Rates,Interest Rate Swap,EUR,Tier 1,10341000.0
+BK-0075,Enrich Counterparty,2026-01-23T12:20:00Z,static_data_02,baseline,Rates,Interest Rate Swap,EUR,Tier 1,10341000.0
+BK-0075,Compliance Check,2026-01-23T12:37:00Z,compliance_01,baseline,Rates,Interest Rate Swap,EUR,Tier 1,10341000.0
+BK-0075,Credit Check,2026-01-23T12:47:00Z,credit_01,baseline,Rates,Interest Rate Swap,EUR,Tier 1,10341000.0
+BK-0075,Confirm Booking,2026-01-23T13:03:00Z,confirmations_02,baseline,Rates,Interest Rate Swap,EUR,Tier 1,10341000.0
+BK-0075,Post to Ledger,2026-01-23T13:13:00Z,ledger_bot_01,baseline,Rates,Interest Rate Swap,EUR,Tier 1,10341000.0
+BK-0075,Booking Complete,2026-01-23T13:16:00Z,workflow_bot_01,baseline,Rates,Interest Rate Swap,EUR,Tier 1,10341000.0
+BK-0076,Trade Captured,2026-01-23T14:00:00Z,trader_01,baseline,FX,FX Forward,GBP,Tier 2,34612000.0
+BK-0076,Validate Economics,2026-01-23T14:16:00Z,ops_analyst_02,baseline,FX,FX Forward,GBP,Tier 2,34612000.0
+BK-0076,Enrich Counterparty,2026-01-23T14:25:00Z,static_data_01,baseline,FX,FX Forward,GBP,Tier 2,34612000.0
+BK-0076,Compliance Check,2026-01-23T14:51:00Z,compliance_01,baseline,FX,FX Forward,GBP,Tier 2,34612000.0
+BK-0076,Credit Check,2026-01-23T15:15:00Z,credit_01,baseline,FX,FX Forward,GBP,Tier 2,34612000.0
+BK-0076,Confirm Booking,2026-01-23T15:30:00Z,confirmations_01,baseline,FX,FX Forward,GBP,Tier 2,34612000.0
+BK-0076,Post to Ledger,2026-01-23T15:42:00Z,ledger_bot_01,baseline,FX,FX Forward,GBP,Tier 2,34612000.0
+BK-0076,Booking Complete,2026-01-23T15:44:00Z,workflow_bot_01,baseline,FX,FX Forward,GBP,Tier 2,34612000.0
+BK-0077,Trade Captured,2026-01-26T08:00:00Z,trader_01,baseline,FX,FX Forward,USD,Tier 1,20241000.0
+BK-0077,Validate Economics,2026-01-26T08:10:00Z,ops_analyst_01,baseline,FX,FX Forward,USD,Tier 1,20241000.0
+BK-0077,Enrich Counterparty,2026-01-26T08:18:00Z,static_data_02,baseline,FX,FX Forward,USD,Tier 1,20241000.0
+BK-0077,Compliance Check,2026-01-26T08:34:00Z,compliance_01,baseline,FX,FX Forward,USD,Tier 1,20241000.0
+BK-0077,Credit Check,2026-01-26T08:52:00Z,credit_01,baseline,FX,FX Forward,USD,Tier 1,20241000.0
+BK-0077,Confirm Booking,2026-01-26T09:11:00Z,confirmations_01,baseline,FX,FX Forward,USD,Tier 1,20241000.0
+BK-0077,Post to Ledger,2026-01-26T09:18:00Z,ledger_bot_01,baseline,FX,FX Forward,USD,Tier 1,20241000.0
+BK-0077,Booking Complete,2026-01-26T09:19:00Z,workflow_bot_01,baseline,FX,FX Forward,USD,Tier 1,20241000.0
+BK-0078,Trade Captured,2026-01-26T10:00:00Z,trader_03,baseline,FX,FX Forward,USD,Tier 2,8917000.0
+BK-0078,Validate Economics,2026-01-26T10:17:00Z,ops_analyst_03,baseline,FX,FX Forward,USD,Tier 2,8917000.0
+BK-0078,Enrich Counterparty,2026-01-26T10:28:00Z,static_data_01,baseline,FX,FX Forward,USD,Tier 2,8917000.0
+BK-0078,Compliance Check,2026-01-26T10:40:00Z,compliance_02,baseline,FX,FX Forward,USD,Tier 2,8917000.0
+BK-0078,Credit Check,2026-01-26T10:56:00Z,credit_01,baseline,FX,FX Forward,USD,Tier 2,8917000.0
+BK-0078,Confirm Booking,2026-01-26T11:13:00Z,confirmations_01,baseline,FX,FX Forward,USD,Tier 2,8917000.0
+BK-0078,Post to Ledger,2026-01-26T11:22:00Z,ledger_bot_01,baseline,FX,FX Forward,USD,Tier 2,8917000.0
+BK-0078,Booking Complete,2026-01-26T11:26:00Z,workflow_bot_01,baseline,FX,FX Forward,USD,Tier 2,8917000.0
+BK-0079,Trade Captured,2026-01-26T12:00:00Z,trader_03,baseline,FX,FX Forward,JPY,Tier 1,23321000.0
+BK-0079,Validate Economics,2026-01-26T12:12:00Z,ops_analyst_02,baseline,FX,FX Forward,JPY,Tier 1,23321000.0
+BK-0079,Enrich Counterparty,2026-01-26T12:24:00Z,static_data_01,baseline,FX,FX Forward,JPY,Tier 1,23321000.0
+BK-0079,Compliance Check,2026-01-26T12:47:00Z,compliance_01,baseline,FX,FX Forward,JPY,Tier 1,23321000.0
+BK-0079,Credit Check,2026-01-26T13:07:00Z,credit_01,baseline,FX,FX Forward,JPY,Tier 1,23321000.0
+BK-0079,Confirm Booking,2026-01-26T13:39:00Z,confirmations_02,baseline,FX,FX Forward,JPY,Tier 1,23321000.0
+BK-0079,Post to Ledger,2026-01-26T13:46:00Z,ledger_bot_01,baseline,FX,FX Forward,JPY,Tier 1,23321000.0
+BK-0079,Booking Complete,2026-01-26T13:50:00Z,workflow_bot_01,baseline,FX,FX Forward,JPY,Tier 1,23321000.0
+BK-0080,Trade Captured,2026-01-26T14:00:00Z,trader_01,baseline,Rates,Interest Rate Swap,JPY,Tier 3,19217000.0
+BK-0080,Validate Economics,2026-01-26T14:18:00Z,ops_analyst_02,baseline,Rates,Interest Rate Swap,JPY,Tier 3,19217000.0
+BK-0080,Enrich Counterparty,2026-01-26T14:26:00Z,static_data_01,baseline,Rates,Interest Rate Swap,JPY,Tier 3,19217000.0
+BK-0080,Compliance Check,2026-01-26T14:38:00Z,compliance_02,baseline,Rates,Interest Rate Swap,JPY,Tier 3,19217000.0
+BK-0080,Credit Check,2026-01-26T14:50:00Z,credit_02,baseline,Rates,Interest Rate Swap,JPY,Tier 3,19217000.0
+BK-0080,Confirm Booking,2026-01-26T15:10:00Z,confirmations_01,baseline,Rates,Interest Rate Swap,JPY,Tier 3,19217000.0
+BK-0080,Post to Ledger,2026-01-26T15:23:00Z,ledger_bot_01,baseline,Rates,Interest Rate Swap,JPY,Tier 3,19217000.0
+BK-0080,Booking Complete,2026-01-26T15:26:00Z,workflow_bot_01,baseline,Rates,Interest Rate Swap,JPY,Tier 3,19217000.0
+BK-0081,Trade Captured,2026-01-26T08:00:00Z,trader_02,baseline,Rates,Interest Rate Swap,USD,Tier 1,15629000.0
+BK-0081,Validate Economics,2026-01-26T08:09:00Z,ops_analyst_01,baseline,Rates,Interest Rate Swap,USD,Tier 1,15629000.0
+BK-0081,Enrich Counterparty,2026-01-26T08:21:00Z,static_data_01,baseline,Rates,Interest Rate Swap,USD,Tier 1,15629000.0
+BK-0081,Compliance Check,2026-01-26T08:39:00Z,compliance_02,baseline,Rates,Interest Rate Swap,USD,Tier 1,15629000.0
+BK-0081,Credit Check,2026-01-26T09:01:00Z,credit_02,baseline,Rates,Interest Rate Swap,USD,Tier 1,15629000.0
+BK-0081,Confirm Booking,2026-01-26T09:19:00Z,confirmations_02,baseline,Rates,Interest Rate Swap,USD,Tier 1,15629000.0
+BK-0081,Post to Ledger,2026-01-26T09:28:00Z,ledger_bot_01,baseline,Rates,Interest Rate Swap,USD,Tier 1,15629000.0
+BK-0081,Booking Complete,2026-01-26T09:31:00Z,workflow_bot_01,baseline,Rates,Interest Rate Swap,USD,Tier 1,15629000.0
+BK-0082,Trade Captured,2026-01-26T10:00:00Z,trader_02,baseline,FX,FX Forward,USD,Tier 2,28711000.0
+BK-0082,Validate Economics,2026-01-26T10:07:00Z,ops_analyst_03,baseline,FX,FX Forward,USD,Tier 2,28711000.0
+BK-0082,Amend Booking,2026-01-26T10:17:00Z,ops_analyst_01,baseline,FX,FX Forward,USD,Tier 2,28711000.0
+BK-0082,Validate Economics,2026-01-26T10:29:00Z,ops_analyst_02,baseline,FX,FX Forward,USD,Tier 2,28711000.0
+BK-0082,Enrich Counterparty,2026-01-26T10:40:00Z,static_data_02,baseline,FX,FX Forward,USD,Tier 2,28711000.0
+BK-0082,Compliance Check,2026-01-26T10:55:00Z,compliance_01,baseline,FX,FX Forward,USD,Tier 2,28711000.0
+BK-0082,Credit Check,2026-01-26T11:20:00Z,credit_02,baseline,FX,FX Forward,USD,Tier 2,28711000.0
+BK-0082,Confirm Booking,2026-01-26T11:41:00Z,confirmations_02,baseline,FX,FX Forward,USD,Tier 2,28711000.0
+BK-0082,Post to Ledger,2026-01-26T11:48:00Z,ledger_bot_01,baseline,FX,FX Forward,USD,Tier 2,28711000.0
+BK-0082,Booking Complete,2026-01-26T11:51:00Z,workflow_bot_01,baseline,FX,FX Forward,USD,Tier 2,28711000.0
+BK-0083,Trade Captured,2026-01-26T12:00:00Z,trader_03,baseline,Rates,Interest Rate Swap,EUR,Tier 3,6704000.0
+BK-0083,Validate Economics,2026-01-26T12:09:00Z,ops_analyst_01,baseline,Rates,Interest Rate Swap,EUR,Tier 3,6704000.0
+BK-0083,Enrich Counterparty,2026-01-26T12:19:00Z,static_data_02,baseline,Rates,Interest Rate Swap,EUR,Tier 3,6704000.0
+BK-0083,Compliance Check,2026-01-26T12:26:00Z,compliance_01,baseline,Rates,Interest Rate Swap,EUR,Tier 3,6704000.0
+BK-0083,Credit Check,2026-01-26T12:43:00Z,credit_02,baseline,Rates,Interest Rate Swap,EUR,Tier 3,6704000.0
+BK-0083,Confirm Booking,2026-01-26T13:02:00Z,confirmations_01,baseline,Rates,Interest Rate Swap,EUR,Tier 3,6704000.0
+BK-0083,Post to Ledger,2026-01-26T13:06:00Z,ledger_bot_01,baseline,Rates,Interest Rate Swap,EUR,Tier 3,6704000.0
+BK-0083,Booking Complete,2026-01-26T13:08:00Z,workflow_bot_01,baseline,Rates,Interest Rate Swap,EUR,Tier 3,6704000.0
+BK-0084,Trade Captured,2026-01-26T14:00:00Z,trader_01,baseline,FX,FX Forward,USD,Tier 1,9020000.0
+BK-0084,Validate Economics,2026-01-26T14:13:00Z,ops_analyst_03,baseline,FX,FX Forward,USD,Tier 1,9020000.0
+BK-0084,Enrich Counterparty,2026-01-26T14:25:00Z,static_data_02,baseline,FX,FX Forward,USD,Tier 1,9020000.0
+BK-0084,Compliance Check,2026-01-26T14:39:00Z,compliance_02,baseline,FX,FX Forward,USD,Tier 1,9020000.0
+BK-0084,Credit Check,2026-01-26T14:55:00Z,credit_02,baseline,FX,FX Forward,USD,Tier 1,9020000.0
+BK-0084,Confirm Booking,2026-01-26T15:23:00Z,confirmations_01,baseline,FX,FX Forward,USD,Tier 1,9020000.0
+BK-0084,Post to Ledger,2026-01-26T15:29:00Z,ledger_bot_01,baseline,FX,FX Forward,USD,Tier 1,9020000.0
+BK-0084,Booking Complete,2026-01-26T15:32:00Z,workflow_bot_01,baseline,FX,FX Forward,USD,Tier 1,9020000.0
+BK-0085,Trade Captured,2026-01-26T08:00:00Z,trader_03,baseline,FX,FX Forward,EUR,Tier 1,45154000.0
+BK-0085,Validate Economics,2026-01-26T08:12:00Z,ops_analyst_01,baseline,FX,FX Forward,EUR,Tier 1,45154000.0
+BK-0085,Enrich Counterparty,2026-01-26T08:24:00Z,static_data_01,baseline,FX,FX Forward,EUR,Tier 1,45154000.0
+BK-0085,Compliance Check,2026-01-26T08:35:00Z,compliance_01,baseline,FX,FX Forward,EUR,Tier 1,45154000.0
+BK-0085,Credit Check,2026-01-26T08:53:00Z,credit_01,baseline,FX,FX Forward,EUR,Tier 1,45154000.0
+BK-0085,Confirm Booking,2026-01-26T09:15:00Z,confirmations_01,baseline,FX,FX Forward,EUR,Tier 1,45154000.0
+BK-0085,Post to Ledger,2026-01-26T09:28:00Z,ledger_bot_01,baseline,FX,FX Forward,EUR,Tier 1,45154000.0
+BK-0085,Booking Complete,2026-01-26T09:31:00Z,workflow_bot_01,baseline,FX,FX Forward,EUR,Tier 1,45154000.0
+BK-0086,Trade Captured,2026-01-26T10:00:00Z,trader_02,baseline,Rates,Interest Rate Swap,GBP,Tier 2,12014000.0
+BK-0086,Validate Economics,2026-01-26T10:10:00Z,ops_analyst_01,baseline,Rates,Interest Rate Swap,GBP,Tier 2,12014000.0
+BK-0086,Enrich Counterparty,2026-01-26T10:17:00Z,static_data_01,baseline,Rates,Interest Rate Swap,GBP,Tier 2,12014000.0
+BK-0086,Compliance Check,2026-01-26T10:33:00Z,compliance_02,baseline,Rates,Interest Rate Swap,GBP,Tier 2,12014000.0
+BK-0086,Credit Check,2026-01-26T10:44:00Z,credit_02,baseline,Rates,Interest Rate Swap,GBP,Tier 2,12014000.0
+BK-0086,Confirm Booking,2026-01-26T11:03:00Z,confirmations_01,baseline,Rates,Interest Rate Swap,GBP,Tier 2,12014000.0
+BK-0086,Post to Ledger,2026-01-26T11:10:00Z,ledger_bot_01,baseline,Rates,Interest Rate Swap,GBP,Tier 2,12014000.0
+BK-0086,Booking Complete,2026-01-26T11:14:00Z,workflow_bot_01,baseline,Rates,Interest Rate Swap,GBP,Tier 2,12014000.0
+BK-0087,Trade Captured,2026-01-26T12:00:00Z,trader_03,baseline,Equities,Equity Option,USD,Tier 1,91763000.0
+BK-0087,Validate Economics,2026-01-26T12:10:00Z,ops_analyst_02,baseline,Equities,Equity Option,USD,Tier 1,91763000.0
+BK-0087,Enrich Counterparty,2026-01-26T12:19:00Z,static_data_02,baseline,Equities,Equity Option,USD,Tier 1,91763000.0
+BK-0087,Compliance Check,2026-01-26T12:32:00Z,compliance_01,baseline,Equities,Equity Option,USD,Tier 1,91763000.0
+BK-0087,Credit Check,2026-01-26T12:50:00Z,credit_01,baseline,Equities,Equity Option,USD,Tier 1,91763000.0
+BK-0087,Supervisor Approval,2026-01-26T13:35:00Z,supervisor_02,baseline,Equities,Equity Option,USD,Tier 1,91763000.0
+BK-0087,Confirm Booking,2026-01-26T13:53:00Z,confirmations_02,baseline,Equities,Equity Option,USD,Tier 1,91763000.0
+BK-0087,Post to Ledger,2026-01-26T13:59:00Z,ledger_bot_01,baseline,Equities,Equity Option,USD,Tier 1,91763000.0
+BK-0087,Booking Complete,2026-01-26T14:03:00Z,workflow_bot_01,baseline,Equities,Equity Option,USD,Tier 1,91763000.0
+BK-0088,Trade Captured,2026-01-26T14:00:00Z,trader_01,baseline,Equities,Equity Option,EUR,Tier 2,40704000.0
+BK-0088,Validate Economics,2026-01-26T14:08:00Z,ops_analyst_02,baseline,Equities,Equity Option,EUR,Tier 2,40704000.0
+BK-0088,Enrich Counterparty,2026-01-26T14:19:00Z,static_data_01,baseline,Equities,Equity Option,EUR,Tier 2,40704000.0
+BK-0088,Compliance Check,2026-01-26T14:37:00Z,compliance_01,baseline,Equities,Equity Option,EUR,Tier 2,40704000.0
+BK-0088,Credit Check,2026-01-26T14:52:00Z,credit_02,baseline,Equities,Equity Option,EUR,Tier 2,40704000.0
+BK-0088,Confirm Booking,2026-01-26T15:22:00Z,confirmations_01,baseline,Equities,Equity Option,EUR,Tier 2,40704000.0
+BK-0088,Post to Ledger,2026-01-26T15:26:00Z,ledger_bot_01,baseline,Equities,Equity Option,EUR,Tier 2,40704000.0
+BK-0088,Booking Complete,2026-01-26T15:29:00Z,workflow_bot_01,baseline,Equities,Equity Option,EUR,Tier 2,40704000.0
+BK-0089,Trade Captured,2026-01-27T08:00:00Z,trader_03,baseline,FX,FX Forward,USD,Tier 1,55760000.0
+BK-0089,Validate Economics,2026-01-27T08:13:00Z,ops_analyst_03,baseline,FX,FX Forward,USD,Tier 1,55760000.0
+BK-0089,Amend Booking,2026-01-27T08:28:00Z,ops_analyst_02,baseline,FX,FX Forward,USD,Tier 1,55760000.0
+BK-0089,Validate Economics,2026-01-27T08:46:00Z,ops_analyst_01,baseline,FX,FX Forward,USD,Tier 1,55760000.0
+BK-0089,Enrich Counterparty,2026-01-27T08:57:00Z,static_data_01,baseline,FX,FX Forward,USD,Tier 1,55760000.0
+BK-0089,Compliance Check,2026-01-27T09:06:00Z,compliance_01,baseline,FX,FX Forward,USD,Tier 1,55760000.0
+BK-0089,Credit Check,2026-01-27T09:23:00Z,credit_02,baseline,FX,FX Forward,USD,Tier 1,55760000.0
+BK-0089,Supervisor Approval,2026-01-27T09:56:00Z,supervisor_02,baseline,FX,FX Forward,USD,Tier 1,55760000.0
+BK-0089,Confirm Booking,2026-01-27T10:09:00Z,confirmations_02,baseline,FX,FX Forward,USD,Tier 1,55760000.0
+BK-0089,Post to Ledger,2026-01-27T10:20:00Z,ledger_bot_01,baseline,FX,FX Forward,USD,Tier 1,55760000.0
+BK-0089,Booking Complete,2026-01-27T10:23:00Z,workflow_bot_01,baseline,FX,FX Forward,USD,Tier 1,55760000.0
+BK-0090,Trade Captured,2026-01-27T10:00:00Z,trader_01,baseline,FX,FX Forward,USD,Tier 1,36800000.0
+BK-0090,Validate Economics,2026-01-27T10:12:00Z,ops_analyst_02,baseline,FX,FX Forward,USD,Tier 1,36800000.0
+BK-0090,Enrich Counterparty,2026-01-27T10:24:00Z,static_data_02,baseline,FX,FX Forward,USD,Tier 1,36800000.0
+BK-0090,Compliance Check,2026-01-27T10:52:00Z,compliance_02,baseline,FX,FX Forward,USD,Tier 1,36800000.0
+BK-0090,Credit Check,2026-01-27T11:01:00Z,credit_02,baseline,FX,FX Forward,USD,Tier 1,36800000.0
+BK-0090,Confirm Booking,2026-01-27T11:30:00Z,confirmations_02,baseline,FX,FX Forward,USD,Tier 1,36800000.0
+BK-0090,Post to Ledger,2026-01-27T11:36:00Z,ledger_bot_01,baseline,FX,FX Forward,USD,Tier 1,36800000.0
+BK-0090,Booking Complete,2026-01-27T11:42:00Z,workflow_bot_01,baseline,FX,FX Forward,USD,Tier 1,36800000.0
+BK-0091,Trade Captured,2026-01-27T12:00:00Z,trader_02,baseline,FX,FX Forward,JPY,Tier 1,18570000.0
+BK-0091,Validate Economics,2026-01-27T12:18:00Z,ops_analyst_01,baseline,FX,FX Forward,JPY,Tier 1,18570000.0
+BK-0091,Enrich Counterparty,2026-01-27T12:29:00Z,static_data_01,baseline,FX,FX Forward,JPY,Tier 1,18570000.0
+BK-0091,Compliance Check,2026-01-27T12:48:00Z,compliance_02,baseline,FX,FX Forward,JPY,Tier 1,18570000.0
+BK-0091,Credit Check,2026-01-27T13:06:00Z,credit_02,baseline,FX,FX Forward,JPY,Tier 1,18570000.0
+BK-0091,Confirm Booking,2026-01-27T13:31:00Z,confirmations_02,baseline,FX,FX Forward,JPY,Tier 1,18570000.0
+BK-0091,Post to Ledger,2026-01-27T13:38:00Z,ledger_bot_01,baseline,FX,FX Forward,JPY,Tier 1,18570000.0
+BK-0091,Booking Complete,2026-01-27T13:40:00Z,workflow_bot_01,baseline,FX,FX Forward,JPY,Tier 1,18570000.0
+BK-0092,Trade Captured,2026-01-27T14:00:00Z,trader_01,baseline,FX,FX Forward,EUR,Tier 1,20530000.0
+BK-0092,Validate Economics,2026-01-27T14:08:00Z,ops_analyst_03,baseline,FX,FX Forward,EUR,Tier 1,20530000.0
+BK-0092,Enrich Counterparty,2026-01-27T14:22:00Z,static_data_02,baseline,FX,FX Forward,EUR,Tier 1,20530000.0
+BK-0092,Compliance Check,2026-01-27T14:39:00Z,compliance_01,baseline,FX,FX Forward,EUR,Tier 1,20530000.0
+BK-0092,Credit Check,2026-01-27T14:48:00Z,credit_01,baseline,FX,FX Forward,EUR,Tier 1,20530000.0
+BK-0092,Confirm Booking,2026-01-27T15:07:00Z,confirmations_01,baseline,FX,FX Forward,EUR,Tier 1,20530000.0
+BK-0092,Post to Ledger,2026-01-27T15:16:00Z,ledger_bot_01,baseline,FX,FX Forward,EUR,Tier 1,20530000.0
+BK-0092,Booking Complete,2026-01-27T15:22:00Z,workflow_bot_01,baseline,FX,FX Forward,EUR,Tier 1,20530000.0
+BK-0093,Trade Captured,2026-01-28T08:00:00Z,trader_03,baseline,Rates,Interest Rate Swap,GBP,Tier 1,17121000.0
+BK-0093,Validate Economics,2026-01-28T08:11:00Z,ops_analyst_02,baseline,Rates,Interest Rate Swap,GBP,Tier 1,17121000.0
+BK-0093,Enrich Counterparty,2026-01-28T08:26:00Z,static_data_01,baseline,Rates,Interest Rate Swap,GBP,Tier 1,17121000.0
+BK-0093,Compliance Check,2026-01-28T08:55:00Z,compliance_02,baseline,Rates,Interest Rate Swap,GBP,Tier 1,17121000.0
+BK-0093,Credit Check,2026-01-28T09:09:00Z,credit_01,baseline,Rates,Interest Rate Swap,GBP,Tier 1,17121000.0
+BK-0093,Confirm Booking,2026-01-28T09:31:00Z,confirmations_01,baseline,Rates,Interest Rate Swap,GBP,Tier 1,17121000.0
+BK-0093,Post to Ledger,2026-01-28T09:41:00Z,ledger_bot_01,baseline,Rates,Interest Rate Swap,GBP,Tier 1,17121000.0
+BK-0093,Booking Complete,2026-01-28T09:43:00Z,workflow_bot_01,baseline,Rates,Interest Rate Swap,GBP,Tier 1,17121000.0
+BK-0094,Trade Captured,2026-01-28T10:00:00Z,trader_02,baseline,FX,FX Forward,USD,Tier 2,22526000.0
+BK-0094,Validate Economics,2026-01-28T10:08:00Z,ops_analyst_02,baseline,FX,FX Forward,USD,Tier 2,22526000.0
+BK-0094,Enrich Counterparty,2026-01-28T10:14:00Z,static_data_01,baseline,FX,FX Forward,USD,Tier 2,22526000.0
+BK-0094,Compliance Check,2026-01-28T10:35:00Z,compliance_01,baseline,FX,FX Forward,USD,Tier 2,22526000.0
+BK-0094,Credit Check,2026-01-28T10:49:00Z,credit_01,baseline,FX,FX Forward,USD,Tier 2,22526000.0
+BK-0094,Confirm Booking,2026-01-28T11:08:00Z,confirmations_02,baseline,FX,FX Forward,USD,Tier 2,22526000.0
+BK-0094,Post to Ledger,2026-01-28T11:16:00Z,ledger_bot_01,baseline,FX,FX Forward,USD,Tier 2,22526000.0
+BK-0094,Booking Complete,2026-01-28T11:21:00Z,workflow_bot_01,baseline,FX,FX Forward,USD,Tier 2,22526000.0
+BK-0095,Trade Captured,2026-01-28T12:00:00Z,trader_01,baseline,Equities,Equity Option,USD,Tier 1,30630000.0
+BK-0095,Validate Economics,2026-01-28T12:13:00Z,ops_analyst_03,baseline,Equities,Equity Option,USD,Tier 1,30630000.0
+BK-0095,Enrich Counterparty,2026-01-28T12:25:00Z,static_data_02,baseline,Equities,Equity Option,USD,Tier 1,30630000.0
+BK-0095,Compliance Check,2026-01-28T12:44:00Z,compliance_01,baseline,Equities,Equity Option,USD,Tier 1,30630000.0
+BK-0095,Credit Check,2026-01-28T12:54:00Z,credit_02,baseline,Equities,Equity Option,USD,Tier 1,30630000.0
+BK-0095,Confirm Booking,2026-01-28T13:15:00Z,confirmations_01,baseline,Equities,Equity Option,USD,Tier 1,30630000.0
+BK-0095,Post to Ledger,2026-01-28T13:22:00Z,ledger_bot_01,baseline,Equities,Equity Option,USD,Tier 1,30630000.0
+BK-0095,Booking Complete,2026-01-28T13:25:00Z,workflow_bot_01,baseline,Equities,Equity Option,USD,Tier 1,30630000.0
+BK-0096,Trade Captured,2026-01-28T14:00:00Z,trader_02,baseline,Rates,Interest Rate Swap,EUR,Tier 1,9550000.0
+BK-0096,Validate Economics,2026-01-28T14:15:00Z,ops_analyst_03,baseline,Rates,Interest Rate Swap,EUR,Tier 1,9550000.0
+BK-0096,Enrich Counterparty,2026-01-28T14:22:00Z,static_data_01,baseline,Rates,Interest Rate Swap,EUR,Tier 1,9550000.0
+BK-0096,Compliance Check,2026-01-28T14:35:00Z,compliance_02,baseline,Rates,Interest Rate Swap,EUR,Tier 1,9550000.0
+BK-0096,Credit Check,2026-01-28T14:55:00Z,credit_01,baseline,Rates,Interest Rate Swap,EUR,Tier 1,9550000.0
+BK-0096,Confirm Booking,2026-01-28T15:14:00Z,confirmations_01,baseline,Rates,Interest Rate Swap,EUR,Tier 1,9550000.0
+BK-0096,Post to Ledger,2026-01-28T15:23:00Z,ledger_bot_01,baseline,Rates,Interest Rate Swap,EUR,Tier 1,9550000.0
+BK-0096,Booking Complete,2026-01-28T15:25:00Z,workflow_bot_01,baseline,Rates,Interest Rate Swap,EUR,Tier 1,9550000.0
+BK-0097,Trade Captured,2026-01-29T08:00:00Z,trader_03,baseline,Rates,Interest Rate Swap,USD,Tier 1,22998000.0
+BK-0097,Validate Economics,2026-01-29T08:07:00Z,ops_analyst_01,baseline,Rates,Interest Rate Swap,USD,Tier 1,22998000.0
+BK-0097,Enrich Counterparty,2026-01-29T08:13:00Z,static_data_02,baseline,Rates,Interest Rate Swap,USD,Tier 1,22998000.0
+BK-0097,Compliance Check,2026-01-29T08:25:00Z,compliance_02,baseline,Rates,Interest Rate Swap,USD,Tier 1,22998000.0
+BK-0097,Credit Check,2026-01-29T08:45:00Z,credit_02,baseline,Rates,Interest Rate Swap,USD,Tier 1,22998000.0
+BK-0097,Confirm Booking,2026-01-29T08:57:00Z,confirmations_02,baseline,Rates,Interest Rate Swap,USD,Tier 1,22998000.0
+BK-0097,Post to Ledger,2026-01-29T09:03:00Z,ledger_bot_01,baseline,Rates,Interest Rate Swap,USD,Tier 1,22998000.0
+BK-0097,Booking Complete,2026-01-29T09:04:00Z,workflow_bot_01,baseline,Rates,Interest Rate Swap,USD,Tier 1,22998000.0
+BK-0098,Trade Captured,2026-01-29T10:00:00Z,trader_03,baseline,Equities,Equity Option,JPY,Tier 2,49090000.0
+BK-0098,Validate Economics,2026-01-29T10:07:00Z,ops_analyst_01,baseline,Equities,Equity Option,JPY,Tier 2,49090000.0
+BK-0098,Amend Booking,2026-01-29T10:28:00Z,ops_analyst_02,baseline,Equities,Equity Option,JPY,Tier 2,49090000.0
+BK-0098,Validate Economics,2026-01-29T10:41:00Z,ops_analyst_02,baseline,Equities,Equity Option,JPY,Tier 2,49090000.0
+BK-0098,Enrich Counterparty,2026-01-29T10:54:00Z,static_data_02,baseline,Equities,Equity Option,JPY,Tier 2,49090000.0
+BK-0098,Compliance Check,2026-01-29T11:20:00Z,compliance_02,baseline,Equities,Equity Option,JPY,Tier 2,49090000.0
+BK-0098,Credit Check,2026-01-29T11:31:00Z,credit_01,baseline,Equities,Equity Option,JPY,Tier 2,49090000.0
+BK-0098,Confirm Booking,2026-01-29T11:43:00Z,confirmations_02,baseline,Equities,Equity Option,JPY,Tier 2,49090000.0
+BK-0098,Post to Ledger,2026-01-29T11:49:00Z,ledger_bot_01,baseline,Equities,Equity Option,JPY,Tier 2,49090000.0
+BK-0098,Booking Complete,2026-01-29T11:54:00Z,workflow_bot_01,baseline,Equities,Equity Option,JPY,Tier 2,49090000.0
+BK-0099,Trade Captured,2026-01-29T12:00:00Z,trader_02,baseline,Equities,Equity Option,USD,Tier 1,20202000.0
+BK-0099,Validate Economics,2026-01-29T12:07:00Z,ops_analyst_03,baseline,Equities,Equity Option,USD,Tier 1,20202000.0
+BK-0099,Enrich Counterparty,2026-01-29T12:15:00Z,static_data_02,baseline,Equities,Equity Option,USD,Tier 1,20202000.0
+BK-0099,Compliance Check,2026-01-29T12:32:00Z,compliance_01,baseline,Equities,Equity Option,USD,Tier 1,20202000.0
+BK-0099,Credit Check,2026-01-29T12:41:00Z,credit_02,baseline,Equities,Equity Option,USD,Tier 1,20202000.0
+BK-0099,Confirm Booking,2026-01-29T12:58:00Z,confirmations_01,baseline,Equities,Equity Option,USD,Tier 1,20202000.0
+BK-0099,Post to Ledger,2026-01-29T13:05:00Z,ledger_bot_01,baseline,Equities,Equity Option,USD,Tier 1,20202000.0
+BK-0099,Booking Complete,2026-01-29T13:07:00Z,workflow_bot_01,baseline,Equities,Equity Option,USD,Tier 1,20202000.0
+BK-0100,Trade Captured,2026-01-29T14:00:00Z,trader_03,baseline,Rates,Interest Rate Swap,USD,Tier 1,40098000.0
+BK-0100,Validate Economics,2026-01-29T14:12:00Z,ops_analyst_03,baseline,Rates,Interest Rate Swap,USD,Tier 1,40098000.0
+BK-0100,Enrich Counterparty,2026-01-29T14:20:00Z,static_data_02,baseline,Rates,Interest Rate Swap,USD,Tier 1,40098000.0
+BK-0100,Compliance Check,2026-01-29T14:32:00Z,compliance_02,baseline,Rates,Interest Rate Swap,USD,Tier 1,40098000.0
+BK-0100,Credit Check,2026-01-29T14:44:00Z,credit_01,baseline,Rates,Interest Rate Swap,USD,Tier 1,40098000.0
+BK-0100,Confirm Booking,2026-01-29T15:05:00Z,confirmations_02,baseline,Rates,Interest Rate Swap,USD,Tier 1,40098000.0
+BK-0100,Post to Ledger,2026-01-29T15:15:00Z,ledger_bot_01,baseline,Rates,Interest Rate Swap,USD,Tier 1,40098000.0
+BK-0100,Booking Complete,2026-01-29T15:17:00Z,workflow_bot_01,baseline,Rates,Interest Rate Swap,USD,Tier 1,40098000.0
+BK-0101,Trade Captured,2026-01-30T08:00:00Z,trader_03,baseline,FX,FX Forward,GBP,Tier 2,21645000.0
+BK-0101,Validate Economics,2026-01-30T08:12:00Z,ops_analyst_01,baseline,FX,FX Forward,GBP,Tier 2,21645000.0
+BK-0101,Enrich Counterparty,2026-01-30T08:25:00Z,static_data_01,baseline,FX,FX Forward,GBP,Tier 2,21645000.0
+BK-0101,Compliance Check,2026-01-30T08:42:00Z,compliance_02,baseline,FX,FX Forward,GBP,Tier 2,21645000.0
+BK-0101,Credit Check,2026-01-30T09:02:00Z,credit_02,baseline,FX,FX Forward,GBP,Tier 2,21645000.0
+BK-0101,Confirm Booking,2026-01-30T09:25:00Z,confirmations_02,baseline,FX,FX Forward,GBP,Tier 2,21645000.0
+BK-0101,Post to Ledger,2026-01-30T09:32:00Z,ledger_bot_01,baseline,FX,FX Forward,GBP,Tier 2,21645000.0
+BK-0101,Booking Complete,2026-01-30T09:35:00Z,workflow_bot_01,baseline,FX,FX Forward,GBP,Tier 2,21645000.0
+BK-0102,Trade Captured,2026-01-30T10:00:00Z,trader_02,baseline,Rates,Interest Rate Swap,USD,Tier 1,10441000.0
+BK-0102,Validate Economics,2026-01-30T10:08:00Z,ops_analyst_02,baseline,Rates,Interest Rate Swap,USD,Tier 1,10441000.0
+BK-0102,Enrich Counterparty,2026-01-30T10:18:00Z,static_data_02,baseline,Rates,Interest Rate Swap,USD,Tier 1,10441000.0
+BK-0102,Compliance Check,2026-01-30T10:35:00Z,compliance_02,baseline,Rates,Interest Rate Swap,USD,Tier 1,10441000.0
+BK-0102,Credit Check,2026-01-30T10:51:00Z,credit_02,baseline,Rates,Interest Rate Swap,USD,Tier 1,10441000.0
+BK-0102,Confirm Booking,2026-01-30T11:12:00Z,confirmations_01,baseline,Rates,Interest Rate Swap,USD,Tier 1,10441000.0
+BK-0102,Post to Ledger,2026-01-30T11:24:00Z,ledger_bot_01,baseline,Rates,Interest Rate Swap,USD,Tier 1,10441000.0
+BK-0102,Booking Complete,2026-01-30T11:26:00Z,workflow_bot_01,baseline,Rates,Interest Rate Swap,USD,Tier 1,10441000.0
+BK-0103,Trade Captured,2026-01-30T12:00:00Z,trader_02,baseline,Rates,Interest Rate Swap,USD,Tier 1,7525000.0
+BK-0103,Validate Economics,2026-01-30T12:14:00Z,ops_analyst_02,baseline,Rates,Interest Rate Swap,USD,Tier 1,7525000.0
+BK-0103,Enrich Counterparty,2026-01-30T12:25:00Z,static_data_01,baseline,Rates,Interest Rate Swap,USD,Tier 1,7525000.0
+BK-0103,Compliance Check,2026-01-30T12:38:00Z,compliance_02,baseline,Rates,Interest Rate Swap,USD,Tier 1,7525000.0
+BK-0103,Credit Check,2026-01-30T12:53:00Z,credit_02,baseline,Rates,Interest Rate Swap,USD,Tier 1,7525000.0
+BK-0103,Confirm Booking,2026-01-30T13:13:00Z,confirmations_01,baseline,Rates,Interest Rate Swap,USD,Tier 1,7525000.0
+BK-0103,Post to Ledger,2026-01-30T13:21:00Z,ledger_bot_01,baseline,Rates,Interest Rate Swap,USD,Tier 1,7525000.0
+BK-0103,Booking Complete,2026-01-30T13:23:00Z,workflow_bot_01,baseline,Rates,Interest Rate Swap,USD,Tier 1,7525000.0
+BK-0104,Trade Captured,2026-01-30T14:00:00Z,trader_01,baseline,FX,FX Forward,USD,Tier 2,27869000.0
+BK-0104,Validate Economics,2026-01-30T14:12:00Z,ops_analyst_01,baseline,FX,FX Forward,USD,Tier 2,27869000.0
+BK-0104,Amend Booking,2026-01-30T14:34:00Z,ops_analyst_01,baseline,FX,FX Forward,USD,Tier 2,27869000.0
+BK-0104,Validate Economics,2026-01-30T14:47:00Z,ops_analyst_01,baseline,FX,FX Forward,USD,Tier 2,27869000.0
+BK-0104,Enrich Counterparty,2026-01-30T15:01:00Z,static_data_01,baseline,FX,FX Forward,USD,Tier 2,27869000.0
+BK-0104,Compliance Check,2026-01-30T15:24:00Z,compliance_02,baseline,FX,FX Forward,USD,Tier 2,27869000.0
+BK-0104,Credit Check,2026-01-30T15:40:00Z,credit_02,baseline,FX,FX Forward,USD,Tier 2,27869000.0
+BK-0104,Confirm Booking,2026-01-30T15:54:00Z,confirmations_02,baseline,FX,FX Forward,USD,Tier 2,27869000.0
+BK-0104,Post to Ledger,2026-01-30T16:00:00Z,ledger_bot_01,baseline,FX,FX Forward,USD,Tier 2,27869000.0
+BK-0104,Booking Complete,2026-01-30T16:03:00Z,workflow_bot_01,baseline,FX,FX Forward,USD,Tier 2,27869000.0
+BK-0105,Trade Captured,2026-02-02T08:00:00Z,trader_01,baseline,FX,FX Forward,GBP,Tier 3,5816000.0
+BK-0105,Validate Economics,2026-02-02T08:11:00Z,ops_analyst_03,baseline,FX,FX Forward,GBP,Tier 3,5816000.0
+BK-0105,Enrich Counterparty,2026-02-02T08:18:00Z,static_data_01,baseline,FX,FX Forward,GBP,Tier 3,5816000.0
+BK-0105,Compliance Check,2026-02-02T08:26:00Z,compliance_02,baseline,FX,FX Forward,GBP,Tier 3,5816000.0
+BK-0105,Credit Check,2026-02-02T08:43:00Z,credit_02,baseline,FX,FX Forward,GBP,Tier 3,5816000.0
+BK-0105,Confirm Booking,2026-02-02T09:03:00Z,confirmations_01,baseline,FX,FX Forward,GBP,Tier 3,5816000.0
+BK-0105,Post to Ledger,2026-02-02T09:11:00Z,ledger_bot_01,baseline,FX,FX Forward,GBP,Tier 3,5816000.0
+BK-0105,Booking Complete,2026-02-02T09:15:00Z,workflow_bot_01,baseline,FX,FX Forward,GBP,Tier 3,5816000.0
+BK-0106,Trade Captured,2026-02-02T10:00:00Z,trader_01,baseline,FX,FX Forward,GBP,Tier 3,56778000.0
+BK-0106,Validate Economics,2026-02-02T10:11:00Z,ops_analyst_03,baseline,FX,FX Forward,GBP,Tier 3,56778000.0
+BK-0106,Enrich Counterparty,2026-02-02T10:17:00Z,static_data_01,baseline,FX,FX Forward,GBP,Tier 3,56778000.0
+BK-0106,Compliance Check,2026-02-02T10:26:00Z,compliance_02,baseline,FX,FX Forward,GBP,Tier 3,56778000.0
+BK-0106,Credit Check,2026-02-02T10:43:00Z,credit_02,baseline,FX,FX Forward,GBP,Tier 3,56778000.0
+BK-0106,Supervisor Approval,2026-02-02T11:51:00Z,supervisor_02,baseline,FX,FX Forward,GBP,Tier 3,56778000.0
+BK-0106,Confirm Booking,2026-02-02T12:06:00Z,confirmations_01,baseline,FX,FX Forward,GBP,Tier 3,56778000.0
+BK-0106,Post to Ledger,2026-02-02T12:19:00Z,ledger_bot_01,baseline,FX,FX Forward,GBP,Tier 3,56778000.0
+BK-0106,Booking Complete,2026-02-02T12:23:00Z,workflow_bot_01,baseline,FX,FX Forward,GBP,Tier 3,56778000.0
+BK-0107,Trade Captured,2026-02-02T12:00:00Z,trader_02,baseline,FX,FX Forward,USD,Tier 3,27003000.0
+BK-0107,Validate Economics,2026-02-02T12:12:00Z,ops_analyst_02,baseline,FX,FX Forward,USD,Tier 3,27003000.0
+BK-0107,Enrich Counterparty,2026-02-02T12:22:00Z,static_data_02,baseline,FX,FX Forward,USD,Tier 3,27003000.0
+BK-0107,Compliance Check,2026-02-02T12:39:00Z,compliance_01,baseline,FX,FX Forward,USD,Tier 3,27003000.0
+BK-0107,Credit Check,2026-02-02T12:48:00Z,credit_02,baseline,FX,FX Forward,USD,Tier 3,27003000.0
+BK-0107,Confirm Booking,2026-02-02T13:14:00Z,confirmations_01,baseline,FX,FX Forward,USD,Tier 3,27003000.0
+BK-0107,Post to Ledger,2026-02-02T13:21:00Z,ledger_bot_01,baseline,FX,FX Forward,USD,Tier 3,27003000.0
+BK-0107,Booking Complete,2026-02-02T13:24:00Z,workflow_bot_01,baseline,FX,FX Forward,USD,Tier 3,27003000.0
+BK-0108,Trade Captured,2026-02-02T14:00:00Z,trader_02,baseline,FX,FX Forward,EUR,Tier 2,54916000.0
+BK-0108,Validate Economics,2026-02-02T14:14:00Z,ops_analyst_03,baseline,FX,FX Forward,EUR,Tier 2,54916000.0
+BK-0108,Amend Booking,2026-02-02T14:33:00Z,ops_analyst_03,baseline,FX,FX Forward,EUR,Tier 2,54916000.0
+BK-0108,Validate Economics,2026-02-02T14:45:00Z,ops_analyst_02,baseline,FX,FX Forward,EUR,Tier 2,54916000.0
+BK-0108,Enrich Counterparty,2026-02-02T14:54:00Z,static_data_02,baseline,FX,FX Forward,EUR,Tier 2,54916000.0
+BK-0108,Compliance Check,2026-02-02T15:04:00Z,compliance_02,baseline,FX,FX Forward,EUR,Tier 2,54916000.0
+BK-0108,Credit Check,2026-02-02T15:16:00Z,credit_02,baseline,FX,FX Forward,EUR,Tier 2,54916000.0
+BK-0108,Supervisor Approval,2026-02-02T15:41:00Z,supervisor_02,baseline,FX,FX Forward,EUR,Tier 2,54916000.0
+BK-0108,Confirm Booking,2026-02-02T15:59:00Z,confirmations_02,baseline,FX,FX Forward,EUR,Tier 2,54916000.0
+BK-0108,Post to Ledger,2026-02-02T16:15:00Z,ledger_bot_01,baseline,FX,FX Forward,EUR,Tier 2,54916000.0
+BK-0108,Booking Complete,2026-02-02T16:17:00Z,workflow_bot_01,baseline,FX,FX Forward,EUR,Tier 2,54916000.0
+BK-0109,Trade Captured,2026-02-02T08:00:00Z,trader_03,baseline,FX,FX Forward,JPY,Tier 2,24302000.0
+BK-0109,Validate Economics,2026-02-02T08:20:00Z,ops_analyst_02,baseline,FX,FX Forward,JPY,Tier 2,24302000.0
+BK-0109,Enrich Counterparty,2026-02-02T08:29:00Z,static_data_01,baseline,FX,FX Forward,JPY,Tier 2,24302000.0
+BK-0109,Compliance Check,2026-02-02T08:49:00Z,compliance_02,baseline,FX,FX Forward,JPY,Tier 2,24302000.0
+BK-0109,Credit Check,2026-02-02T09:02:00Z,credit_02,baseline,FX,FX Forward,JPY,Tier 2,24302000.0
+BK-0109,Confirm Booking,2026-02-02T09:13:00Z,confirmations_02,baseline,FX,FX Forward,JPY,Tier 2,24302000.0
+BK-0109,Post to Ledger,2026-02-02T09:23:00Z,ledger_bot_01,baseline,FX,FX Forward,JPY,Tier 2,24302000.0
+BK-0109,Booking Complete,2026-02-02T09:26:00Z,workflow_bot_01,baseline,FX,FX Forward,JPY,Tier 2,24302000.0
+BK-0110,Trade Captured,2026-02-02T10:00:00Z,trader_01,baseline,Equities,Equity Option,JPY,Tier 3,14705000.0
+BK-0110,Validate Economics,2026-02-02T10:16:00Z,ops_analyst_01,baseline,Equities,Equity Option,JPY,Tier 3,14705000.0
+BK-0110,Enrich Counterparty,2026-02-02T10:23:00Z,static_data_01,baseline,Equities,Equity Option,JPY,Tier 3,14705000.0
+BK-0110,Compliance Check,2026-02-02T10:49:00Z,compliance_01,baseline,Equities,Equity Option,JPY,Tier 3,14705000.0
+BK-0110,Credit Check,2026-02-02T11:08:00Z,credit_01,baseline,Equities,Equity Option,JPY,Tier 3,14705000.0
+BK-0110,Confirm Booking,2026-02-02T11:23:00Z,confirmations_01,baseline,Equities,Equity Option,JPY,Tier 3,14705000.0
+BK-0110,Post to Ledger,2026-02-02T11:30:00Z,ledger_bot_01,baseline,Equities,Equity Option,JPY,Tier 3,14705000.0
+BK-0110,Booking Complete,2026-02-02T11:33:00Z,workflow_bot_01,baseline,Equities,Equity Option,JPY,Tier 3,14705000.0
+BK-0111,Trade Captured,2026-02-02T12:00:00Z,trader_02,baseline,Rates,Interest Rate Swap,GBP,Tier 2,18610000.0
+BK-0111,Validate Economics,2026-02-02T12:16:00Z,ops_analyst_02,baseline,Rates,Interest Rate Swap,GBP,Tier 2,18610000.0
+BK-0111,Enrich Counterparty,2026-02-02T12:23:00Z,static_data_01,baseline,Rates,Interest Rate Swap,GBP,Tier 2,18610000.0
+BK-0111,Compliance Check,2026-02-02T12:35:00Z,compliance_01,baseline,Rates,Interest Rate Swap,GBP,Tier 2,18610000.0
+BK-0111,Credit Check,2026-02-02T12:49:00Z,credit_01,baseline,Rates,Interest Rate Swap,GBP,Tier 2,18610000.0
+BK-0111,Confirm Booking,2026-02-02T13:19:00Z,confirmations_01,baseline,Rates,Interest Rate Swap,GBP,Tier 2,18610000.0
+BK-0111,Post to Ledger,2026-02-02T13:28:00Z,ledger_bot_01,baseline,Rates,Interest Rate Swap,GBP,Tier 2,18610000.0
+BK-0111,Booking Complete,2026-02-02T13:30:00Z,workflow_bot_01,baseline,Rates,Interest Rate Swap,GBP,Tier 2,18610000.0
+BK-0112,Trade Captured,2026-02-02T14:00:00Z,trader_03,baseline,Rates,Interest Rate Swap,GBP,Tier 1,27656000.0
+BK-0112,Validate Economics,2026-02-02T14:10:00Z,ops_analyst_01,baseline,Rates,Interest Rate Swap,GBP,Tier 1,27656000.0
+BK-0112,Enrich Counterparty,2026-02-02T14:18:00Z,static_data_01,baseline,Rates,Interest Rate Swap,GBP,Tier 1,27656000.0
+BK-0112,Compliance Check,2026-02-02T14:31:00Z,compliance_01,baseline,Rates,Interest Rate Swap,GBP,Tier 1,27656000.0
+BK-0112,Credit Check,2026-02-02T14:50:00Z,credit_01,baseline,Rates,Interest Rate Swap,GBP,Tier 1,27656000.0
+BK-0112,Confirm Booking,2026-02-02T15:22:00Z,confirmations_02,baseline,Rates,Interest Rate Swap,GBP,Tier 1,27656000.0
+BK-0112,Post to Ledger,2026-02-02T15:37:00Z,ledger_bot_01,baseline,Rates,Interest Rate Swap,GBP,Tier 1,27656000.0
+BK-0112,Booking Complete,2026-02-02T15:39:00Z,workflow_bot_01,baseline,Rates,Interest Rate Swap,GBP,Tier 1,27656000.0
+BK-0113,Trade Captured,2026-02-02T08:00:00Z,trader_03,baseline,FX,FX Forward,EUR,Tier 2,13625000.0
+BK-0113,Validate Economics,2026-02-02T08:12:00Z,ops_analyst_02,baseline,FX,FX Forward,EUR,Tier 2,13625000.0
+BK-0113,Amend Booking,2026-02-02T08:25:00Z,ops_analyst_03,baseline,FX,FX Forward,EUR,Tier 2,13625000.0
+BK-0113,Validate Economics,2026-02-02T08:34:00Z,ops_analyst_01,baseline,FX,FX Forward,EUR,Tier 2,13625000.0
+BK-0113,Enrich Counterparty,2026-02-02T08:56:00Z,static_data_02,baseline,FX,FX Forward,EUR,Tier 2,13625000.0
+BK-0113,Compliance Check,2026-02-02T09:10:00Z,compliance_01,baseline,FX,FX Forward,EUR,Tier 2,13625000.0
+BK-0113,Credit Check,2026-02-02T09:22:00Z,credit_01,baseline,FX,FX Forward,EUR,Tier 2,13625000.0
+BK-0113,Confirm Booking,2026-02-02T09:36:00Z,confirmations_02,baseline,FX,FX Forward,EUR,Tier 2,13625000.0
+BK-0113,Post to Ledger,2026-02-02T09:49:00Z,ledger_bot_01,baseline,FX,FX Forward,EUR,Tier 2,13625000.0
+BK-0113,Booking Complete,2026-02-02T09:53:00Z,workflow_bot_01,baseline,FX,FX Forward,EUR,Tier 2,13625000.0
+BK-0114,Trade Captured,2026-02-02T10:00:00Z,trader_01,baseline,Equities,Equity Option,EUR,Tier 1,9425000.0
+BK-0114,Validate Economics,2026-02-02T10:12:00Z,ops_analyst_01,baseline,Equities,Equity Option,EUR,Tier 1,9425000.0
+BK-0114,Enrich Counterparty,2026-02-02T10:17:00Z,static_data_02,baseline,Equities,Equity Option,EUR,Tier 1,9425000.0
+BK-0114,Compliance Check,2026-02-02T10:35:00Z,compliance_02,baseline,Equities,Equity Option,EUR,Tier 1,9425000.0
+BK-0114,Credit Check,2026-02-02T10:55:00Z,credit_02,baseline,Equities,Equity Option,EUR,Tier 1,9425000.0
+BK-0114,Confirm Booking,2026-02-02T11:08:00Z,confirmations_02,baseline,Equities,Equity Option,EUR,Tier 1,9425000.0
+BK-0114,Post to Ledger,2026-02-02T11:17:00Z,ledger_bot_01,baseline,Equities,Equity Option,EUR,Tier 1,9425000.0
+BK-0114,Booking Complete,2026-02-02T11:21:00Z,workflow_bot_01,baseline,Equities,Equity Option,EUR,Tier 1,9425000.0
+BK-0115,Trade Captured,2026-02-02T12:00:00Z,trader_03,baseline,FX,FX Forward,USD,Tier 1,17443000.0
+BK-0115,Validate Economics,2026-02-02T12:11:00Z,ops_analyst_01,baseline,FX,FX Forward,USD,Tier 1,17443000.0
+BK-0115,Enrich Counterparty,2026-02-02T12:21:00Z,static_data_01,baseline,FX,FX Forward,USD,Tier 1,17443000.0
+BK-0115,Compliance Check,2026-02-02T12:34:00Z,compliance_02,baseline,FX,FX Forward,USD,Tier 1,17443000.0
+BK-0115,Credit Check,2026-02-02T12:48:00Z,credit_01,baseline,FX,FX Forward,USD,Tier 1,17443000.0
+BK-0115,Confirm Booking,2026-02-02T13:06:00Z,confirmations_01,baseline,FX,FX Forward,USD,Tier 1,17443000.0
+BK-0115,Post to Ledger,2026-02-02T13:13:00Z,ledger_bot_01,baseline,FX,FX Forward,USD,Tier 1,17443000.0
+BK-0115,Booking Complete,2026-02-02T13:16:00Z,workflow_bot_01,baseline,FX,FX Forward,USD,Tier 1,17443000.0
+BK-0116,Trade Captured,2026-02-02T14:00:00Z,trader_02,baseline,FX,FX Forward,JPY,Tier 1,22517000.0
+BK-0116,Validate Economics,2026-02-02T14:07:00Z,ops_analyst_03,baseline,FX,FX Forward,JPY,Tier 1,22517000.0
+BK-0116,Enrich Counterparty,2026-02-02T14:18:00Z,static_data_01,baseline,FX,FX Forward,JPY,Tier 1,22517000.0
+BK-0116,Compliance Check,2026-02-02T14:34:00Z,compliance_01,baseline,FX,FX Forward,JPY,Tier 1,22517000.0
+BK-0116,Credit Check,2026-02-02T14:46:00Z,credit_02,baseline,FX,FX Forward,JPY,Tier 1,22517000.0
+BK-0116,Confirm Booking,2026-02-02T15:12:00Z,confirmations_02,baseline,FX,FX Forward,JPY,Tier 1,22517000.0
+BK-0116,Post to Ledger,2026-02-02T15:21:00Z,ledger_bot_01,baseline,FX,FX Forward,JPY,Tier 1,22517000.0
+BK-0116,Booking Complete,2026-02-02T15:24:00Z,workflow_bot_01,baseline,FX,FX Forward,JPY,Tier 1,22517000.0
+BK-0117,Trade Captured,2026-02-03T08:00:00Z,trader_01,baseline,Equities,Equity Option,JPY,Tier 1,35442000.0
+BK-0117,Validate Economics,2026-02-03T08:15:00Z,ops_analyst_01,baseline,Equities,Equity Option,JPY,Tier 1,35442000.0
+BK-0117,Enrich Counterparty,2026-02-03T08:30:00Z,static_data_01,baseline,Equities,Equity Option,JPY,Tier 1,35442000.0
+BK-0117,Compliance Check,2026-02-03T08:44:00Z,compliance_02,baseline,Equities,Equity Option,JPY,Tier 1,35442000.0
+BK-0117,Credit Check,2026-02-03T09:01:00Z,credit_02,baseline,Equities,Equity Option,JPY,Tier 1,35442000.0
+BK-0117,Confirm Booking,2026-02-03T09:16:00Z,confirmations_01,baseline,Equities,Equity Option,JPY,Tier 1,35442000.0
+BK-0117,Post to Ledger,2026-02-03T09:25:00Z,ledger_bot_01,baseline,Equities,Equity Option,JPY,Tier 1,35442000.0
+BK-0117,Booking Complete,2026-02-03T09:29:00Z,workflow_bot_01,baseline,Equities,Equity Option,JPY,Tier 1,35442000.0
+BK-0118,Trade Captured,2026-02-03T10:00:00Z,trader_02,baseline,Rates,Interest Rate Swap,EUR,Tier 1,66234000.0
+BK-0118,Validate Economics,2026-02-03T10:12:00Z,ops_analyst_01,baseline,Rates,Interest Rate Swap,EUR,Tier 1,66234000.0
+BK-0118,Enrich Counterparty,2026-02-03T10:25:00Z,static_data_02,baseline,Rates,Interest Rate Swap,EUR,Tier 1,66234000.0
+BK-0118,Compliance Check,2026-02-03T10:35:00Z,compliance_02,baseline,Rates,Interest Rate Swap,EUR,Tier 1,66234000.0
+BK-0118,Credit Check,2026-02-03T10:43:00Z,credit_01,baseline,Rates,Interest Rate Swap,EUR,Tier 1,66234000.0
+BK-0118,Supervisor Approval,2026-02-03T11:09:00Z,supervisor_02,baseline,Rates,Interest Rate Swap,EUR,Tier 1,66234000.0
+BK-0118,Confirm Booking,2026-02-03T11:27:00Z,confirmations_02,baseline,Rates,Interest Rate Swap,EUR,Tier 1,66234000.0
+BK-0118,Post to Ledger,2026-02-03T11:34:00Z,ledger_bot_01,baseline,Rates,Interest Rate Swap,EUR,Tier 1,66234000.0
+BK-0118,Booking Complete,2026-02-03T11:37:00Z,workflow_bot_01,baseline,Rates,Interest Rate Swap,EUR,Tier 1,66234000.0
+BK-0119,Trade Captured,2026-02-03T12:00:00Z,trader_01,baseline,FX,FX Forward,USD,Tier 1,13008000.0
+BK-0119,Validate Economics,2026-02-03T12:16:00Z,ops_analyst_01,baseline,FX,FX Forward,USD,Tier 1,13008000.0
+BK-0119,Amend Booking,2026-02-03T12:28:00Z,ops_analyst_01,baseline,FX,FX Forward,USD,Tier 1,13008000.0
+BK-0119,Validate Economics,2026-02-03T12:42:00Z,ops_analyst_03,baseline,FX,FX Forward,USD,Tier 1,13008000.0
+BK-0119,Enrich Counterparty,2026-02-03T12:57:00Z,static_data_01,baseline,FX,FX Forward,USD,Tier 1,13008000.0
+BK-0119,Compliance Check,2026-02-03T13:17:00Z,compliance_02,baseline,FX,FX Forward,USD,Tier 1,13008000.0
+BK-0119,Credit Check,2026-02-03T13:32:00Z,credit_02,baseline,FX,FX Forward,USD,Tier 1,13008000.0
+BK-0119,Confirm Booking,2026-02-03T13:51:00Z,confirmations_02,baseline,FX,FX Forward,USD,Tier 1,13008000.0
+BK-0119,Post to Ledger,2026-02-03T13:58:00Z,ledger_bot_01,baseline,FX,FX Forward,USD,Tier 1,13008000.0
+BK-0119,Booking Complete,2026-02-03T14:01:00Z,workflow_bot_01,baseline,FX,FX Forward,USD,Tier 1,13008000.0
+BK-0120,Trade Captured,2026-02-03T14:00:00Z,trader_03,baseline,FX,FX Forward,EUR,Tier 2,8924000.0
+BK-0120,Validate Economics,2026-02-03T14:07:00Z,ops_analyst_02,baseline,FX,FX Forward,EUR,Tier 2,8924000.0
+BK-0120,Enrich Counterparty,2026-02-03T14:24:00Z,static_data_01,baseline,FX,FX Forward,EUR,Tier 2,8924000.0
+BK-0120,Compliance Check,2026-02-03T14:46:00Z,compliance_02,baseline,FX,FX Forward,EUR,Tier 2,8924000.0
+BK-0120,Credit Check,2026-02-03T15:03:00Z,credit_01,baseline,FX,FX Forward,EUR,Tier 2,8924000.0
+BK-0120,Confirm Booking,2026-02-03T15:33:00Z,confirmations_01,baseline,FX,FX Forward,EUR,Tier 2,8924000.0
+BK-0120,Post to Ledger,2026-02-03T15:41:00Z,ledger_bot_01,baseline,FX,FX Forward,EUR,Tier 2,8924000.0
+BK-0120,Booking Complete,2026-02-03T15:43:00Z,workflow_bot_01,baseline,FX,FX Forward,EUR,Tier 2,8924000.0
+BK-0121,Trade Captured,2026-05-04T08:00:00Z,trader_03,monitoring,Rates,Interest Rate Swap,EUR,Tier 2,6777000.0
+BK-0121,Validate Economics,2026-05-04T08:16:00Z,ops_analyst_03,monitoring,Rates,Interest Rate Swap,EUR,Tier 2,6777000.0
+BK-0121,Enrich Counterparty,2026-05-04T08:23:00Z,static_data_01,monitoring,Rates,Interest Rate Swap,EUR,Tier 2,6777000.0
+BK-0121,Compliance Check,2026-05-04T08:31:00Z,compliance_01,monitoring,Rates,Interest Rate Swap,EUR,Tier 2,6777000.0
+BK-0121,Credit Check,2026-05-04T08:43:00Z,credit_01,monitoring,Rates,Interest Rate Swap,EUR,Tier 2,6777000.0
+BK-0121,Confirm Booking,2026-05-04T08:56:00Z,confirmations_01,monitoring,Rates,Interest Rate Swap,EUR,Tier 2,6777000.0
+BK-0121,Post to Ledger,2026-05-04T09:03:00Z,ledger_bot_01,monitoring,Rates,Interest Rate Swap,EUR,Tier 2,6777000.0
+BK-0121,Booking Complete,2026-05-04T09:05:00Z,workflow_bot_01,monitoring,Rates,Interest Rate Swap,EUR,Tier 2,6777000.0
+BK-0122,Trade Captured,2026-05-04T10:00:00Z,trader_02,monitoring,Equities,Equity Option,USD,Tier 3,19826000.0
+BK-0122,Validate Economics,2026-05-04T10:09:00Z,ops_analyst_02,monitoring,Equities,Equity Option,USD,Tier 3,19826000.0
+BK-0122,Enrich Counterparty,2026-05-04T10:19:00Z,static_data_01,monitoring,Equities,Equity Option,USD,Tier 3,19826000.0
+BK-0122,Compliance Check,2026-05-04T10:32:00Z,compliance_01,monitoring,Equities,Equity Option,USD,Tier 3,19826000.0
+BK-0122,Credit Check,2026-05-04T10:43:00Z,credit_02,monitoring,Equities,Equity Option,USD,Tier 3,19826000.0
+BK-0122,Confirm Booking,2026-05-04T11:06:00Z,confirmations_02,monitoring,Equities,Equity Option,USD,Tier 3,19826000.0
+BK-0122,Post to Ledger,2026-05-04T11:10:00Z,ledger_bot_01,monitoring,Equities,Equity Option,USD,Tier 3,19826000.0
+BK-0122,Booking Complete,2026-05-04T11:14:00Z,workflow_bot_01,monitoring,Equities,Equity Option,USD,Tier 3,19826000.0
+BK-0123,Trade Captured,2026-05-04T12:00:00Z,trader_01,monitoring,Rates,Interest Rate Swap,USD,Tier 2,80000000.0
+BK-0123,Validate Economics,2026-05-04T12:09:00Z,ops_analyst_03,monitoring,Rates,Interest Rate Swap,USD,Tier 2,80000000.0
+BK-0123,Enrich Counterparty,2026-05-04T12:15:00Z,static_data_02,monitoring,Rates,Interest Rate Swap,USD,Tier 2,80000000.0
+BK-0123,Credit Check,2026-05-04T12:34:00Z,credit_02,monitoring,Rates,Interest Rate Swap,USD,Tier 2,80000000.0
+BK-0123,Supervisor Approval,2026-05-04T12:59:00Z,supervisor_02,monitoring,Rates,Interest Rate Swap,USD,Tier 2,80000000.0
+BK-0123,Confirm Booking,2026-05-04T13:16:00Z,confirmations_01,monitoring,Rates,Interest Rate Swap,USD,Tier 2,80000000.0
+BK-0123,Post to Ledger,2026-05-04T13:26:00Z,ledger_bot_01,monitoring,Rates,Interest Rate Swap,USD,Tier 2,80000000.0
+BK-0123,Booking Complete,2026-05-04T13:30:00Z,workflow_bot_01,monitoring,Rates,Interest Rate Swap,USD,Tier 2,80000000.0
+BK-0124,Trade Captured,2026-05-04T14:00:00Z,trader_03,monitoring,FX,FX Forward,USD,Tier 3,80000000.0
+BK-0124,Validate Economics,2026-05-04T14:19:00Z,ops_analyst_02,monitoring,FX,FX Forward,USD,Tier 3,80000000.0
+BK-0124,Enrich Counterparty,2026-05-04T14:26:00Z,static_data_01,monitoring,FX,FX Forward,USD,Tier 3,80000000.0
+BK-0124,Credit Check,2026-05-04T14:38:00Z,credit_02,monitoring,FX,FX Forward,USD,Tier 3,80000000.0
+BK-0124,Supervisor Approval,2026-05-04T15:02:00Z,supervisor_02,monitoring,FX,FX Forward,USD,Tier 3,80000000.0
+BK-0124,Confirm Booking,2026-05-04T15:23:00Z,confirmations_01,monitoring,FX,FX Forward,USD,Tier 3,80000000.0
+BK-0124,Post to Ledger,2026-05-04T15:27:00Z,ledger_bot_01,monitoring,FX,FX Forward,USD,Tier 3,80000000.0
+BK-0124,Booking Complete,2026-05-04T15:30:00Z,workflow_bot_01,monitoring,FX,FX Forward,USD,Tier 3,80000000.0
+BK-0125,Trade Captured,2026-05-05T08:00:00Z,trader_03,monitoring,FX,FX Forward,EUR,Tier 1,11371000.0
+BK-0125,Validate Economics,2026-05-05T08:12:00Z,ops_analyst_01,monitoring,FX,FX Forward,EUR,Tier 1,11371000.0
+BK-0125,Enrich Counterparty,2026-05-05T08:18:00Z,static_data_01,monitoring,FX,FX Forward,EUR,Tier 1,11371000.0
+BK-0125,Compliance Check,2026-05-05T08:30:00Z,compliance_02,monitoring,FX,FX Forward,EUR,Tier 1,11371000.0
+BK-0125,Credit Check,2026-05-05T08:41:00Z,credit_02,monitoring,FX,FX Forward,EUR,Tier 1,11371000.0
+BK-0125,Confirm Booking,2026-05-05T09:07:00Z,confirmations_02,monitoring,FX,FX Forward,EUR,Tier 1,11371000.0
+BK-0125,Post to Ledger,2026-05-05T09:14:00Z,ledger_bot_01,monitoring,FX,FX Forward,EUR,Tier 1,11371000.0
+BK-0125,Booking Complete,2026-05-05T09:17:00Z,workflow_bot_01,monitoring,FX,FX Forward,EUR,Tier 1,11371000.0
+BK-0126,Trade Captured,2026-05-05T10:00:00Z,trader_03,monitoring,Equities,Equity Option,EUR,Tier 1,18309000.0
+BK-0126,Validate Economics,2026-05-05T10:14:00Z,ops_analyst_02,monitoring,Equities,Equity Option,EUR,Tier 1,18309000.0
+BK-0126,Enrich Counterparty,2026-05-05T10:24:00Z,static_data_01,monitoring,Equities,Equity Option,EUR,Tier 1,18309000.0
+BK-0126,Compliance Check,2026-05-05T10:37:00Z,compliance_02,monitoring,Equities,Equity Option,EUR,Tier 1,18309000.0
+BK-0126,Credit Check,2026-05-05T10:50:00Z,credit_01,monitoring,Equities,Equity Option,EUR,Tier 1,18309000.0
+BK-0126,Confirm Booking,2026-05-05T11:08:00Z,confirmations_01,monitoring,Equities,Equity Option,EUR,Tier 1,18309000.0
+BK-0126,Post to Ledger,2026-05-05T11:21:00Z,ledger_bot_01,monitoring,Equities,Equity Option,EUR,Tier 1,18309000.0
+BK-0126,Booking Complete,2026-05-05T11:23:00Z,workflow_bot_01,monitoring,Equities,Equity Option,EUR,Tier 1,18309000.0
+BK-0127,Trade Captured,2026-05-05T12:00:00Z,trader_01,monitoring,Rates,Interest Rate Swap,USD,Tier 1,80000000.0
+BK-0127,Validate Economics,2026-05-05T12:13:00Z,ops_analyst_03,monitoring,Rates,Interest Rate Swap,USD,Tier 1,80000000.0
+BK-0127,Enrich Counterparty,2026-05-05T12:23:00Z,static_data_02,monitoring,Rates,Interest Rate Swap,USD,Tier 1,80000000.0
+BK-0127,Compliance Check,2026-05-05T12:37:00Z,compliance_01,monitoring,Rates,Interest Rate Swap,USD,Tier 1,80000000.0
+BK-0127,Credit Check,2026-05-05T12:50:00Z,credit_02,monitoring,Rates,Interest Rate Swap,USD,Tier 1,80000000.0
+BK-0127,Post to Ledger,2026-05-05T12:58:00Z,ledger_bot_01,monitoring,Rates,Interest Rate Swap,USD,Tier 1,80000000.0
+BK-0127,Supervisor Approval,2026-05-05T13:26:00Z,supervisor_02,monitoring,Rates,Interest Rate Swap,USD,Tier 1,80000000.0
+BK-0127,Confirm Booking,2026-05-05T13:40:00Z,confirmations_01,monitoring,Rates,Interest Rate Swap,USD,Tier 1,80000000.0
+BK-0127,Booking Complete,2026-05-05T13:43:00Z,workflow_bot_01,monitoring,Rates,Interest Rate Swap,USD,Tier 1,80000000.0
+BK-0128,Trade Captured,2026-05-05T14:00:00Z,trader_03,monitoring,Equities,Equity Option,USD,Tier 2,23345000.0
+BK-0128,Validate Economics,2026-05-05T14:12:00Z,ops_analyst_03,monitoring,Equities,Equity Option,USD,Tier 2,23345000.0
+BK-0128,Enrich Counterparty,2026-05-05T14:21:00Z,static_data_02,monitoring,Equities,Equity Option,USD,Tier 2,23345000.0
+BK-0128,Compliance Check,2026-05-05T14:34:00Z,compliance_02,monitoring,Equities,Equity Option,USD,Tier 2,23345000.0
+BK-0128,Credit Check,2026-05-05T14:46:00Z,credit_02,monitoring,Equities,Equity Option,USD,Tier 2,23345000.0
+BK-0128,Confirm Booking,2026-05-05T15:07:00Z,confirmations_02,monitoring,Equities,Equity Option,USD,Tier 2,23345000.0
+BK-0128,Post to Ledger,2026-05-05T15:12:00Z,ledger_bot_01,monitoring,Equities,Equity Option,USD,Tier 2,23345000.0
+BK-0128,Booking Complete,2026-05-05T15:16:00Z,workflow_bot_01,monitoring,Equities,Equity Option,USD,Tier 2,23345000.0
+BK-0129,Trade Captured,2026-05-06T08:00:00Z,trader_01,monitoring,FX,FX Forward,USD,Tier 2,34944000.0
+BK-0129,Validate Economics,2026-05-06T08:14:00Z,ops_analyst_03,monitoring,FX,FX Forward,USD,Tier 2,34944000.0
+BK-0129,Enrich Counterparty,2026-05-06T08:24:00Z,static_data_02,monitoring,FX,FX Forward,USD,Tier 2,34944000.0
+BK-0129,Compliance Check,2026-05-06T08:40:00Z,compliance_02,monitoring,FX,FX Forward,USD,Tier 2,34944000.0
+BK-0129,Credit Check,2026-05-06T08:54:00Z,credit_01,monitoring,FX,FX Forward,USD,Tier 2,34944000.0
+BK-0129,Confirm Booking,2026-05-06T09:18:00Z,confirmations_01,monitoring,FX,FX Forward,USD,Tier 2,34944000.0
+BK-0129,Post to Ledger,2026-05-06T09:27:00Z,ledger_bot_01,monitoring,FX,FX Forward,USD,Tier 2,34944000.0
+BK-0129,Booking Complete,2026-05-06T09:30:00Z,workflow_bot_01,monitoring,FX,FX Forward,USD,Tier 2,34944000.0
+BK-0130,Trade Captured,2026-05-06T10:00:00Z,trader_01,monitoring,Equities,Equity Option,USD,Tier 1,8040000.0
+BK-0130,Validate Economics,2026-05-06T10:06:00Z,ops_analyst_01,monitoring,Equities,Equity Option,USD,Tier 1,8040000.0
+BK-0130,Enrich Counterparty,2026-05-06T10:17:00Z,static_data_01,monitoring,Equities,Equity Option,USD,Tier 1,8040000.0
+BK-0130,Compliance Check,2026-05-06T10:39:00Z,compliance_02,monitoring,Equities,Equity Option,USD,Tier 1,8040000.0
+BK-0130,Credit Check,2026-05-06T10:51:00Z,credit_02,monitoring,Equities,Equity Option,USD,Tier 1,8040000.0
+BK-0130,Confirm Booking,2026-05-06T11:09:00Z,confirmations_01,monitoring,Equities,Equity Option,USD,Tier 1,8040000.0
+BK-0130,Post to Ledger,2026-05-06T11:17:00Z,ledger_bot_01,monitoring,Equities,Equity Option,USD,Tier 1,8040000.0
+BK-0130,Booking Complete,2026-05-06T11:21:00Z,workflow_bot_01,monitoring,Equities,Equity Option,USD,Tier 1,8040000.0
+BK-0131,Trade Captured,2026-05-06T12:00:00Z,trader_02,monitoring,Rates,Interest Rate Swap,USD,Tier 2,27260000.0
+BK-0131,Validate Economics,2026-05-06T12:21:00Z,ops_analyst_02,monitoring,Rates,Interest Rate Swap,USD,Tier 2,27260000.0
+BK-0131,Enrich Counterparty,2026-05-06T12:29:00Z,static_data_02,monitoring,Rates,Interest Rate Swap,USD,Tier 2,27260000.0
+BK-0131,Compliance Check,2026-05-06T12:40:00Z,compliance_01,monitoring,Rates,Interest Rate Swap,USD,Tier 2,27260000.0
+BK-0131,Credit Check,2026-05-06T12:57:00Z,credit_01,monitoring,Rates,Interest Rate Swap,USD,Tier 2,27260000.0
+BK-0131,Confirm Booking,2026-05-06T13:18:00Z,confirmations_01,monitoring,Rates,Interest Rate Swap,USD,Tier 2,27260000.0
+BK-0131,Post to Ledger,2026-05-06T13:24:00Z,ledger_bot_01,monitoring,Rates,Interest Rate Swap,USD,Tier 2,27260000.0
+BK-0131,Booking Complete,2026-05-06T13:28:00Z,workflow_bot_01,monitoring,Rates,Interest Rate Swap,USD,Tier 2,27260000.0
+BK-0132,Trade Captured,2026-05-06T14:00:00Z,trader_03,monitoring,Rates,Interest Rate Swap,USD,Tier 1,28770000.0
+BK-0132,Validate Economics,2026-05-06T14:07:00Z,ops_analyst_03,monitoring,Rates,Interest Rate Swap,USD,Tier 1,28770000.0
+BK-0132,Enrich Counterparty,2026-05-06T14:15:00Z,static_data_01,monitoring,Rates,Interest Rate Swap,USD,Tier 1,28770000.0
+BK-0132,Compliance Check,2026-05-06T14:25:00Z,compliance_02,monitoring,Rates,Interest Rate Swap,USD,Tier 1,28770000.0
+BK-0132,Credit Check,2026-05-06T14:48:00Z,credit_02,monitoring,Rates,Interest Rate Swap,USD,Tier 1,28770000.0
+BK-0132,Confirm Booking,2026-05-06T15:10:00Z,confirmations_01,monitoring,Rates,Interest Rate Swap,USD,Tier 1,28770000.0
+BK-0132,Post to Ledger,2026-05-06T15:17:00Z,ledger_bot_01,monitoring,Rates,Interest Rate Swap,USD,Tier 1,28770000.0
+BK-0132,Booking Complete,2026-05-06T15:20:00Z,workflow_bot_01,monitoring,Rates,Interest Rate Swap,USD,Tier 1,28770000.0
+BK-0133,Trade Captured,2026-05-07T08:00:00Z,trader_03,monitoring,Rates,Interest Rate Swap,USD,Tier 3,12000000.0
+BK-0133,Validate Economics,2026-05-07T08:07:00Z,ops_analyst_01,monitoring,Rates,Interest Rate Swap,USD,Tier 3,12000000.0
+BK-0133,Amend Booking,2026-05-07T08:24:00Z,ops_analyst_03,monitoring,Rates,Interest Rate Swap,USD,Tier 3,12000000.0
+BK-0133,Validate Economics,2026-05-07T08:34:00Z,ops_analyst_01,monitoring,Rates,Interest Rate Swap,USD,Tier 3,12000000.0
+BK-0133,Amend Booking,2026-05-07T08:47:00Z,ops_analyst_03,monitoring,Rates,Interest Rate Swap,USD,Tier 3,12000000.0
+BK-0133,Validate Economics,2026-05-07T08:59:00Z,ops_analyst_02,monitoring,Rates,Interest Rate Swap,USD,Tier 3,12000000.0
+BK-0133,Amend Booking,2026-05-07T09:09:00Z,ops_analyst_02,monitoring,Rates,Interest Rate Swap,USD,Tier 3,12000000.0
+BK-0133,Validate Economics,2026-05-07T09:22:00Z,ops_analyst_01,monitoring,Rates,Interest Rate Swap,USD,Tier 3,12000000.0
+BK-0133,Amend Booking,2026-05-07T09:42:00Z,ops_analyst_01,monitoring,Rates,Interest Rate Swap,USD,Tier 3,12000000.0
+BK-0133,Validate Economics,2026-05-07T09:55:00Z,ops_analyst_01,monitoring,Rates,Interest Rate Swap,USD,Tier 3,12000000.0
+BK-0133,Enrich Counterparty,2026-05-07T10:08:00Z,static_data_01,monitoring,Rates,Interest Rate Swap,USD,Tier 3,12000000.0
+BK-0133,Compliance Check,2026-05-07T10:23:00Z,compliance_02,monitoring,Rates,Interest Rate Swap,USD,Tier 3,12000000.0
+BK-0133,Credit Check,2026-05-07T10:35:00Z,credit_02,monitoring,Rates,Interest Rate Swap,USD,Tier 3,12000000.0
+BK-0133,Confirm Booking,2026-05-07T10:58:00Z,confirmations_01,monitoring,Rates,Interest Rate Swap,USD,Tier 3,12000000.0
+BK-0133,Post to Ledger,2026-05-07T11:06:00Z,ledger_bot_01,monitoring,Rates,Interest Rate Swap,USD,Tier 3,12000000.0
+BK-0133,Booking Complete,2026-05-07T11:10:00Z,workflow_bot_01,monitoring,Rates,Interest Rate Swap,USD,Tier 3,12000000.0
+BK-0134,Trade Captured,2026-05-07T10:00:00Z,trader_01,monitoring,Equities,Equity Option,USD,Tier 2,39370000.0
+BK-0134,Validate Economics,2026-05-07T10:07:00Z,ops_analyst_03,monitoring,Equities,Equity Option,USD,Tier 2,39370000.0
+BK-0134,Enrich Counterparty,2026-05-07T10:22:00Z,static_data_01,monitoring,Equities,Equity Option,USD,Tier 2,39370000.0
+BK-0134,Compliance Check,2026-05-07T10:31:00Z,compliance_02,monitoring,Equities,Equity Option,USD,Tier 2,39370000.0
+BK-0134,Credit Check,2026-05-07T10:42:00Z,credit_01,monitoring,Equities,Equity Option,USD,Tier 2,39370000.0
+BK-0134,Confirm Booking,2026-05-07T11:00:00Z,confirmations_01,monitoring,Equities,Equity Option,USD,Tier 2,39370000.0
+BK-0134,Post to Ledger,2026-05-07T11:07:00Z,ledger_bot_01,monitoring,Equities,Equity Option,USD,Tier 2,39370000.0
+BK-0134,Booking Complete,2026-05-07T11:11:00Z,workflow_bot_01,monitoring,Equities,Equity Option,USD,Tier 2,39370000.0
+BK-0135,Trade Captured,2026-05-07T12:00:00Z,trader_02,monitoring,Equities,Equity Option,USD,Tier 1,29292000.0
+BK-0135,Validate Economics,2026-05-07T12:13:00Z,ops_analyst_02,monitoring,Equities,Equity Option,USD,Tier 1,29292000.0
+BK-0135,Amend Booking,2026-05-07T12:34:00Z,ops_analyst_03,monitoring,Equities,Equity Option,USD,Tier 1,29292000.0
+BK-0135,Validate Economics,2026-05-07T12:46:00Z,ops_analyst_02,monitoring,Equities,Equity Option,USD,Tier 1,29292000.0
+BK-0135,Enrich Counterparty,2026-05-07T12:56:00Z,static_data_02,monitoring,Equities,Equity Option,USD,Tier 1,29292000.0
+BK-0135,Compliance Check,2026-05-07T13:15:00Z,compliance_02,monitoring,Equities,Equity Option,USD,Tier 1,29292000.0
+BK-0135,Credit Check,2026-05-07T13:31:00Z,credit_02,monitoring,Equities,Equity Option,USD,Tier 1,29292000.0
+BK-0135,Confirm Booking,2026-05-07T13:47:00Z,confirmations_02,monitoring,Equities,Equity Option,USD,Tier 1,29292000.0
+BK-0135,Post to Ledger,2026-05-07T13:55:00Z,ledger_bot_01,monitoring,Equities,Equity Option,USD,Tier 1,29292000.0
+BK-0135,Booking Complete,2026-05-07T13:58:00Z,workflow_bot_01,monitoring,Equities,Equity Option,USD,Tier 1,29292000.0
+BK-0136,Trade Captured,2026-05-07T14:00:00Z,trader_03,monitoring,FX,FX Forward,USD,Tier 2,30000000.0
+BK-0136,Validate Economics,2026-05-07T14:23:00Z,ops_analyst_01,monitoring,FX,FX Forward,USD,Tier 2,30000000.0
+BK-0136,Enrich Counterparty,2026-05-07T14:32:00Z,static_data_01,monitoring,FX,FX Forward,USD,Tier 2,30000000.0
+BK-0136,Compliance Check,2026-05-07T14:44:00Z,compliance_02,monitoring,FX,FX Forward,USD,Tier 2,30000000.0
+BK-0136,Credit Check,2026-05-07T14:57:00Z,credit_02,monitoring,FX,FX Forward,USD,Tier 2,30000000.0
+BK-0136,Confirm Booking,2026-05-07T15:22:00Z,confirmations_02,monitoring,FX,FX Forward,USD,Tier 2,30000000.0
+BK-0136,Post to Ledger,2026-05-07T15:31:00Z,ledger_bot_01,monitoring,FX,FX Forward,USD,Tier 2,30000000.0
+BK-0136,Booking Complete,2026-05-07T15:35:00Z,workflow_bot_01,monitoring,FX,FX Forward,USD,Tier 2,30000000.0
+BK-0137,Trade Captured,2026-05-08T08:00:00Z,trader_01,monitoring,FX,FX Forward,JPY,Tier 1,29376000.0
+BK-0137,Validate Economics,2026-05-08T08:09:00Z,ops_analyst_01,monitoring,FX,FX Forward,JPY,Tier 1,29376000.0
+BK-0137,Enrich Counterparty,2026-05-08T08:22:00Z,static_data_01,monitoring,FX,FX Forward,JPY,Tier 1,29376000.0
+BK-0137,Compliance Check,2026-05-08T08:38:00Z,compliance_01,monitoring,FX,FX Forward,JPY,Tier 1,29376000.0
+BK-0137,Credit Check,2026-05-08T08:52:00Z,credit_01,monitoring,FX,FX Forward,JPY,Tier 1,29376000.0
+BK-0137,Confirm Booking,2026-05-08T09:08:00Z,confirmations_02,monitoring,FX,FX Forward,JPY,Tier 1,29376000.0
+BK-0137,Post to Ledger,2026-05-08T09:14:00Z,ledger_bot_01,monitoring,FX,FX Forward,JPY,Tier 1,29376000.0
+BK-0137,Booking Complete,2026-05-08T09:17:00Z,workflow_bot_01,monitoring,FX,FX Forward,JPY,Tier 1,29376000.0
+BK-0138,Trade Captured,2026-05-08T10:00:00Z,trader_02,monitoring,FX,FX Forward,USD,Tier 2,36329000.0
+BK-0138,Validate Economics,2026-05-08T10:09:00Z,ops_analyst_01,monitoring,FX,FX Forward,USD,Tier 2,36329000.0
+BK-0138,Enrich Counterparty,2026-05-08T10:23:00Z,static_data_01,monitoring,FX,FX Forward,USD,Tier 2,36329000.0
+BK-0138,Compliance Check,2026-05-08T10:41:00Z,compliance_01,monitoring,FX,FX Forward,USD,Tier 2,36329000.0
+BK-0138,Credit Check,2026-05-08T11:01:00Z,credit_02,monitoring,FX,FX Forward,USD,Tier 2,36329000.0
+BK-0138,Confirm Booking,2026-05-08T11:13:00Z,confirmations_01,monitoring,FX,FX Forward,USD,Tier 2,36329000.0
+BK-0138,Post to Ledger,2026-05-08T11:20:00Z,ledger_bot_01,monitoring,FX,FX Forward,USD,Tier 2,36329000.0
+BK-0138,Booking Complete,2026-05-08T11:23:00Z,workflow_bot_01,monitoring,FX,FX Forward,USD,Tier 2,36329000.0
+BK-0139,Trade Captured,2026-05-08T12:00:00Z,trader_03,monitoring,FX,FX Forward,USD,Tier 1,80000000.0
+BK-0139,Validate Economics,2026-05-08T12:14:00Z,ops_analyst_01,monitoring,FX,FX Forward,USD,Tier 1,80000000.0
+BK-0139,Enrich Counterparty,2026-05-08T12:26:00Z,static_data_02,monitoring,FX,FX Forward,USD,Tier 1,80000000.0
+BK-0139,Credit Check,2026-05-08T12:39:00Z,credit_01,monitoring,FX,FX Forward,USD,Tier 1,80000000.0
+BK-0139,Supervisor Approval,2026-05-08T13:42:00Z,supervisor_02,monitoring,FX,FX Forward,USD,Tier 1,80000000.0
+BK-0139,Confirm Booking,2026-05-08T13:54:00Z,confirmations_02,monitoring,FX,FX Forward,USD,Tier 1,80000000.0
+BK-0139,Post to Ledger,2026-05-08T14:00:00Z,ledger_bot_01,monitoring,FX,FX Forward,USD,Tier 1,80000000.0
+BK-0139,Booking Complete,2026-05-08T14:02:00Z,workflow_bot_01,monitoring,FX,FX Forward,USD,Tier 1,80000000.0
+BK-0140,Trade Captured,2026-05-08T14:00:00Z,trader_02,monitoring,Equities,Equity Option,USD,Tier 1,98759000.0
+BK-0140,Validate Economics,2026-05-08T14:09:00Z,ops_analyst_01,monitoring,Equities,Equity Option,USD,Tier 1,98759000.0
+BK-0140,Enrich Counterparty,2026-05-08T14:17:00Z,static_data_02,monitoring,Equities,Equity Option,USD,Tier 1,98759000.0
+BK-0140,Compliance Check,2026-05-08T14:33:00Z,compliance_01,monitoring,Equities,Equity Option,USD,Tier 1,98759000.0
+BK-0140,Credit Check,2026-05-08T14:41:00Z,credit_02,monitoring,Equities,Equity Option,USD,Tier 1,98759000.0
+BK-0140,Supervisor Approval,2026-05-08T15:16:00Z,supervisor_01,monitoring,Equities,Equity Option,USD,Tier 1,98759000.0
+BK-0140,Confirm Booking,2026-05-08T15:35:00Z,confirmations_01,monitoring,Equities,Equity Option,USD,Tier 1,98759000.0
+BK-0140,Post to Ledger,2026-05-08T15:42:00Z,ledger_bot_01,monitoring,Equities,Equity Option,USD,Tier 1,98759000.0
+BK-0140,Booking Complete,2026-05-08T15:45:00Z,workflow_bot_01,monitoring,Equities,Equity Option,USD,Tier 1,98759000.0
+BK-0141,Trade Captured,2026-05-11T08:00:00Z,trader_02,monitoring,FX,FX Forward,EUR,Tier 3,12000000.0
+BK-0141,Validate Economics,2026-05-11T08:14:00Z,ops_analyst_02,monitoring,FX,FX Forward,EUR,Tier 3,12000000.0
+BK-0141,Enrich Counterparty,2026-05-11T08:23:00Z,static_data_01,monitoring,FX,FX Forward,EUR,Tier 3,12000000.0
+BK-0141,Compliance Check,2026-05-11T08:42:00Z,compliance_02,monitoring,FX,FX Forward,EUR,Tier 3,12000000.0
+BK-0141,Manual Override,2026-05-11T08:49:00Z,override_user_99,monitoring,FX,FX Forward,EUR,Tier 3,12000000.0
+BK-0141,Credit Check,2026-05-11T09:12:00Z,credit_02,monitoring,FX,FX Forward,EUR,Tier 3,12000000.0
+BK-0141,Confirm Booking,2026-05-11T09:28:00Z,confirmations_01,monitoring,FX,FX Forward,EUR,Tier 3,12000000.0
+BK-0141,Post to Ledger,2026-05-11T09:36:00Z,ledger_bot_01,monitoring,FX,FX Forward,EUR,Tier 3,12000000.0
+BK-0141,Booking Complete,2026-05-11T09:39:00Z,workflow_bot_01,monitoring,FX,FX Forward,EUR,Tier 3,12000000.0
+BK-0142,Trade Captured,2026-05-11T10:00:00Z,trader_01,monitoring,Rates,Interest Rate Swap,GBP,Tier 2,12283000.0
+BK-0142,Validate Economics,2026-05-11T10:10:00Z,ops_analyst_02,monitoring,Rates,Interest Rate Swap,GBP,Tier 2,12283000.0
+BK-0142,Enrich Counterparty,2026-05-11T10:21:00Z,static_data_02,monitoring,Rates,Interest Rate Swap,GBP,Tier 2,12283000.0
+BK-0142,Compliance Check,2026-05-11T10:37:00Z,compliance_02,monitoring,Rates,Interest Rate Swap,GBP,Tier 2,12283000.0
+BK-0142,Credit Check,2026-05-11T11:03:00Z,credit_01,monitoring,Rates,Interest Rate Swap,GBP,Tier 2,12283000.0
+BK-0142,Confirm Booking,2026-05-11T11:25:00Z,confirmations_01,monitoring,Rates,Interest Rate Swap,GBP,Tier 2,12283000.0
+BK-0142,Post to Ledger,2026-05-11T11:31:00Z,ledger_bot_01,monitoring,Rates,Interest Rate Swap,GBP,Tier 2,12283000.0
+BK-0142,Booking Complete,2026-05-11T11:33:00Z,workflow_bot_01,monitoring,Rates,Interest Rate Swap,GBP,Tier 2,12283000.0
+BK-0143,Trade Captured,2026-05-11T12:00:00Z,trader_02,monitoring,Rates,Interest Rate Swap,USD,Tier 1,21225000.0
+BK-0143,Validate Economics,2026-05-11T12:09:00Z,ops_analyst_01,monitoring,Rates,Interest Rate Swap,USD,Tier 1,21225000.0
+BK-0143,Enrich Counterparty,2026-05-11T12:23:00Z,static_data_01,monitoring,Rates,Interest Rate Swap,USD,Tier 1,21225000.0
+BK-0143,Compliance Check,2026-05-11T12:35:00Z,compliance_02,monitoring,Rates,Interest Rate Swap,USD,Tier 1,21225000.0
+BK-0143,Credit Check,2026-05-11T12:53:00Z,credit_02,monitoring,Rates,Interest Rate Swap,USD,Tier 1,21225000.0
+BK-0143,Confirm Booking,2026-05-11T13:16:00Z,confirmations_02,monitoring,Rates,Interest Rate Swap,USD,Tier 1,21225000.0
+BK-0143,Post to Ledger,2026-05-11T13:21:00Z,ledger_bot_01,monitoring,Rates,Interest Rate Swap,USD,Tier 1,21225000.0
+BK-0143,Booking Complete,2026-05-11T13:23:00Z,workflow_bot_01,monitoring,Rates,Interest Rate Swap,USD,Tier 1,21225000.0
+BK-0144,Trade Captured,2026-05-11T14:00:00Z,trader_01,monitoring,FX,FX Forward,GBP,Tier 3,12000000.0
+BK-0144,Validate Economics,2026-05-11T14:06:00Z,ops_analyst_03,monitoring,FX,FX Forward,GBP,Tier 3,12000000.0
+BK-0144,Enrich Counterparty,2026-05-11T14:13:00Z,static_data_01,monitoring,FX,FX Forward,GBP,Tier 3,12000000.0
+BK-0144,Compliance Check,2026-05-11T14:29:00Z,compliance_02,monitoring,FX,FX Forward,GBP,Tier 3,12000000.0
+BK-0144,Manual Override,2026-05-11T14:36:00Z,override_user_99,monitoring,FX,FX Forward,GBP,Tier 3,12000000.0
+BK-0144,Credit Check,2026-05-11T14:52:00Z,credit_01,monitoring,FX,FX Forward,GBP,Tier 3,12000000.0
+BK-0144,Confirm Booking,2026-05-11T15:02:00Z,confirmations_02,monitoring,FX,FX Forward,GBP,Tier 3,12000000.0
+BK-0144,Post to Ledger,2026-05-11T15:10:00Z,ledger_bot_01,monitoring,FX,FX Forward,GBP,Tier 3,12000000.0
+BK-0144,Booking Complete,2026-05-11T15:13:00Z,workflow_bot_01,monitoring,FX,FX Forward,GBP,Tier 3,12000000.0
+BK-0145,Trade Captured,2026-05-11T08:00:00Z,trader_01,monitoring,FX,FX Forward,USD,Tier 1,18612000.0
+BK-0145,Validate Economics,2026-05-11T08:11:00Z,ops_analyst_03,monitoring,FX,FX Forward,USD,Tier 1,18612000.0
+BK-0145,Enrich Counterparty,2026-05-11T08:18:00Z,static_data_01,monitoring,FX,FX Forward,USD,Tier 1,18612000.0
+BK-0145,Compliance Check,2026-05-11T08:36:00Z,compliance_02,monitoring,FX,FX Forward,USD,Tier 1,18612000.0
+BK-0145,Credit Check,2026-05-11T08:51:00Z,credit_01,monitoring,FX,FX Forward,USD,Tier 1,18612000.0
+BK-0145,Confirm Booking,2026-05-11T08:59:00Z,confirmations_01,monitoring,FX,FX Forward,USD,Tier 1,18612000.0
+BK-0145,Post to Ledger,2026-05-11T09:13:00Z,ledger_bot_01,monitoring,FX,FX Forward,USD,Tier 1,18612000.0
+BK-0145,Booking Complete,2026-05-11T09:16:00Z,workflow_bot_01,monitoring,FX,FX Forward,USD,Tier 1,18612000.0
+BK-0146,Trade Captured,2026-05-11T10:00:00Z,trader_01,monitoring,Rates,Interest Rate Swap,EUR,Tier 1,50059000.0
+BK-0146,Validate Economics,2026-05-11T10:14:00Z,ops_analyst_01,monitoring,Rates,Interest Rate Swap,EUR,Tier 1,50059000.0
+BK-0146,Amend Booking,2026-05-11T10:36:00Z,ops_analyst_03,monitoring,Rates,Interest Rate Swap,EUR,Tier 1,50059000.0
+BK-0146,Validate Economics,2026-05-11T10:59:00Z,ops_analyst_02,monitoring,Rates,Interest Rate Swap,EUR,Tier 1,50059000.0
+BK-0146,Enrich Counterparty,2026-05-11T11:05:00Z,static_data_02,monitoring,Rates,Interest Rate Swap,EUR,Tier 1,50059000.0
+BK-0146,Compliance Check,2026-05-11T11:22:00Z,compliance_02,monitoring,Rates,Interest Rate Swap,EUR,Tier 1,50059000.0
+BK-0146,Credit Check,2026-05-11T11:42:00Z,credit_01,monitoring,Rates,Interest Rate Swap,EUR,Tier 1,50059000.0
+BK-0146,Supervisor Approval,2026-05-11T12:13:00Z,supervisor_01,monitoring,Rates,Interest Rate Swap,EUR,Tier 1,50059000.0
+BK-0146,Confirm Booking,2026-05-11T12:39:00Z,confirmations_02,monitoring,Rates,Interest Rate Swap,EUR,Tier 1,50059000.0
+BK-0146,Post to Ledger,2026-05-11T12:55:00Z,ledger_bot_01,monitoring,Rates,Interest Rate Swap,EUR,Tier 1,50059000.0
+BK-0146,Booking Complete,2026-05-11T12:57:00Z,workflow_bot_01,monitoring,Rates,Interest Rate Swap,EUR,Tier 1,50059000.0
+BK-0147,Trade Captured,2026-05-11T12:00:00Z,trader_02,monitoring,FX,FX Forward,USD,Tier 1,12000000.0
+BK-0147,Validate Economics,2026-05-11T12:13:00Z,ops_analyst_02,monitoring,FX,FX Forward,USD,Tier 1,12000000.0
+BK-0147,Enrich Counterparty,2026-05-11T12:22:00Z,static_data_02,monitoring,FX,FX Forward,USD,Tier 1,12000000.0
+BK-0147,Compliance Check,2026-05-11T12:37:00Z,compliance_01,monitoring,FX,FX Forward,USD,Tier 1,12000000.0
+BK-0147,Credit Check,2026-05-11T12:57:00Z,credit_01,monitoring,FX,FX Forward,USD,Tier 1,12000000.0
+BK-0147,Confirm Booking,2026-05-14T13:22:00Z,confirmations_01,monitoring,FX,FX Forward,USD,Tier 1,12000000.0
+BK-0147,Post to Ledger,2026-05-14T13:31:00Z,ledger_bot_01,monitoring,FX,FX Forward,USD,Tier 1,12000000.0
+BK-0147,Booking Complete,2026-05-14T13:35:00Z,workflow_bot_01,monitoring,FX,FX Forward,USD,Tier 1,12000000.0
+BK-0148,Trade Captured,2026-05-11T14:00:00Z,trader_01,monitoring,Equities,Equity Option,EUR,Tier 2,12000000.0
+BK-0148,Validate Economics,2026-05-11T14:11:00Z,ops_analyst_02,monitoring,Equities,Equity Option,EUR,Tier 2,12000000.0
+BK-0148,Amend Booking,2026-05-11T14:31:00Z,ops_analyst_02,monitoring,Equities,Equity Option,EUR,Tier 2,12000000.0
+BK-0148,Validate Economics,2026-05-11T14:48:00Z,ops_analyst_01,monitoring,Equities,Equity Option,EUR,Tier 2,12000000.0
+BK-0148,Amend Booking,2026-05-11T15:06:00Z,ops_analyst_03,monitoring,Equities,Equity Option,EUR,Tier 2,12000000.0
+BK-0148,Validate Economics,2026-05-11T15:20:00Z,ops_analyst_02,monitoring,Equities,Equity Option,EUR,Tier 2,12000000.0
+BK-0148,Amend Booking,2026-05-11T15:30:00Z,ops_analyst_01,monitoring,Equities,Equity Option,EUR,Tier 2,12000000.0
+BK-0148,Validate Economics,2026-05-11T15:43:00Z,ops_analyst_02,monitoring,Equities,Equity Option,EUR,Tier 2,12000000.0
+BK-0148,Amend Booking,2026-05-11T16:07:00Z,ops_analyst_03,monitoring,Equities,Equity Option,EUR,Tier 2,12000000.0
+BK-0148,Validate Economics,2026-05-11T16:15:00Z,ops_analyst_03,monitoring,Equities,Equity Option,EUR,Tier 2,12000000.0
+BK-0148,Enrich Counterparty,2026-05-11T16:26:00Z,static_data_02,monitoring,Equities,Equity Option,EUR,Tier 2,12000000.0
+BK-0148,Compliance Check,2026-05-11T16:39:00Z,compliance_01,monitoring,Equities,Equity Option,EUR,Tier 2,12000000.0
+BK-0148,Credit Check,2026-05-11T16:53:00Z,credit_01,monitoring,Equities,Equity Option,EUR,Tier 2,12000000.0
+BK-0148,Confirm Booking,2026-05-11T17:18:00Z,confirmations_02,monitoring,Equities,Equity Option,EUR,Tier 2,12000000.0
+BK-0148,Post to Ledger,2026-05-11T17:29:00Z,ledger_bot_01,monitoring,Equities,Equity Option,EUR,Tier 2,12000000.0
+BK-0148,Booking Complete,2026-05-11T17:33:00Z,workflow_bot_01,monitoring,Equities,Equity Option,EUR,Tier 2,12000000.0
+BK-0149,Trade Captured,2026-05-11T08:00:00Z,trader_01,monitoring,Rates,Interest Rate Swap,GBP,Tier 1,80000000.0
+BK-0149,Validate Economics,2026-05-11T08:11:00Z,ops_analyst_03,monitoring,Rates,Interest Rate Swap,GBP,Tier 1,80000000.0
+BK-0149,Enrich Counterparty,2026-05-11T08:19:00Z,static_data_02,monitoring,Rates,Interest Rate Swap,GBP,Tier 1,80000000.0
+BK-0149,Compliance Check,2026-05-11T08:38:00Z,compliance_01,monitoring,Rates,Interest Rate Swap,GBP,Tier 1,80000000.0
+BK-0149,Credit Check,2026-05-11T08:55:00Z,credit_01,monitoring,Rates,Interest Rate Swap,GBP,Tier 1,80000000.0
+BK-0149,Post to Ledger,2026-05-11T09:03:00Z,ledger_bot_01,monitoring,Rates,Interest Rate Swap,GBP,Tier 1,80000000.0
+BK-0149,Supervisor Approval,2026-05-11T09:40:00Z,supervisor_02,monitoring,Rates,Interest Rate Swap,GBP,Tier 1,80000000.0
+BK-0149,Confirm Booking,2026-05-11T09:54:00Z,confirmations_01,monitoring,Rates,Interest Rate Swap,GBP,Tier 1,80000000.0
+BK-0149,Booking Complete,2026-05-11T09:57:00Z,workflow_bot_01,monitoring,Rates,Interest Rate Swap,GBP,Tier 1,80000000.0
+BK-0150,Trade Captured,2026-05-11T10:00:00Z,trader_01,monitoring,FX,FX Forward,USD,Tier 3,12000000.0
+BK-0150,Validate Economics,2026-05-11T10:11:00Z,ops_analyst_01,monitoring,FX,FX Forward,USD,Tier 3,12000000.0
+BK-0150,Enrich Counterparty,2026-05-11T10:31:00Z,static_data_02,monitoring,FX,FX Forward,USD,Tier 3,12000000.0
+BK-0150,Compliance Check,2026-05-11T10:54:00Z,compliance_01,monitoring,FX,FX Forward,USD,Tier 3,12000000.0
+BK-0150,Credit Check,2026-05-11T11:07:00Z,credit_01,monitoring,FX,FX Forward,USD,Tier 3,12000000.0
+BK-0150,Confirm Booking,2026-05-14T11:23:00Z,confirmations_02,monitoring,FX,FX Forward,USD,Tier 3,12000000.0
+BK-0150,Post to Ledger,2026-05-14T11:29:00Z,ledger_bot_01,monitoring,FX,FX Forward,USD,Tier 3,12000000.0
+BK-0150,Booking Complete,2026-05-14T11:32:00Z,workflow_bot_01,monitoring,FX,FX Forward,USD,Tier 3,12000000.0
+BK-0151,Trade Captured,2026-05-11T12:00:00Z,trader_03,monitoring,Rates,Interest Rate Swap,USD,Tier 3,3508000.0
+BK-0151,Validate Economics,2026-05-11T12:10:00Z,ops_analyst_03,monitoring,Rates,Interest Rate Swap,USD,Tier 3,3508000.0
+BK-0151,Amend Booking,2026-05-11T12:28:00Z,ops_analyst_02,monitoring,Rates,Interest Rate Swap,USD,Tier 3,3508000.0
+BK-0151,Validate Economics,2026-05-11T12:39:00Z,ops_analyst_03,monitoring,Rates,Interest Rate Swap,USD,Tier 3,3508000.0
+BK-0151,Enrich Counterparty,2026-05-11T12:46:00Z,static_data_02,monitoring,Rates,Interest Rate Swap,USD,Tier 3,3508000.0
+BK-0151,Compliance Check,2026-05-11T12:59:00Z,compliance_02,monitoring,Rates,Interest Rate Swap,USD,Tier 3,3508000.0
+BK-0151,Credit Check,2026-05-11T13:11:00Z,credit_02,monitoring,Rates,Interest Rate Swap,USD,Tier 3,3508000.0
+BK-0151,Confirm Booking,2026-05-11T13:24:00Z,confirmations_01,monitoring,Rates,Interest Rate Swap,USD,Tier 3,3508000.0
+BK-0151,Post to Ledger,2026-05-11T13:35:00Z,ledger_bot_01,monitoring,Rates,Interest Rate Swap,USD,Tier 3,3508000.0
+BK-0151,Booking Complete,2026-05-11T13:38:00Z,workflow_bot_01,monitoring,Rates,Interest Rate Swap,USD,Tier 3,3508000.0
+BK-0152,Trade Captured,2026-05-11T14:00:00Z,trader_02,monitoring,Equities,Equity Option,USD,Tier 1,12000000.0
+BK-0152,Validate Economics,2026-05-11T14:09:00Z,ops_analyst_01,monitoring,Equities,Equity Option,USD,Tier 1,12000000.0
+BK-0152,Amend Booking,2026-05-11T14:26:00Z,ops_analyst_01,monitoring,Equities,Equity Option,USD,Tier 1,12000000.0
+BK-0152,Validate Economics,2026-05-11T14:36:00Z,ops_analyst_03,monitoring,Equities,Equity Option,USD,Tier 1,12000000.0
+BK-0152,Amend Booking,2026-05-11T14:52:00Z,ops_analyst_02,monitoring,Equities,Equity Option,USD,Tier 1,12000000.0
+BK-0152,Validate Economics,2026-05-11T15:08:00Z,ops_analyst_01,monitoring,Equities,Equity Option,USD,Tier 1,12000000.0
+BK-0152,Amend Booking,2026-05-11T15:23:00Z,ops_analyst_02,monitoring,Equities,Equity Option,USD,Tier 1,12000000.0
+BK-0152,Validate Economics,2026-05-11T15:32:00Z,ops_analyst_03,monitoring,Equities,Equity Option,USD,Tier 1,12000000.0
+BK-0152,Amend Booking,2026-05-11T15:52:00Z,ops_analyst_01,monitoring,Equities,Equity Option,USD,Tier 1,12000000.0
+BK-0152,Validate Economics,2026-05-11T16:03:00Z,ops_analyst_03,monitoring,Equities,Equity Option,USD,Tier 1,12000000.0
+BK-0152,Enrich Counterparty,2026-05-11T16:12:00Z,static_data_02,monitoring,Equities,Equity Option,USD,Tier 1,12000000.0
+BK-0152,Compliance Check,2026-05-11T16:24:00Z,compliance_01,monitoring,Equities,Equity Option,USD,Tier 1,12000000.0
+BK-0152,Credit Check,2026-05-11T16:33:00Z,credit_02,monitoring,Equities,Equity Option,USD,Tier 1,12000000.0
+BK-0152,Confirm Booking,2026-05-11T16:46:00Z,confirmations_02,monitoring,Equities,Equity Option,USD,Tier 1,12000000.0
+BK-0152,Post to Ledger,2026-05-11T16:58:00Z,ledger_bot_01,monitoring,Equities,Equity Option,USD,Tier 1,12000000.0
+BK-0152,Booking Complete,2026-05-11T17:00:00Z,workflow_bot_01,monitoring,Equities,Equity Option,USD,Tier 1,12000000.0
+BK-0153,Trade Captured,2026-05-12T08:00:00Z,trader_03,monitoring,FX,FX Forward,USD,Tier 3,5412000.0
+BK-0153,Validate Economics,2026-05-12T08:19:00Z,ops_analyst_01,monitoring,FX,FX Forward,USD,Tier 3,5412000.0
+BK-0153,Enrich Counterparty,2026-05-12T08:29:00Z,static_data_01,monitoring,FX,FX Forward,USD,Tier 3,5412000.0
+BK-0153,Compliance Check,2026-05-12T08:50:00Z,compliance_01,monitoring,FX,FX Forward,USD,Tier 3,5412000.0
+BK-0153,Credit Check,2026-05-12T09:02:00Z,credit_01,monitoring,FX,FX Forward,USD,Tier 3,5412000.0
+BK-0153,Confirm Booking,2026-05-12T09:22:00Z,confirmations_02,monitoring,FX,FX Forward,USD,Tier 3,5412000.0
+BK-0153,Post to Ledger,2026-05-12T09:27:00Z,ledger_bot_01,monitoring,FX,FX Forward,USD,Tier 3,5412000.0
+BK-0153,Booking Complete,2026-05-12T09:31:00Z,workflow_bot_01,monitoring,FX,FX Forward,USD,Tier 3,5412000.0
+BK-0154,Trade Captured,2026-05-12T10:00:00Z,trader_01,monitoring,Equities,Equity Option,USD,Tier 2,10654000.0
+BK-0154,Validate Economics,2026-05-12T10:08:00Z,ops_analyst_03,monitoring,Equities,Equity Option,USD,Tier 2,10654000.0
+BK-0154,Amend Booking,2026-05-12T10:27:00Z,ops_analyst_03,monitoring,Equities,Equity Option,USD,Tier 2,10654000.0
+BK-0154,Validate Economics,2026-05-12T10:43:00Z,ops_analyst_03,monitoring,Equities,Equity Option,USD,Tier 2,10654000.0
+BK-0154,Enrich Counterparty,2026-05-12T10:53:00Z,static_data_02,monitoring,Equities,Equity Option,USD,Tier 2,10654000.0
+BK-0154,Compliance Check,2026-05-12T11:11:00Z,compliance_02,monitoring,Equities,Equity Option,USD,Tier 2,10654000.0
+BK-0154,Credit Check,2026-05-12T11:28:00Z,credit_02,monitoring,Equities,Equity Option,USD,Tier 2,10654000.0
+BK-0154,Confirm Booking,2026-05-12T11:53:00Z,confirmations_02,monitoring,Equities,Equity Option,USD,Tier 2,10654000.0
+BK-0154,Post to Ledger,2026-05-12T12:00:00Z,ledger_bot_01,monitoring,Equities,Equity Option,USD,Tier 2,10654000.0
+BK-0154,Booking Complete,2026-05-12T12:03:00Z,workflow_bot_01,monitoring,Equities,Equity Option,USD,Tier 2,10654000.0
+BK-0155,Trade Captured,2026-05-12T12:00:00Z,trader_02,monitoring,Equities,Equity Option,GBP,Tier 1,16153000.0
+BK-0155,Validate Economics,2026-05-12T12:10:00Z,ops_analyst_01,monitoring,Equities,Equity Option,GBP,Tier 1,16153000.0
+BK-0155,Enrich Counterparty,2026-05-12T12:20:00Z,static_data_02,monitoring,Equities,Equity Option,GBP,Tier 1,16153000.0
+BK-0155,Compliance Check,2026-05-12T12:40:00Z,compliance_02,monitoring,Equities,Equity Option,GBP,Tier 1,16153000.0
+BK-0155,Credit Check,2026-05-12T12:48:00Z,credit_01,monitoring,Equities,Equity Option,GBP,Tier 1,16153000.0
+BK-0155,Confirm Booking,2026-05-12T13:00:00Z,confirmations_02,monitoring,Equities,Equity Option,GBP,Tier 1,16153000.0
+BK-0155,Post to Ledger,2026-05-12T13:06:00Z,ledger_bot_01,monitoring,Equities,Equity Option,GBP,Tier 1,16153000.0
+BK-0155,Booking Complete,2026-05-12T13:09:00Z,workflow_bot_01,monitoring,Equities,Equity Option,GBP,Tier 1,16153000.0
+BK-0156,Trade Captured,2026-05-12T14:00:00Z,trader_01,monitoring,FX,FX Forward,EUR,Tier 1,12000000.0
+BK-0156,Validate Economics,2026-05-12T14:14:00Z,ops_analyst_03,monitoring,FX,FX Forward,EUR,Tier 1,12000000.0
+BK-0156,Enrich Counterparty,2026-05-12T14:23:00Z,static_data_02,monitoring,FX,FX Forward,EUR,Tier 1,12000000.0
+BK-0156,Compliance Check,2026-05-12T14:36:00Z,compliance_02,monitoring,FX,FX Forward,EUR,Tier 1,12000000.0
+BK-0156,Credit Check,2026-05-12T14:52:00Z,credit_02,monitoring,FX,FX Forward,EUR,Tier 1,12000000.0
+BK-0156,Confirm Booking,2026-05-15T15:08:00Z,confirmations_01,monitoring,FX,FX Forward,EUR,Tier 1,12000000.0
+BK-0156,Post to Ledger,2026-05-15T15:13:00Z,ledger_bot_01,monitoring,FX,FX Forward,EUR,Tier 1,12000000.0
+BK-0156,Booking Complete,2026-05-15T15:16:00Z,workflow_bot_01,monitoring,FX,FX Forward,EUR,Tier 1,12000000.0
+BK-0157,Trade Captured,2026-05-13T08:00:00Z,trader_02,monitoring,Rates,Interest Rate Swap,USD,Tier 3,12000000.0
+BK-0157,Validate Economics,2026-05-13T08:12:00Z,ops_analyst_01,monitoring,Rates,Interest Rate Swap,USD,Tier 3,12000000.0
+BK-0157,Enrich Counterparty,2026-05-13T08:22:00Z,static_data_01,monitoring,Rates,Interest Rate Swap,USD,Tier 3,12000000.0
+BK-0157,Compliance Check,2026-05-13T08:37:00Z,compliance_01,monitoring,Rates,Interest Rate Swap,USD,Tier 3,12000000.0
+BK-0157,Manual Override,2026-05-13T08:44:00Z,override_user_99,monitoring,Rates,Interest Rate Swap,USD,Tier 3,12000000.0
+BK-0157,Credit Check,2026-05-13T08:58:00Z,credit_01,monitoring,Rates,Interest Rate Swap,USD,Tier 3,12000000.0
+BK-0157,Confirm Booking,2026-05-13T09:23:00Z,confirmations_01,monitoring,Rates,Interest Rate Swap,USD,Tier 3,12000000.0
+BK-0157,Post to Ledger,2026-05-13T09:33:00Z,ledger_bot_01,monitoring,Rates,Interest Rate Swap,USD,Tier 3,12000000.0
+BK-0157,Booking Complete,2026-05-13T09:35:00Z,workflow_bot_01,monitoring,Rates,Interest Rate Swap,USD,Tier 3,12000000.0
+BK-0158,Trade Captured,2026-05-13T10:00:00Z,trader_01,monitoring,Rates,Interest Rate Swap,EUR,Tier 2,4221000.0
+BK-0158,Validate Economics,2026-05-13T10:17:00Z,ops_analyst_03,monitoring,Rates,Interest Rate Swap,EUR,Tier 2,4221000.0
+BK-0158,Enrich Counterparty,2026-05-13T10:28:00Z,static_data_01,monitoring,Rates,Interest Rate Swap,EUR,Tier 2,4221000.0
+BK-0158,Compliance Check,2026-05-13T10:48:00Z,compliance_02,monitoring,Rates,Interest Rate Swap,EUR,Tier 2,4221000.0
+BK-0158,Credit Check,2026-05-13T11:08:00Z,credit_01,monitoring,Rates,Interest Rate Swap,EUR,Tier 2,4221000.0
+BK-0158,Confirm Booking,2026-05-13T11:34:00Z,confirmations_01,monitoring,Rates,Interest Rate Swap,EUR,Tier 2,4221000.0
+BK-0158,Post to Ledger,2026-05-13T11:43:00Z,ledger_bot_01,monitoring,Rates,Interest Rate Swap,EUR,Tier 2,4221000.0
+BK-0158,Booking Complete,2026-05-13T11:47:00Z,workflow_bot_01,monitoring,Rates,Interest Rate Swap,EUR,Tier 2,4221000.0
+BK-0159,Trade Captured,2026-05-13T12:00:00Z,trader_03,monitoring,FX,FX Forward,USD,Tier 1,80000000.0
+BK-0159,Validate Economics,2026-05-13T12:12:00Z,ops_analyst_02,monitoring,FX,FX Forward,USD,Tier 1,80000000.0
+BK-0159,Enrich Counterparty,2026-05-13T12:22:00Z,static_data_02,monitoring,FX,FX Forward,USD,Tier 1,80000000.0
+BK-0159,Compliance Check,2026-05-13T12:44:00Z,compliance_01,monitoring,FX,FX Forward,USD,Tier 1,80000000.0
+BK-0159,Credit Check,2026-05-13T12:53:00Z,credit_02,monitoring,FX,FX Forward,USD,Tier 1,80000000.0
+BK-0159,Post to Ledger,2026-05-13T13:01:00Z,ledger_bot_01,monitoring,FX,FX Forward,USD,Tier 1,80000000.0
+BK-0159,Supervisor Approval,2026-05-13T13:59:00Z,supervisor_02,monitoring,FX,FX Forward,USD,Tier 1,80000000.0
+BK-0159,Confirm Booking,2026-05-13T14:22:00Z,confirmations_01,monitoring,FX,FX Forward,USD,Tier 1,80000000.0
+BK-0159,Booking Complete,2026-05-13T14:25:00Z,workflow_bot_01,monitoring,FX,FX Forward,USD,Tier 1,80000000.0
+BK-0160,Trade Captured,2026-05-13T14:00:00Z,trader_03,monitoring,Equities,Equity Option,USD,Tier 1,20738000.0
+BK-0160,Validate Economics,2026-05-13T14:10:00Z,ops_analyst_02,monitoring,Equities,Equity Option,USD,Tier 1,20738000.0
+BK-0160,Enrich Counterparty,2026-05-13T14:24:00Z,static_data_01,monitoring,Equities,Equity Option,USD,Tier 1,20738000.0
+BK-0160,Compliance Check,2026-05-13T14:40:00Z,compliance_01,monitoring,Equities,Equity Option,USD,Tier 1,20738000.0
+BK-0160,Credit Check,2026-05-13T14:55:00Z,credit_02,monitoring,Equities,Equity Option,USD,Tier 1,20738000.0
+BK-0160,Confirm Booking,2026-05-13T15:22:00Z,confirmations_02,monitoring,Equities,Equity Option,USD,Tier 1,20738000.0
+BK-0160,Post to Ledger,2026-05-13T15:28:00Z,ledger_bot_01,monitoring,Equities,Equity Option,USD,Tier 1,20738000.0
+BK-0160,Booking Complete,2026-05-13T15:30:00Z,workflow_bot_01,monitoring,Equities,Equity Option,USD,Tier 1,20738000.0

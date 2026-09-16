@@ -1,0 +1,16 @@
+case:concept:name,planted_anomaly,rationale
+BK-0123,skipped_compliance,The mandatory Compliance Check activity is absent.
+BK-0124,skipped_compliance,The mandatory Compliance Check activity is absent.
+BK-0127,premature_ledger_posting,The trade is posted before supervisor approval and confirmation.
+BK-0133,excessive_rework,The booking cycles through amendment and validation four times.
+BK-0139,skipped_compliance,The mandatory Compliance Check activity is absent.
+BK-0141,unauthorized_manual_override,An unapproved Manual Override activity appears in the trace.
+BK-0144,unauthorized_manual_override,An unapproved Manual Override activity appears in the trace.
+BK-0147,extreme_delay,A 72-hour delay occurs before confirmation.
+BK-0148,excessive_rework,The booking cycles through amendment and validation four times.
+BK-0149,premature_ledger_posting,The trade is posted before supervisor approval and confirmation.
+BK-0150,extreme_delay,A 72-hour delay occurs before confirmation.
+BK-0152,excessive_rework,The booking cycles through amendment and validation four times.
+BK-0156,extreme_delay,A 72-hour delay occurs before confirmation.
+BK-0157,unauthorized_manual_override,An unapproved Manual Override activity appears in the trace.
+BK-0159,premature_ledger_posting,The trade is posted before supervisor approval and confirmation.
