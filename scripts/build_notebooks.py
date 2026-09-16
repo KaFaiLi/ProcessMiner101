@@ -349,27 +349,64 @@ def build_notebook(solved: bool):
                     graph.add_edge(source, target, weight=metric_value(value))
                 process_positions = {
                     "Trade Captured": (0, 0),
-                    "Validate Economics": (1, 0),
-                    "Amend Booking": (1, 1),
-                    "Enrich Counterparty": (2, 0),
-                    "Compliance Check": (3, 0),
-                    "Manual Override": (3.5, 1),
-                    "Credit Check": (4, 0),
-                    "Supervisor Approval": (5, 1),
-                    "Confirm Booking": (5, 0),
-                    "Post to Ledger": (6, 0),
-                    "Booking Complete": (7, 0),
+                    "Validate Economics": (2.5, 0),
+                    "Amend Booking": (2.5, 2.8),
+                    "Enrich Counterparty": (5, 0),
+                    "Compliance Check": (7.5, 0),
+                    "Manual Override": (8.8, 2.8),
+                    "Credit Check": (10, 0),
+                    "Supervisor Approval": (12.5, 2.8),
+                    "Confirm Booking": (12.5, 0),
+                    "Post to Ledger": (15, 0),
+                    "Booking Complete": (17.5, 0),
                 }
                 positions = {
-                    node: process_positions.get(node, (index, -1))
+                    node: process_positions.get(node, (index * 2.5, -2.5))
                     for index, node in enumerate(graph.nodes)
                 }
-                plt.figure(figsize=(15, 5.5))
-                nx.draw_networkx(
-                    graph, positions, node_color="#dbeafe", edge_color="#64748b",
-                    node_size=2300, font_size=8, arrowsize=18,
+                display_labels = {
+                    "Trade Captured": "Trade\\nCaptured",
+                    "Validate Economics": "Validate\\nEconomics",
+                    "Amend Booking": "Amend\\nBooking",
+                    "Enrich Counterparty": "Enrich\\nCounterparty",
+                    "Compliance Check": "Compliance\\nCheck",
+                    "Manual Override": "Manual\\nOverride",
+                    "Credit Check": "Credit\\nCheck",
+                    "Supervisor Approval": "Supervisor\\nApproval",
+                    "Confirm Booking": "Confirm\\nBooking",
+                    "Post to Ledger": "Post to\\nLedger",
+                    "Booking Complete": "Booking\\nComplete",
+                }
+
+                fig, ax = plt.subplots(figsize=(22, 9), dpi=110)
+                nx.draw_networkx_edges(
+                    graph, positions, ax=ax, edge_color="#64748b", width=1.8,
+                    node_size=5200, arrowsize=24,
                     connectionstyle="arc3,rad=0.06",
+                    min_source_margin=18, min_target_margin=18,
                 )
+
+                for node, (x, y) in positions.items():
+                    if node in start_activities:
+                        facecolor = "#dcfce7"
+                    elif node in end_activities:
+                        facecolor = "#fee2e2"
+                    elif y > 0:
+                        facecolor = "#fef3c7"
+                    else:
+                        facecolor = "#dbeafe"
+                    ax.text(
+                        x, y, display_labels.get(node, node),
+                        ha="center", va="center", fontsize=10, fontweight="semibold",
+                        bbox={
+                            "boxstyle": "round,pad=0.65",
+                            "facecolor": facecolor,
+                            "edgecolor": "#475569",
+                            "linewidth": 1.2,
+                        },
+                        zorder=3,
+                    )
+
                 labels = {
                     edge: (
                         f"{metric_value(value) / 60:.1f}m"
@@ -378,14 +415,16 @@ def build_notebook(solved: bool):
                     for edge, value in strongest
                 }
                 nx.draw_networkx_edge_labels(
-                    graph, positions, edge_labels=labels, font_size=7,
+                    graph, positions, ax=ax, edge_labels=labels,
+                    font_size=8.5, rotate=False, label_pos=0.5,
                     connectionstyle="arc3,rad=0.06",
+                    bbox={"facecolor": "white", "edgecolor": "none", "alpha": 0.9, "pad": 0.2},
                 )
-                plt.xlim(-0.6, 7.6)
-                plt.ylim(-0.65, 1.65)
-                plt.title(title + " (NetworkX fallback)")
-                plt.axis("off")
-                plt.tight_layout()
+                ax.set_xlim(-1.3, 18.8)
+                ax.set_ylim(-1.5, 4.3)
+                ax.set_title(title + " (NetworkX fallback)", fontsize=18, pad=20)
+                ax.axis("off")
+                fig.tight_layout(pad=2.5)
                 plt.show()
             """
         ),
